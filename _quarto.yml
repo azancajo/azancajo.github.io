@@ -11,13 +11,31 @@ website:
       - CV.qmd
       - Research.qmd
       - outreach.qmd
+    right:
+      - text: "{{< iconify simple-icons orcid size=lg >}}"
+        href: https://orcid.org
+      - text: "{{< iconify simple-icons googlescholar size=lg >}}"
+        href: https://scholar.google.nl/citations?hl=en&user=mJmENSwAAJ
+      - text: "{{< iconify academicons academia-square size=lg >}}"
+        href: https://uab.academia.edu/AdrianZancajo
+      - text: "{{< iconify simple-icons researchgate size=lg >}}"
+        href: https://www.researchgate.net/profile/Adrian-Zancajo-2
+      - text: "{{< iconify mdi twitter size=lg >}}"
+        href: https://x.com/AdrianZancajo
+      - text: "{{< iconify bi envelope size=lg >}}"
+        href: mailto:adrian.zancajo@uab.cat
+        
+
+  page-footer:
+    background: light # or `dark`
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: cosmo
+      dark: superhero
     css: styles.css
     toc: true
     page-layout: full
 
 editor: visual
-
