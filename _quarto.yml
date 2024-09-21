@@ -10,6 +10,7 @@ website:
         text: Home
       - CV.qmd
       - Research.qmd
+      - outreach.qmd
 
 format:
   html:
