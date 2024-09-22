@@ -12,16 +12,16 @@ fontsize: 11pt
 #mainfont: Ubuntu # if you want to use a different locally installed font
 #CJKmainfont: Noto Sans CJK JP # locally installed Asian character font, must use with xelatex
 #github: github # github account
-orcid: 0000-0002-1825-0097 # orcid identifier
+orcid: 0000-0002-4431-8155 # orcid identifier
 #osf: ymqui # osf five character id
-#twitter: twitter # twitter handle
+twitter: AdrianZancajo
 web: azancajo.github.com
 fontawesome: yes
 nocite: '@*'
 bibliography: 
   peer: articles.bib
   books: books.bib
-  other: other_bib.bib
+  reports: reports_and_working_papers.bib
 validate-yaml: false
 csl: apa-cv.csl
 ---
@@ -36,13 +36,15 @@ B.A. in Economics, *Autonomous University of Barcelona* \hfill 2009
 
 # Academic positions
 
-*Arthur Guinness & Son*
+Jan 2019 - Present: \hfill British Academy Postdoctoral Fellow. School of Education, University of Glasgow.
 
-Jan-2019-Aug 2021
+### Oct 2017 - Dec 2018:
+**MOVE-IN Louvain Postdoctoral Fellow.**  
+GIRSEF, Catholic University of Louvain.
 
-Chief Brewer (Park Royal) \hfill 1935-1937
-
-Researcher (Dublin) \hfill 1899-1935
+### Feb 2013 - Aug 2017:
+**Research Fellow (Education Policy and International Development).**  
+Department of Education Policy and International Development.
 
 # Publications
 
@@ -56,9 +58,9 @@ Researcher (Dublin) \hfill 1899-1935
 ::: {#refs-books}
 :::
 
-# Technical Reports
+# Policy reports and working papers
 
-::: {#refs-other}
+::: {#refs-reports}
 :::
 
 # Research projects and contracts
