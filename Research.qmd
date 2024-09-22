@@ -162,3 +162,14 @@ format: html
 ### 2021
 
 -   Zancajo, A., Fontdevila, C., Verger, A., & Bonal, X. (2021). [*Regulating Public-Private Partnerships, governing non-state schools: An equity perspective*](https://unesdoc.unesco.org/ark:/48223/pf0000380092). Background paper elaborated for the 2021 Global Education Monitoring Report.
+-   Zancajo, A. (2021). [*The impact of the Covid-19 pandemic on education. Rapid review of the literature*](https://www.thebritishacademy.ac.uk/documents/3226/COVID-decade-The-impact-on-education-Rapid-review-Adrian-Zancajo-Glasgow.pdf). Paper elaborated for the ‘COVID-19 and Society’ British Academy project.
+
+### 2019
+
+-   Zancajo, A. (2019*). [Drivers and Resistances to Regulation of Education Markets: The Political Economy of the Chilean Reform](https://ncspe.tc.columbia.edu/working-papers/files/WP239.pdf)*. (National Center for the Study of Privatization in Education, Working Paper 239), Teachers College, Columbia University.
+
+-   Bonal, X., & Zancajo, A. (2019). [*Equivalència territorial en la planificació educativa a Barcelona: Diagnòstic i propostes*](https://www.edubcn.cat/rcs_gene/extra/01_documents_de_referencia/Equivalencia_BCN_final_v2_20190320.pdf). Consorci d’Educació de Barcelona
+
+### 2013
+
+-   Verger, A., Bonal, X., & Zancajo, A. (2015). [*Indicators for a Broad and Bold Post-2015 Agenda: A Comprehensive Approach to Educational Development*](https://www.opensocietyfoundations.org/sites/default/files/verger-indicatiors-broad-bold-20150520.pdf). Open Society Foundations.
