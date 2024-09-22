@@ -8,7 +8,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: CV.qmd
+      - href: Bio and CV.qmd
         text: Bio and CV
       - text: Research
         menu: 
