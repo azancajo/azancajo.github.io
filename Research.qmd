@@ -7,6 +7,8 @@ format: html
 
 ### 2024
 
+-   Fontdevila, C., Zancajo, A., & Verger, A. (2024). [Catholic Schools in the Marketplace: Changing and Enduring Religious Identities](https://www.tandfonline.com/doi/epdf/10.1080/0161956X.2024.2381393?needAccess=true). *Peabody Journal of Education*, *99*(4), 464–481.
+
 ### 2023
 
 -   Bonal, X., Pagès, M., Verger, A., & Zancajo, A. (2023). [Regional policy trajectories in the Spanish education system: Different uses of relative autonomy](https://epaa.asu.edu/index.php/epaa/article/view/8031/3120). *Education Policy Analysis Archives*, *31*.
@@ -146,3 +148,17 @@ format: html
 ### 2011
 
 -   Ferrer, F., Castel, J.L., Castejón, A., & Zancajo, A. (2011). [PISA-2009: Avaluació de les desigualtats educatives a Catalunya](https://fundaciobofill.cat/uploads/docs/a/3/y/8/b/q/c/2/k/546.pdf). Barcelona: Editorial Mediterrània.
+
+## Reports and working papers {#reports-page}
+
+### 2024
+
+-   Fontdevila, C., Verger, A., & Zancajo, A. (2024). [*NEPC Review: Spark & Sustain How All the World’s School Systems Can Improve Learning at Scale (McKinsey & Company, February 2024)*](https://nepc.colorado.edu/review/learning). National Education Policy Center.
+
+### 2023
+
+-   Bonal, X., Ferrer, G., & Zancajo, A. (2023). [*Desigualdades socioespaciales en la educación en Euskadi*](https://www.researchgate.net/publication/369184660_Desigualdades_socioespaciales_en_la_educacion_en_Euskadi). Instituto Vasco de Investigación y Evaluación Educativa.
+
+### 2021
+
+-   Zancajo, A., Fontdevila, C., Verger, A., & Bonal, X. (2021). [*Regulating Public-Private Partnerships, governing non-state schools: An equity perspective*](https://unesdoc.unesco.org/ark:/48223/pf0000380092). Background paper elaborated for the 2021 Global Education Monitoring Report.

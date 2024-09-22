@@ -1,0 +1,161 @@
+---
+title: CV
+format:
+  quarto-cv-pdf: default
+author: Adrián Zancajo
+date: last-modified
+phone:
+address: "Edifici E · Campus UAB · Cerdanyola del Vallès 08193, Spain"
+email: adrian.zancajo@gmail.com
+fontsize: 11pt
+#fontfamily: ebgaramond-maths # default font LaTeX package https://tug.org/FontCatalogue/about.html
+#mainfont: Ubuntu # if you want to use a different locally installed font
+#CJKmainfont: Noto Sans CJK JP # locally installed Asian character font, must use with xelatex
+#github: github # github account
+orcid: 0000-0002-1825-0097 # orcid identifier
+#osf: ymqui # osf five character id
+#twitter: twitter # twitter handle
+web: azancajo.github.com
+fontawesome: yes
+nocite: '@*'
+bibliography: 
+  peer: articles.bib
+  books: books.bib
+  other: other_bib.bib
+validate-yaml: false
+csl: apa-cv.csl
+---
+
+# Education
+
+PhD in Sociology, *Autonomous University of Barcelona* \hfill 2017
+
+M.Sc. in Education Research, *Autonomous University of Barcelona* \hfill 2012
+
+B.A. in Economics, *Autonomous University of Barcelona* \hfill 2009
+
+# Academic positions
+
+*Arthur Guinness & Son*
+
+Jan-2019-Aug 2021
+
+Chief Brewer (Park Royal) \hfill 1935-1937
+
+Researcher (Dublin) \hfill 1899-1935
+
+# Publications
+
+## Articles in peer review journals
+
+::: {#refs-peer}
+:::
+
+## Books and book chapters
+
+::: {#refs-books}
+:::
+
+# Technical Reports
+
+::: {#refs-other}
+:::
+
+# Research projects and contracts
+
+## Competitive Calls
+
+1. **Is it Possible to Decommodify Education? Evidence and Lessons from the Chilean Education Market Reform.**  
+   Funding source: British Academy  
+   Principal investigator: Dr Adrian Zancajo  
+   Starting date and duration: 01/01/2019, 3.5 years  
+   Amount: £305,310  
+   Ref.: PF2\180006
+
+2. **Governing the educational and labour market trajectories of secondary TVET graduates in Chile.**  
+   Funding source: Newton RCUK  
+   Principal investigator: Dr Oscar Valiente  
+   Starting date and duration: 01/02/2016, 3 years  
+   Amount: £206,698  
+   Ref.: ES/N019229/1
+
+3. **Public-Private Partnerships in Educational Governance: An analysis of its dissemination, implementation and impact in a globalizing world – EDUPARTNER.**  
+   Funding source: European Commission  
+   Call FP7-PEOPLE-2011-CIG  
+   Principal investigator: Professor Antoni Verger  
+   Starting date and duration: 01/02/2013, 4 years  
+   Amount: £86,039  
+   Ref.: GA-2012-322350
+
+4. **The new quasi-market reforms in education in Latin America. An analysis of policy processes and policy impacts on inequalities and poverty.**  
+   Funding source: Spanish Ministry of Science  
+   Principal investigators: Professor Xavier Bonal and Professor Antoni Verger  
+   Starting date and duration: 01/01/2012, 3 years  
+   Amount: £43,020  
+   Ref.: CSO2011-22697
+
+## Most Relevant Research Contracts
+
+1. **Regulating Public-Private Partnerships, governing non-state schools: An equity perspective.**  
+   Principal investigator: Dr Adrian Zancajo (University of Glasgow)  
+   Funding institution: UNESCO  
+   Starting date and duration: 15/05/2020, 6 months  
+   Amount: £7,883
+
+2. **Equivalence criteria in Barcelona’s educational planning: diagnosis and proposals.**  
+   Principal investigators: Professor Xavier Bonal and Dr Adrian Zancajo  
+   Funding institution: Consorci d’Educació de Barcelona  
+   Starting date and duration: 01/05/2017, 1 year  
+   Amount: £22,397
+
+3. **The political economy of education privatization. A systematic review.**  
+   Principal investigator: Professor Antoni Verger  
+   Funding institution: Education International  
+   Starting date and duration: 10/01/2015, 1 year  
+   Amount: £19,812
+
+4. **Formulating Potential Indicators for a Broad and Bold Global Education Agenda for Post-2015.**  
+   Principal investigators: Professor Antoni Verger, Professor Xavier Bonal, and Adrian Zancajo  
+   Funding institution: Open Society Foundations (OSF)  
+   Length: 21/05/2015, 9 months  
+   Amount: £7,235
+
+5. **PISA 2012 in Catalonia.**  
+   Principal investigator: Professor Xavier Bonal  
+   Funding institution: Fundació Jaume Bofill  
+   Length: 18/01/2014, 1 year  
+   Amount: £19,381
+
+6. **Educational Inequalities and public-private partnerships in Colombian Education.**  
+   Principal investigators: Professor Antoni Verger and Professor Xavier Bonal  
+   Funding institution: Open Society Foundations (OSF)  
+   Length: 21/05/2015, 9 months  
+   Amount: £15,936
+
+7. **Catalan Youth Survey 2012- Education.**  
+   Principal investigators: Adrian Zancajo and Alba Castejón  
+   Funding institution: Observatori Català de la Joventut  
+   Length: 12/09/2012, 6 months  
+   Amount: £2,584
+
+8. **TVET and Employment in Catalonia.**  
+   Principal investigator: Dr Oscar Valiente  
+   Funding institution: Fundació Jaume Bofill  
+   Length: 10/03/2012, 9 months  
+   Amount: £21,535
+
+9. **The measure of educational development.**  
+   Principal investigators: Professor Xavier Bonal and Professor Antoni Verger  
+   Funding institution: International Institute for Educational Planning – UNESCO  
+   Length: 05/09/2011, 5 months  
+   Amount: £7,752
+
+10. **PISA – 2009 in Catalonia.**  
+    Principal investigator: Professor Ferran Ferrer  
+    Funding institution: Fundació Jaume Bofill  
+    Length: 12/01/2012, 9 months  
+    Amount: £17,228
+    
+# References
+
+Available upon request, though likely would include Karl Pearson and Ronald A. Fisher.

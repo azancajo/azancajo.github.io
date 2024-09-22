@@ -8,8 +8,18 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - CV.qmd
-      - Research.qmd
+      - href: CV.qmd
+        text: CV
+      - text: Research
+        menu: 
+          - text: "Journal articles"
+            href: Research.qmd#journal-articles
+          - text: "Book chapters"
+            href: Research.qmd#book-chapters
+          - text: "Books"
+            href: Research.qmd#books-page
+          - text: "Reports and working papers"
+            href: Research.qmd#reports-page
       - outreach.qmd
     right:
       - text: "{{< iconify simple-icons orcid size=lg >}}"
@@ -36,6 +46,6 @@ format:
       dark: superhero
     css: styles.css
     toc: true
-    page-layout: full
+    page-layout: article
 
 editor: visual
