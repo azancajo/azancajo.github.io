@@ -17,8 +17,6 @@ about:
       href: https://www.researchgate.net/profile/Adrian-Zancajo-2
     - text: "{{< iconify mdi twitter size=lg >}}"
       href: https://x.com/AdrianZancajo
-    - text: "{{< iconify bi envelope size=lg >}}"
-      href: mailto:adrian.zancajo@uab.cat
 format:
   html:
     css: styles.css
