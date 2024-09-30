@@ -57,6 +57,12 @@ format:
 
 # Interviews and media appearances
 
+-   [**Hem de buscar solucions per als alumnes de segona generació de la inmigració**](https://www.3cat.cat/3cat/adrian-zancajo-investigador-departament-sociologia-uab/video/6255372/?ext=SM_WP_F4_CE24)\
+    *Entrevistes 3/24.* December 10, 2023.
+
+-   [**Els mals resultats de PISA no són conseqüència de la immigració, sinó de la classe social**](https://www.3cat.cat/3cat/els-mals-resultats-de-pisa-no-son-consequencia-de-la-immigracio-sino-de-la-classe-social/audio/1191083/?ext=SM_WP_F4_CE24_)\
+    *El matí de Catalunya Ràdio.* December 7, 2023.
+
 -   [**El sistema educatiu té un dèficit estructural a l’hora de garantir la continuïtat educativa de l’alumnat vulnerable**](https://example.com/article1) (together with Carlos Bueno).\
     *El Blog de la Bofill.* June 20, 2023.
 
