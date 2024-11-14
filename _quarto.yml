@@ -32,7 +32,8 @@ website:
         href: https://www.researchgate.net/profile/Adrian-Zancajo-2
       - text: "{{< iconify mdi twitter size=lg >}}"
         href: https://x.com/AdrianZancajo
-        
+      - text: "{{< iconify ri:bluesky-fill size=lg >}}"
+        href: https://bsky.app/profile/adrianzancajo.bsky.social        
 
   page-footer:
     background: light # or `dark`

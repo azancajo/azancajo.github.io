@@ -121,6 +121,10 @@ format: html
 
 ## Books {#books-page}
 
+### 2024
+
+- Zancajo, A., & Bueno, C. (2024). [L'abandonament al batxillerat i als cicles formatius de grau mitjà](https://fundaciobofill.cat/uploads/docs/a/k/2/nbn-abandonamentbatxcicleformatius_061124.pdf). Barcelona: Fundació Jaume Bofill.
+
 ### 2023
 
 -   Zancajo, A., & Bueno, C. (2023). [L’abandonament a 4t d’ESO: les desigualtats en la transició a l’educació postobligatòria](https://fundaciobofill.cat/uploads/docs/w/b/l/15d-abandonament_zancajobueno020523.pdf). Barcelona: Fundació Jaume Bofill.
