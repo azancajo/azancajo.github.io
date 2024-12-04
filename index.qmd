@@ -28,4 +28,6 @@ I am a ‘Ramón y Cajal’ Researcher at the [Department of Sociology](https://
 
 **adrian.zancajo \[at\] uab.cat**
 
+```{=html}
 <script defer src="https://cdn.overtracking.com/t/tjs6NPq4iftwhE1H9/"></script>
+```
