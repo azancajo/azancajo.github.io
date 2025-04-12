@@ -85,40 +85,6 @@ format: html
 
 -   Zancajo, A., Bonal, X., & Verger, A. (2014). [Mercados educativos y segmentación de la oferta escolar: efectos sobre las desigualdades educativas en Chile](https://dialnet.unirioja.es/servlet/articulo?codigo=5035678&orden=0&info=link). *Témpora: Revista de historia y sociología de la educación*, *17*, 11-30.
 
-## Book chapters {#book-chapters}
-
-### 2023
-
--   Bonal, X., Fontdevila, C., & Zancajo, A. (2023). [The World Bank and education in a changing global arena](https://www.researchgate.net/publication/365585540_The_World_Bank_and_education_in_a_changing_global_arena). In R. J. Tierney, F. Rizvi, & K. Ercikan (Eds.), *International Encyclopedia of Education* (Fourth Edition) (pp. 480–487). Elsevier
-
--   Verger, A., Fontdevila, C., & Zancajo, A. (2023). [The privatization of education. Drivers, social effects and regulatory challenges of private sector participation in schooling](https://www.researchgate.net/publication/365607858_The_privatization_of_education_Drivers_social_effects_and_regulatory_challenges_of_private_sector_participation_in_schooling). In R. J. Tierney, F. Rizvi, & K. Ercikan (Eds.), *International Encyclopedia of Education* (Fourth Edition) (pp. 174–182). Elsevier
-
--   Zancajo, A., Fontdevila, C., & Verger, A. (2023). [Markets in Education and School Segregation: Paths of Problematization and Reform](https://www.researchgate.net/publication/372472164_Markets_in_Education_and_School_Segregation_Paths_of_Problematization_and_Reform). In: M. Verhoeven, J. Corvalán, V. Durpiez, & J.P. Valenzuela (Eds.) *Education Markets and Segregation*. Cham: Springer.
-
-### 2022
-
--   Zancajo, A., Verger, A., & Fontdevila, C. (2022). [Educational Privatization: Expanding spaces and new global regulatory trends](https://www.researchgate.net/publication/359603963_Educational_Privatization_Expanding_spaces_and_new_global_regulatory_trends_in_educational_privatization). In: F. Rizvi, B. Lingard, & R. Rinne (Eds.) *Reimagining Globalization and Education* (pp. 105-119). London: Routledge.
-
-### 2019
-
--   Zancajo, A., & Valiente, O. (2019). [Evolución de las políticas de ETP en Chile: entre el capital humano y el derecho a la educación](https://books.google.es/books?id=K5XIDwAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false). In L. Sepúlveda & M.J. Valdebenito (Eds.) *Educación Técnico Profesional ¿Hacia dónde vamos?: políticas, reformas y nuevos contextos de desarrollo*. Ediciones Universidad Alberto Hurtado: Santiago de Chile.
-
-### 2018
-
--   Bonal, X., & Zancajo, A. (2018). [School segregation in the Spanish quasi-market education system: local dynamics and policy absences](https://www.researchgate.net/publication/346835932_School_Segregation_in_the_Spanish_Quasi-market_Education_System_Local_Dynamics_and_Policy_Absences). In X. Bonal & C. Bellei (Eds.) *Understanding school segregation: patterns, causes and consequences of spatial inequalities in education* (pp. 201-220). London, UK: Bloomsbury.
-
--   Verger, A., Zancajo, A., & Fontdevila, C. (2018). [Experimenting with educational development: International actors and the promotion of private schooling in vulnerable contexts](https://www.academia.edu/37900928/Experimenting_with_educational_development_international_actors_and_the_promotion_of_private_schooling_in_vulnerable_contexts). In G. Steiner-Khamsi & A. Draxler (Eds.), *The State, Business and Education: PPPs Revisited* (pp. 16-38). Cheltenham UK/Northampton, MA: Edward Elgar.
-
-### 2017
-
--   Fontdevila, C., Verger, A., & Zancajo, A. (2017). [Taking advantage of catastrophes: education privatization reforms in contexts of emergency](https://link.springer.com/chapter/10.1007/978-3-658-17104-9_13). In T. Koinzer, R. Nikolai and F. Waldow (Eds.) *Private Schools and School Choice in Compulsory Education. Global Change and National Challenge* (pp. 223-244) Wiesbaden, Germany: Springer VS.
-
--   Verger, A., Fontdevila, C. and Zancajo, A. (2017). Privatization by Default in Low-Income Countries: The emergence and Expansion of Low-Fee Private Schools. In A. Verger, H.K. Altinyelken & M. Novelli. *Global Education Policy and International Development. New Agendas, Issues and Policies* (2nd edition) (pp. 255-276). London, UK: Bloomsbury Academic.
-
-### 2013
-
--   Ferrer, F.; Castejón, A., & Zancajo, A. (2013). [Joventut i educació en temps de crisi. In P. Serracant, P. (Ed.). Enquesta de joventut de Catalunya 2012](https://ddd.uab.cat/pub/caplli/2013/171177/enqjovcat_a2013v1p77.pdf). Barcelona: Departament de Benestar i Família.
-
 ## Books {#books-page}
 
 ### 2025
@@ -156,6 +122,41 @@ format: html
 ### 2011
 
 -   Ferrer, F., Castel, J.L., Castejón, A., & Zancajo, A. (2011). [PISA-2009: Avaluació de les desigualtats educatives a Catalunya](https://fundaciobofill.cat/uploads/docs/a/3/y/8/b/q/c/2/k/546.pdf). Barcelona: Editorial Mediterrània.
+
+
+## Book chapters {#book-chapters}
+
+### 2023
+
+-   Bonal, X., Fontdevila, C., & Zancajo, A. (2023). [The World Bank and education in a changing global arena](https://www.researchgate.net/publication/365585540_The_World_Bank_and_education_in_a_changing_global_arena). In R. J. Tierney, F. Rizvi, & K. Ercikan (Eds.), *International Encyclopedia of Education* (Fourth Edition) (pp. 480–487). Elsevier
+
+-   Verger, A., Fontdevila, C., & Zancajo, A. (2023). [The privatization of education. Drivers, social effects and regulatory challenges of private sector participation in schooling](https://www.researchgate.net/publication/365607858_The_privatization_of_education_Drivers_social_effects_and_regulatory_challenges_of_private_sector_participation_in_schooling). In R. J. Tierney, F. Rizvi, & K. Ercikan (Eds.), *International Encyclopedia of Education* (Fourth Edition) (pp. 174–182). Elsevier
+
+-   Zancajo, A., Fontdevila, C., & Verger, A. (2023). [Markets in Education and School Segregation: Paths of Problematization and Reform](https://www.researchgate.net/publication/372472164_Markets_in_Education_and_School_Segregation_Paths_of_Problematization_and_Reform). In: M. Verhoeven, J. Corvalán, V. Durpiez, & J.P. Valenzuela (Eds.) *Education Markets and Segregation*. Cham: Springer.
+
+### 2022
+
+-   Zancajo, A., Verger, A., & Fontdevila, C. (2022). [Educational Privatization: Expanding spaces and new global regulatory trends](https://www.researchgate.net/publication/359603963_Educational_Privatization_Expanding_spaces_and_new_global_regulatory_trends_in_educational_privatization). In: F. Rizvi, B. Lingard, & R. Rinne (Eds.) *Reimagining Globalization and Education* (pp. 105-119). London: Routledge.
+
+### 2019
+
+-   Zancajo, A., & Valiente, O. (2019). [Evolución de las políticas de ETP en Chile: entre el capital humano y el derecho a la educación](https://books.google.es/books?id=K5XIDwAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false). In L. Sepúlveda & M.J. Valdebenito (Eds.) *Educación Técnico Profesional ¿Hacia dónde vamos?: políticas, reformas y nuevos contextos de desarrollo*. Ediciones Universidad Alberto Hurtado: Santiago de Chile.
+
+### 2018
+
+-   Bonal, X., & Zancajo, A. (2018). [School segregation in the Spanish quasi-market education system: local dynamics and policy absences](https://www.researchgate.net/publication/346835932_School_Segregation_in_the_Spanish_Quasi-market_Education_System_Local_Dynamics_and_Policy_Absences). In X. Bonal & C. Bellei (Eds.) *Understanding school segregation: patterns, causes and consequences of spatial inequalities in education* (pp. 201-220). London, UK: Bloomsbury.
+
+-   Verger, A., Zancajo, A., & Fontdevila, C. (2018). [Experimenting with educational development: International actors and the promotion of private schooling in vulnerable contexts](https://www.academia.edu/37900928/Experimenting_with_educational_development_international_actors_and_the_promotion_of_private_schooling_in_vulnerable_contexts). In G. Steiner-Khamsi & A. Draxler (Eds.), *The State, Business and Education: PPPs Revisited* (pp. 16-38). Cheltenham UK/Northampton, MA: Edward Elgar.
+
+### 2017
+
+-   Fontdevila, C., Verger, A., & Zancajo, A. (2017). [Taking advantage of catastrophes: education privatization reforms in contexts of emergency](https://link.springer.com/chapter/10.1007/978-3-658-17104-9_13). In T. Koinzer, R. Nikolai and F. Waldow (Eds.) *Private Schools and School Choice in Compulsory Education. Global Change and National Challenge* (pp. 223-244) Wiesbaden, Germany: Springer VS.
+
+-   Verger, A., Fontdevila, C. and Zancajo, A. (2017). Privatization by Default in Low-Income Countries: The emergence and Expansion of Low-Fee Private Schools. In A. Verger, H.K. Altinyelken & M. Novelli. *Global Education Policy and International Development. New Agendas, Issues and Policies* (2nd edition) (pp. 255-276). London, UK: Bloomsbury Academic.
+
+### 2013
+
+-   Ferrer, F.; Castejón, A., & Zancajo, A. (2013). [Joventut i educació en temps de crisi. In P. Serracant, P. (Ed.). Enquesta de joventut de Catalunya 2012](https://ddd.uab.cat/pub/caplli/2013/171177/enqjovcat_a2013v1p77.pdf). Barcelona: Departament de Benestar i Família.
 
 ## Reports and working papers {#reports-page}
 

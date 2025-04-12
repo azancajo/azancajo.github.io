@@ -14,10 +14,10 @@ website:
         menu: 
           - text: "Journal articles"
             href: Research.qmd#journal-articles
-          - text: "Book chapters"
-            href: Research.qmd#book-chapters
           - text: "Books"
             href: Research.qmd#books-page
+          - text: "Book chapters"
+            href: Research.qmd#book-chapters
           - text: "Reports and working papers"
             href: Research.qmd#reports-page
       - outreach.qmd
