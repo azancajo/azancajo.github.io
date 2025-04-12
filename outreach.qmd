@@ -1,0 +1,96 @@
+---
+title: "Outreach"
+format: 
+  html:
+    css: styles.css
+---
+
+# Media and blog articles
+
+-   [**Educació concertada i polítiques d’equitat: la necessitat d’una narrativa**](https://example.com/article1) (together with Clara Fontdevila and Antoni Verger).\
+    *Diari de l'Educació.* September 19, 2022.
+
+-   [**Cuatro áreas que hay que reformar en la educación privada subvencionada**](https://example.com/article2) (together with Gonzalo Muñoz, Cristián Bellei and Marcela Ramos).\
+    *Tercera dosis.* July 31, 2022.
+
+-   [**La escuela concertada ante las desigualdades: el debate pendiente**](https://example.com/article3) (together with Antoni Verger and Clara Fontdevila).\
+    *El País.* June 7, 2022.
+
+-   [**Escola concertada i desigualtats educatives: què diu la recerca i per què és urgent parar-ne clar**](https://example.com/article4) (together with Antoni Verger and Clara Fontdevila).\
+    *Diari de l'Educació.* May 5, 2022.
+
+-   [**¿Se puede asegurar el derecho a la educación en un sistema privatizado como el chileno?**](https://example.com/article5) (together with Gonzalo Muñoz, Cristián Bellei and Marcela Ramos).\
+    *Tercera dosis.* March 20, 2022.
+
+-   [**Repetición escolar, una mala política educativa**](https://example.com/article6) (together with Xavier Bonal and Sheila González).\
+    *El País.* December 16, 2021.
+
+-   [**El model d'escola concertada en el debat internacional: implicacions per al sistema educatiu català**](https://example.com/article7) (together with Antoni Verger and Clara Fontdevila).\
+    *Sentimients.cat.* November 30, 2021.
+
+-   [**Private sector participation in education: where it occurs, and why**](https://example.com/article8) (together with Antoni Verger and Clara Fontdevila).\
+    *World Education Blog.* February 24, 2020.
+
+-   [**PISA 2018: cuando la hemeroteca no perdona**](https://example.com/article9) (together with Xavier Bonal).\
+    *El Periódico.* December 9, 2019.
+
+-   [**Is it Possible to Balance Education Markets and Equity? On the Limits of Regulation and Policy Designs**](https://example.com/article10)\
+    *NORRAG blog.* November 6, 2019.
+
+-   [**Els reptes educatius de Barcelona: una mirada en clau d'equitat**](https://example.com/article11) (together with Alba Castells).\
+    *CRÍTIC.* October 7, 2019.
+
+-   [**La FP dual: ¿una política de éxito?**](https://example.com/article12) (together with Xavier Bonal).\
+    *El Periódico.* September 16, 2019.
+
+-   [**Sobre PISA i el triomfalisme educatiu**](https://example.com/article13) (together with Xavier Bonal and Alba Castells).\
+    *Diari de l'Educació.* December 7, 2016.
+
+-   [**The Privatisation of Education: a Global Phenomenon with Multiple Faces**](https://example.com/article14) (together with Antoni Verger and Clara Fontdevila).\
+    *NORRAG blog.* September 7, 2016.
+
+-   [**Mercat educatiu i desigualtats: el repte de Bachelet**](https://example.com/article15)\
+    *Diari de l'Educació.* February 16, 2014.
+
+-   [**Beyond Learning Outcomes: Reflections on the Measurement of 'Education for All' in the Post-2015 Scenario**](https://example.com/article16) (together with Antoni Verger and Xavier Bonal).\
+    *Worlds of Education.* October 14, 2013.
+
+# Interviews and media appearances
+
+-   [**Hem de buscar solucions per als alumnes de segona generació de la inmigració**](https://www.3cat.cat/3cat/adrian-zancajo-investigador-departament-sociologia-uab/video/6255372/?ext=SM_WP_F4_CE24)\
+    *Entrevistes 3/24.* December 10, 2023.
+
+-   [**Els mals resultats de PISA no són conseqüència de la immigració, sinó de la classe social**](https://www.3cat.cat/3cat/els-mals-resultats-de-pisa-no-son-consequencia-de-la-immigracio-sino-de-la-classe-social/audio/1191083/?ext=SM_WP_F4_CE24_)\
+    *El matí de Catalunya Ràdio.* December 7, 2023.
+
+-   [**El sistema educatiu té un dèficit estructural a l’hora de garantir la continuïtat educativa de l’alumnat vulnerable**](https://example.com/article1) (together with Carlos Bueno).\
+    *El Blog de la Bofill.* June 20, 2023.
+
+-   [**El 30% de l’alumnat vulnerable deixa els estudis després d’acabar l’ESO**](https://example.com/article2)\
+    *RTVE Notícies.* May 4, 2023.
+
+-   [**Si reduim la segregació, hi haurà menys abandonament**](https://example.com/article3)\
+    *Radio Sabadell.* May 4, 2023.
+
+-   [**Los conciertos tienen que vincularse a un nivel mínimo de corresponsabilidad en la matrícula del alumnado más vulnerable**](https://example.com/article4) (together with Clara Fontdevila y Antoni Verger).\
+    *El Diario de la Educación.* December 14, 2022.
+
+-   [**Que hi ha una relació entre provisió privada de l’educació, mercantilització i desigualtats és ja un consens internacional**](https://example.com/article5) (together with Antoni Verger and Clara Fontdevila).\
+    *El Blog de la Bofill.* June 20, 2022.
+
+# Seminars and presentations (recorded)
+
+-   [**El mercado educativo como fuente de segregación escolar: problematización y opciones de reforma**](https://www.youtube.com/watch?v=YGHdM_wq7RY&t=6614s).\
+    *Mercados educativos y segregación. ¿Qué podemos aprender de Bélgica y Chile?* December 1, 2022.
+
+-   [**Paradigmas de desarrollo y políticas de ETP en Chile**](https://www.youtube.com/watch?v=tRwm52ad03k&t=3436s).\
+    *Desarrollo sostenible a escala humana ¿qué esperamos de la formación técnica profesional?* Seminar organised by the Chilean Ministry of Education. August 31, 2022. Santiago, Chile.
+
+-   [**Las políticas de ETP en Chile (2006-2018)**](https://www.youtube.com/watch?v=C0bJ332zwjI&t=558s).\
+    *Miradas de candidaturas presidenciales sobre futuro de la ETP en Chile.* Seminar organised by Aequalis. November 2, 2021.
+
+-   [**Què sabem sobre l’educació de la infància i l’adolescència a la ciutat?**](https://www.youtube.com/watch?v=82opH5NHTVg)\
+    *Jornada La infància i l’adolescència a Barcelona: present i futur.* November 19, 2018. Barcelona.
+
+-   [**La Educación Técnico Profesional en Chile: Un análisis desde la Economía Política Cultural**](https://www.youtube.com/watch?v=Fi-x5z8YCUY&t=588s).\
+    *Seminario Internacional: Educación Técnico Profesional en Chile.* November 13, 2017. Santiago, Chile.
