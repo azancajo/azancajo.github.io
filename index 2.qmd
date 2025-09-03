@@ -1,0 +1,33 @@
+---
+title: "Adrián Zancajo"
+image: images/prof_pic2.jpg
+toc: false
+about:
+  template: jolla
+  image-shape: round
+  image-width: 10em
+  links:
+    - text: "{{< iconify simple-icons orcid size=lg >}}"
+      href: https://orcid.org/0000-0002-4431-8155
+    - text: "{{< iconify simple-icons googlescholar size=lg >}}"
+      href: https://scholar.google.nl/citations?hl=en&user=mJmENSwAAJ
+    - text: "{{< iconify academicons academia-square size=lg >}}"
+      href: https://uab.academia.edu/AdrianZancajo
+    - text: "{{< iconify simple-icons researchgate size=lg >}}"
+      href: https://www.researchgate.net/profile/Adrian-Zancajo-2
+    - text: "{{< iconify mdi twitter size=lg >}}"
+      href: https://x.com/AdrianZancajo
+    - text: "{{< iconify ri:bluesky-fill size=lg >}}"
+      href: https://bsky.app/profile/adrianzancajo.bsky.social
+format:
+  html:
+    css: styles.css
+---
+
+I am a ‘Ramón y Cajal’ Researcher at the [Department of Sociology](https://www.uab.cat/en/sociology) of the [Autonomous University of Barcelona](https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html) and a member of the research group [Globalisation, Education and Social Policies (GEPS)](https://geps-uab.cat/)
+
+**adrian.zancajo \[at\] uab.cat**
+
+```{=html}
+<script defer src="https://cdn.overtracking.com/t/tjs6NPq4iftwhE1H9/"></script>
+```
