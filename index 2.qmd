@@ -3,7 +3,7 @@ title: "Adrián Zancajo"
 image: images/prof_pic2.jpg
 toc: false
 about:
-  template: jolla
+  template: trestles
   image-shape: round
   image-width: 10em
   links:
