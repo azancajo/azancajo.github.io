@@ -19,9 +19,9 @@ format: html
 
 -   Scandurra, R., Zancajo, A., & Bonal, X. (2022). [Opting out of neighbourhood schools: The role of local education markets in student mobility](https://onlinelibrary.wiley.com/doi/epdf/10.1002/psp.2542). *Population, Space and Place*, *28*(5), e2542.
 
--   Zancajo, A., Verger, A., & Bolea, P. (2022). [Digitalization and beyond: the effects of Covid-19 on post-pandemic educational policy and delivery in Europe](https://academic.oup.com/policyandsociety/article-pdf/41/1/111/46878820/puab016.pdf). *Policy and Society*, *41*(1), 111-128. 
+-   Zancajo, A., Verger, A., & Bolea, P. (2022). [Digitalization and beyond: the effects of Covid-19 on post-pandemic educational policy and delivery in Europe](https://academic.oup.com/policyandsociety/article-pdf/41/1/111/46878820/puab016.pdf). *Policy and Society*, *41*(1), 111-128.
 
--   Bonal, X., Zancajo, A., & Scandurra, R. (2021). [Student mobility and school segregation in an (un) controlled choice system: A counterfactual approach](https://bera-journals.onlinelibrary.wiley.com/doi/epdf/10.1002/berj.3694). *British Educational Research Journal*, 47(1), 42-64. 
+-   Bonal, X., Zancajo, A., & Scandurra, R. (2021). [Student mobility and school segregation in an (un) controlled choice system: A counterfactual approach](https://bera-journals.onlinelibrary.wiley.com/doi/epdf/10.1002/berj.3694). *British Educational Research Journal*, 47(1), 42-64.
 
 -   Valiente, O., Sepúlveda, L., & Zancajo, A. (2021). [Development paradigms in the institutional configuration of vocational education and training in Chile (1964-2005)](https://www.tandfonline.com/doi/epdf/10.1080/13636820.2020.1833076?needAccess=true). *Journal of Vocational Education & Training*, *73*(2), 278-294.
 
@@ -114,6 +114,7 @@ format: html
 -   Bonal, X., Ferrer, G., & Zancajo, A. (2023). [*Desigualdades socioespaciales en la educación en Euskadi*](https://www.researchgate.net/publication/369184660_Desigualdades_socioespaciales_en_la_educacion_en_Euskadi). Instituto Vasco de Investigación y Evaluación Educativa.
 
 -   Zancajo, A., Fontdevila, C., Verger, A., & Bonal, X. (2021). [*Regulating Public-Private Partnerships, governing non-state schools: An equity perspective*](https://unesdoc.unesco.org/ark:/48223/pf0000380092). Background paper elaborated for the 2021 Global Education Monitoring Report.
+
 -   Zancajo, A. (2021). [*The impact of the Covid-19 pandemic on education. Rapid review of the literature*](https://www.thebritishacademy.ac.uk/documents/3226/COVID-decade-The-impact-on-education-Rapid-review-Adrian-Zancajo-Glasgow.pdf). Paper elaborated for the ‘COVID-19 and Society’ British Academy project.
 
 -   Zancajo, A. (2019*). [Drivers and Resistances to Regulation of Education Markets: The Political Economy of the Chilean Reform](https://ncspe.tc.columbia.edu/working-papers/files/WP239.pdf)*. (National Center for the Study of Privatization in Education, Working Paper 239), Teachers College, Columbia University.
