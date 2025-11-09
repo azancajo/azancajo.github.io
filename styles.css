@@ -1,41 +1,3 @@
-/* --- Remove square borders, backgrounds, and outlines from Solana social icons --- */
-
-/* Target links inside social icons area */
-.quarto-about-titles .quarto-social-links a,
-.quarto-social-links a,
-.quarto-social-links a:hover,
-.quarto-social-links a:focus,
-.quarto-social-links a:active {
-  border: none !important;
-  background: none !important;
-  box-shadow: none !important;
-  outline: none !important;
-  padding: 0 !important;
-  margin: 0 5px !important;
-  border-radius: 0 !important;
-}
-
-/* Target the icon element itself (SVG or iconify span) */
-.quarto-social-links a svg,
-.quarto-social-links a .iconify,
-.quarto-social-links a i {
-  background: none !important;
-  border: none !important;
-  box-shadow: none !important;
-  outline: none !important;
-  border-radius: 0 !important;
-}
-
-/* Remove any pseudo-element background (Solana uses ::before for rounded boxes) */
-.quarto-social-links a::before,
-.quarto-social-links a::after {
-  content: none !important;
-  background: none !important;
-  border: none !important;
-  box-shadow: none !important;
-}
-
-
 /* Make navbar and body share the same background color */
 body,
 .navbar,
@@ -49,6 +11,37 @@ body,
   color: #000000 !important;
 }
 
-.navbar a:hover {
-  color: #007bff !important; /* A subtle hover color */
+/* Remove hover effects globally */
+a:hover,
+a:focus,
+a:active {
+  color: inherit !important;
+  text-decoration: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+/* Remove hover effect in the navbar */
+.navbar a:hover,
+.navbar a:focus,
+.navbar a:active {
+  color: inherit !important;
+  text-decoration: none !important;
+  background: none !important;
+}
+
+/* Optional: remove hover highlight from dropdown menus */
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+  color: inherit !important;
+  background-color: transparent !important;
+}
+
+.icon-link {
+  margin-right: 20px; /* Adjust spacing as needed */
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;  /* Optional: removes underline */
 }
