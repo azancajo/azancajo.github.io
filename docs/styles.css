@@ -45,3 +45,10 @@ a, a:visited, a:hover, a:active {
   color: inherit;
   text-decoration: none;  /* Optional: removes underline */
 }
+
+/* Center the profile image */
+img[alt="Adrián Zancajo"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
