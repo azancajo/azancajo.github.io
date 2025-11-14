@@ -1,0 +1,10 @@
+---
+title: "Publications"
+page-layout: full
+type: listing
+listing:
+  contents: articles.yml
+  template: apa-template.html
+  sort: "date desc"
+  type: grid
+---

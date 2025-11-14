@@ -1,5 +1,5 @@
 ---
-#title: "Adrián Zancajo"
+title: "Adrián Zancajo"
 image: images/prof_pic2.jpg
 toc: false
 about:
@@ -8,10 +8,9 @@ about:
   image-width: 10em
 format:
   html:
+    title-block: false
     css: styles.css
 ---
-
-# Adrián Zancajo
 
 [[{{< iconify simple-icons orcid size=lg >}}](https://orcid.org/0000-0002-4431-8155)]{.icon-link} [[{{< iconify simple-icons googlescholar size=lg >}}](https://scholar.google.nl/citations?hl=en&user=mJmENSwAAJ)]{.icon-link} [[{{< iconify academicons academia-square size=lg >}}](https://uab.academia.edu/AdrianZancajo)]{.icon-link} [[{{< iconify simple-icons researchgate size=lg >}}](https://www.researchgate.net/profile/Adrian-Zancajo-2)]{.icon-link} [[{{< iconify mdi twitter size=lg >}}](https://x.com/AdrianZancajo)]{.icon-link} [[{{< iconify ri:bluesky-fill size=lg >}}](https://bsky.app/profile/adrianzancajo.bsky.social)]{.icon-link}
 

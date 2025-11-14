@@ -81,7 +81,7 @@
     "href": "index.html",
     "title": "Adrián Zancajo",
     "section": "",
-    "text": "Adrián Zancajo\n     \nI am a ‘Ramón y Cajal’ Researcher at the Department of Sociology of the Autonomous University of Barcelona and a member of the research group Globalisation, Education and Social Policies (GEPS)\nMy research areas are education privatisation and markets, educational policies and inequalities. In these areas, I have developed different research lines, including the political economy of education reforms, the enactment of education policies and their impact on equity.\nadrian.zancajo [at] uab [dot] cat"
+    "text": "I am a ‘Ramón y Cajal’ Researcher at the Department of Sociology of the Autonomous University of Barcelona and a member of the research group Globalisation, Education and Social Policies (GEPS)\nMy research areas are education privatisation and markets, educational policies and inequalities. In these areas, I have developed different research lines, including the political economy of education reforms, the enactment of education policies and their impact on equity.\nadrian.zancajo [at] uab [dot] cat"
   },
   {
     "objectID": "Bio and CV.html",
@@ -96,5 +96,19 @@
     "title": "Research",
     "section": "",
     "text": "[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Publications.html",
+    "href": "Publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "{% for item in items %}\n\n&lt;p class=\"pub-citation\"&gt;\n  {{ item.authors | replace: \";\", \", \" }}.\n  ({{ item.date | slice: 0, 4 }}).\n  &lt;strong&gt;{{ item.title }}&lt;/strong&gt;.\n  &lt;em&gt;{{ item.journal }}&lt;/em&gt;\n  {% if item.volume %}{{ item.volume }}{% endif %}\n  {% if item.number %}({{ item.number }}){% endif %}\n  {% if item.pages %}, {{ item.pages }}{% endif %}.\n&lt;/p&gt;\n\n{% endfor %}\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "{% for item in items %}\n\n&lt;p class=\"pub-citation\"&gt;\n  {{ item.authors | replace: \";\", \", \" }}.\n  ({{ item.date | slice: 0, 4 }}).\n  &lt;strong&gt;{{ item.title }}&lt;/strong&gt;.\n  &lt;em&gt;{{ item.journal }}&lt;/em&gt;\n  {% if item.volume %}{{ item.volume }}{% endif %}\n  {% if item.number %}({{ item.number }}){% endif %}\n  {% if item.pages %}, {{ item.pages }}{% endif %}.\n&lt;/p&gt;\n\n{% endfor %}\n\n\nNo matching items"
   }
 ]

@@ -1,0 +1,15 @@
+<div class="pub-grid">
+{% for item in items %}
+  <div class="pub-card">
+    <p class="pub-citation">
+      {{ item.authors | replace: ";", ", " }}.
+      ({{ item.date | slice: 0, 4 }}).
+      <strong>{{ item.title }}</strong>.
+      <em>{{ item.journal }}</em>
+      {% if item.volume %}{{ item.volume }}{% endif %}
+      {% if item.number %}({{ item.number }}){% endif %}
+      {% if item.pages %}, {{ item.pages }}{% endif %}.
+    </p>
+  </div>
+{% endfor %}
+</div>

@@ -4,7 +4,8 @@
   date: '2025-01-01'
   journal: Journal of Educational Administration and History
   pages: 1--20
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'Catholic Schools in the Marketplace: Changing and Enduring Religious Identities'
   authors: Fontdevila, Clara, Zancajo, Adrián, Verger, Antoni
   date: '2024-01-01'
@@ -12,7 +13,8 @@
   volume: '99'
   number: '4'
   pages: 464--481
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'Understanding aspirations: why do secondary TVET students aim so high in
     Chile?'
   authors: Aldinucci, Alice, Valiente, Oscar, Hurrell, Scott, Zancajo, Adrián
@@ -21,7 +23,8 @@
   volume: '75'
   number: '4'
   pages: 788--809
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'Regional Policy Trajectories in the Spanish Education System: Different
     Uses of Relative Autonomy.'
   authors: Bonal, Xavier, Verger, Antoni, Zancajo, Adrián, others
@@ -29,7 +32,8 @@
   journal: Education Policy Analysis Archives
   volume: '31'
   number: '68'
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'Opting out of neighbourhood schools: The role of local education markets
     in student mobility'
   authors: Scandurra, Rosario, Zancajo, Adrián, Bonal, Xavier
@@ -38,7 +42,8 @@
   volume: '28'
   number: '5'
   pages: e2542
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'Digitalization and beyond: the effects of Covid-19 on post-pandemic educational
     policy and delivery in Europe'
   authors: Zancajo, Adrián, Verger, Antoni, Bolea, Pedro
@@ -47,7 +52,8 @@
   volume: '41'
   number: '1'
   pages: 111--128
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'Education markets and school segregation: a mechanism-based explanation'
   authors: Zancajo, Adrián, Bonal, Xavier
   date: '2022-01-01'
@@ -55,7 +61,8 @@
   volume: '52'
   number: '8'
   pages: 1241--1258
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'Las Alianzas P{\''u}blico-Privadas en educaci{\''o}n: debates, modelos y
     horizontes regulativos en los pa{\''\i}ses de la OCDE'
   authors: Zancajo, Adrián, Fontdevila, Clara, Verger, Antoni
@@ -63,7 +70,8 @@
   journal: Journal of Supranational Policies of Education
   number: '15'
   pages: 6--32
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'The instrumentation of public subsidies for private schools: Different regulatory
     models with concurrent equity implications'
   authors: Zancajo, Adrián, Verger, Antoni, Fontdevila, Clara
@@ -72,7 +80,8 @@
   volume: '21'
   number: '1'
   pages: 44--70
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: Development paradigms in the institutional configuration of vocational education
     and training in Chile (1964-2005)
   authors: Valiente, Oscar, Sepúlveda, Leandro, Zancajo, Adrián
@@ -81,7 +90,8 @@
   volume: '73'
   number: '2'
   pages: 278--294
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'Student mobility and school segregation in an (un) controlled choice system:
     A counterfactual approach'
   authors: Bonal, Xavier, Zancajo, Adrián, Scandurra, Rosario
@@ -90,7 +100,8 @@
   volume: '47'
   number: '1'
   pages: 42--64
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: Elección de escuela, movilidad y segregación escolar del alumnado vulnerable
     en Barcelona [School choice, mobility and school segregation of vulnerable students
     in Barcelona]
@@ -100,7 +111,8 @@
   volume: '18'
   number: '4'
   pages: 197--218
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'Schools in the Marketplace: Analysis of School Supply Responses in the Chilean
     Education Market'
   authors: Zancajo, A.
@@ -109,7 +121,8 @@
   volume: '34'
   number: '1'
   pages: 43--64
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: Residential segregation and school segregation of foreign students in Barcelona
   authors: Bonal, X., Zancajo, A., Scandurra, R.
   date: '2019-01-01'
@@ -117,14 +130,16 @@
   volume: '56'
   number: '15'
   pages: 3251--3273
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'Education markets and schools’ mechanisms of exclusion: The case of Chile'
   authors: Zancajo, A.
   date: '2019-01-01'
   journal: Education Policy Analysis Archives
   volume: '27'
   pages: '130'
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'The coordination of skill supply and demand in the market model of skill
     formation: testing the assumptions for the case of Chile'
   authors: Valiente, O., Zancajo, A., Jacovkis, J.
@@ -133,7 +148,8 @@
   volume: '39'
   number: '1'
   pages: 90--103
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'TVET policy reforms in Chile 2006–2018: between human capital and the right
     to education'
   authors: Zancajo, A., Valiente, O.
@@ -142,7 +158,8 @@
   volume: '71'
   number: '4'
   pages: 579--599
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'Demand rationalities in contexts of poverty: Do the Poor respond to market
     incentives in the same way?'
   authors: Bonal, X., Zancajo, A.
@@ -150,7 +167,8 @@
   journal: International Journal of Educational Development
   volume: '59'
   pages: 20--27
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'Educational providers in the marketplace: Schools’ marketing responses in
     Chile'
   authors: Zancajo, A.
@@ -158,7 +176,8 @@
   journal: International Journal of Educational Research
   volume: '88'
   pages: 166--176
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: Is there real freedom of school choice? An analysis from a study in Chile
   authors: Mediavilla, M., Zancajo, A.
   date: '2018-01-01'
@@ -166,7 +185,8 @@
   volume: '27'
   number: '1'
   pages: 88--105
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'Multiple paths toward education privatisation in a globalising world: A
     Cultural Political Economy approach'
   authors: Verger, A., Fontdevila, C., Zancajo, A.
@@ -175,7 +195,8 @@
   volume: '32'
   number: '6'
   pages: 757--787
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: Making poor choices? Demand rationalities and school choice in a local Chilean
     education market
   authors: Bonal, X., Verger, A., Zancajo, A.
@@ -184,7 +205,8 @@
   volume: '11'
   number: '2'
   pages: 258--281
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'La econom{\''\i}a pol{\''\i}tica de la privatizaci{\''o}n educativa: pol{\''\i}ticas,
     tendencias y trayectorias desde una perspectiva'
   authors: Verger, Antoni, Zancajo, Adrián, Fontdevila, Clara
@@ -192,7 +214,8 @@
   journal: Revista colombiana de educaci{\'o}n
   number: '70'
   pages: 47--78
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: What Are the Role and Impact of Public-Private Partnerships in Education?
     A Realist Evaluation of the Chilean Education Quasi-Market
   authors: Verger, A., Bonal, X., Zancajo, A.
@@ -201,7 +224,8 @@
   volume: '60'
   number: '2'
   pages: 223--248
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: Recontextualizaci{\'o}n de pol{\'\i}ticas y (cuasi) mercados educativos.
     Un an{\'a}lisis de las din{\'a}micas de demanda y oferta escolar en Chile
   authors: Verger, Antoni, Bonal, Xavier, Zancajo, Adrián
@@ -209,20 +233,23 @@
   journal: Education Policy Analysis Archives
   volume: '24'
   pages: 27--27
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: Formaci{\'o} professional i ocupabilitat a Catalunya
   authors: Valiente, Oscar, Silla, Adrian Zancajo
   date: '2016-01-01'
   journal: Revista econ{\`o}mica de Catalunya
   volume: '74'
   pages: 51--60
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: Educaci{\'o}, pobresa i desigualtats en un context de crisi
   authors: Bonal, Xavier, Zancajo, Adrián, others
   date: '2016-01-01'
   journal: Nota d'economia
   volume: '103'
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'La formaci{\''o}n profesional en Espa{\~n}a: efectos sobre la empleabilidad
     en tiempos de crisis'
   authors: Valiente, Oscar, Zancajo, Adrián
@@ -231,7 +258,8 @@
   volume: '22'
   number: '49'
   pages: 532--551
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: Educational differentiation policies and the performance of disadvantaged
     students across OECD countries
   authors: Castejón, Alba, Zancajo, Adrián
@@ -240,7 +268,8 @@
   volume: '14'
   number: 3-4
   pages: 222--239
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'Inclusi{\''o}n, desigualdades y diversidad en la educaci{\''o}n obligatoria:
     retos para el sistema educativo espa{\~n}ol y evidencias internacionales'
   authors: Castejón, Alba, Zancajo, Adrián
@@ -250,7 +279,8 @@
   volume: '23'
   number: '1'
   pages: 20--24
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'Mercados educativos y segmentaci{\''o}n de la oferta escolar: efectos sobre
     las desigualdades educativas en Chile'
   authors: Zancajo, Adrián, Bonal, Xavier, Verger, Antoni, others
@@ -258,7 +288,8 @@
   journal: 'T{\''e}mpora: Revista de historia y sociolog{\''\i}a de la educaci{\''o}n'
   volume: '17'
   pages: 11--30
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
 - title: 'Los resultados PISA-2009: una mirada sobre las desigualdades educativas
     en Europa'
   authors: Zancajo, Adrián, Castejón, Alba, Ferrer, Ferran
@@ -266,4 +297,5 @@
   journal: Spanish Journal of Comparative Education/Revista Espa{\~n}ola de Educaci{\'o}n
     Comparada
   number: '19'
-  categories: Journal Articles
+  categories: 
+    - Journal Articles
