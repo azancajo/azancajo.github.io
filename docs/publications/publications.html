@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Adrián Zancajo – Adrián Zancajo</title>
+<title>Publications – Adrián Zancajo</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-91903e51b979062d4d184304d30a9be9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-91903e51b979062d4d184304d30a9be9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,21 +70,79 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
+    const options = {
+      valueNames: ['listing-title','listing-authors','listing-date','listing-journal','listing-volume','listing-number','listing-pages',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-authors","listing-date","listing-journal","listing-volume","listing-number","listing-pages"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Adrián <strong>Zancajo</strong></span>
     </a>
   </div>
@@ -93,11 +153,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV.pdf"> 
+    <a class="nav-link" href="../CV.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -106,25 +166,25 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="./Research.html#journal-articles">
+    <a class="dropdown-item" href="../Research.html#journal-articles">
  <span class="dropdown-text">Journal articles</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Research.html#books-page">
+    <a class="dropdown-item" href="../Research.html#books-page">
  <span class="dropdown-text">Books</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Research.html#book-chapters">
+    <a class="dropdown-item" href="../Research.html#book-chapters">
  <span class="dropdown-text">Book chapters</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Research.html#reports-page">
+    <a class="dropdown-item" href="../Research.html#reports-page">
  <span class="dropdown-text">Reports and working papers</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./outreach.html"> 
+    <a class="nav-link" href="../outreach.html"> 
 <span class="menu-text">Outreach</span></a>
   </li>  
 </ul>
@@ -135,38 +195,71 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
-<!-- main -->
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Adrián Zancajo</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header> 
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-<p><span class="icon-link"><a href="https://orcid.org/0000-0002-4431-8155"><iconify-icon role="img" inline="" icon="simple-icons:orcid" style="font-size: 1.25em;" aria-label="Icon orcid from simple-icons Iconify.design set." title="Icon orcid from simple-icons Iconify.design set."></iconify-icon></a></span> <span class="icon-link"><a href="https://scholar.google.nl/citations?hl=en&amp;user=mJmENSwAAJ"><iconify-icon role="img" inline="" icon="simple-icons:googlescholar" style="font-size: 1.25em;" aria-label="Icon googlescholar from simple-icons Iconify.design set." title="Icon googlescholar from simple-icons Iconify.design set."></iconify-icon></a></span> <span class="icon-link"><a href="https://uab.academia.edu/AdrianZancajo"><iconify-icon role="img" inline="" icon="academicons:academia-square" style="font-size: 1.25em;" aria-label="Icon academia-square from academicons Iconify.design set." title="Icon academia-square from academicons Iconify.design set."></iconify-icon></a></span> <span class="icon-link"><a href="https://www.researchgate.net/profile/Adrian-Zancajo-2"><iconify-icon role="img" inline="" icon="simple-icons:researchgate" style="font-size: 1.25em;" aria-label="Icon researchgate from simple-icons Iconify.design set." title="Icon researchgate from simple-icons Iconify.design set."></iconify-icon></a></span> <span class="icon-link"><a href="https://x.com/AdrianZancajo"><iconify-icon role="img" inline="" icon="mdi:twitter" style="font-size: 1.25em;" aria-label="Icon twitter from mdi Iconify.design set." title="Icon twitter from mdi Iconify.design set."></iconify-icon></a></span> <span class="icon-link"><a href="https://www.linkedin.com/in/azancajo"><iconify-icon role="img" inline="" icon="entypo-social:linkedin" style="font-size: 1.25em;" aria-label="Icon linkedin from entypo-social Iconify.design set." title="Icon linkedin from entypo-social Iconify.design set."></iconify-icon></a></span> <span class="icon-link"><a href="https://bsky.app/profile/adrianzancajo.bsky.social"><iconify-icon role="img" inline="" icon="ri:bluesky-fill" style="font-size: 1.25em;" aria-label="Icon bluesky-fill from ri Iconify.design set." title="Icon bluesky-fill from ri Iconify.design set."></iconify-icon></a></span></p>
-<p>I am a ‘Ramón y Cajal’ Researcher at the <a href="https://www.uab.cat/en/sociology"><strong>Department of Sociology</strong></a> of the <a href="https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html"><strong>Autonomous University of Barcelona</strong></a> and a member of the research group <a href="https://geps-uab.cat/"><strong>Globalisation, Education and Social Policies (GEPS)</strong></a></p>
-<p>My research areas are education privatisation and markets, educational policies and inequalities. In these areas, I have developed different research lines, including the political economy of education reforms, the enactment of education policies and their impact on equity.</p>
-<p><strong>adrian.zancajo [at] uab [dot] cat</strong></p>
-<script defer="" src="https://cdn.overtracking.com/t/tjs6NPq4iftwhE1H9/"></script>
-
-
-</main></div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
-    <img src="images/prof_pic2.jpg" class="about-image
-  round " style="height: 10em; width: 10em;">
-  </div>
+<!-- main -->
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Publications</h1>
 </div>
- <!-- /main -->
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+<div class="pub-card">
+<p class="pub-citation">
+{{ item.authors }}. ({{ item.date | slice: 0, 4 }}). <strong>{{ item.title }}</strong>. <em>{{ item.journal }}</em> {% if item.volume %}{{ item.volume }}{% endif %} {% if item.number %}({{ item.number }}){% endif %}, {% if item.pages %}{{ item.pages }}{% endif %}.
+</p>
+</div>
+<style>
+.pub-card {
+  padding: 1em 1.2em;
+  margin: 0 0 1.2em 0;
+  border-radius: 10px;
+  background: #fafafa;
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.pub-citation {
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin: 0;
+}
+</style>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

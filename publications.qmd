@@ -1,0 +1,15 @@
+---
+title: "Research Portfolio"
+listing:
+  contents: pubs.yml
+  type: default
+  sort: "date desc"
+  categories: true
+  filter-ui: true
+  sort-ui: true
+  fields: [date, title, subtitle, author]
+---
+
+## Publications
+
+Here is a list of my research articles and proceedings.

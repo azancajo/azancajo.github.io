@@ -10,5 +10,9 @@
   {
     "listing": "/publications/index.html",
     "items": []
+  },
+  {
+    "listing": "/publications/publications.html",
+    "items": []
   }
 ]
