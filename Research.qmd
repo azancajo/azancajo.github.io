@@ -91,6 +91,10 @@ format: html
 
 ## Book chapters {#book-chapters}
 
+-   Zancajo, A., & Bonal, X. (2026). [Education markets and socio-spatial inequalities: the role of geography](https://www.researchgate.net/publication/400050856_Education_markets_and_socio-spatial_inequalities_the_role_of_geography). In P. Kraftl, S. L. Holloway, Y. Cheng, & S. R. Kučerová (Eds.), *Handbook on Geographies of Education* (pp. 318–332). Edward Elgar Publishing.
+
+-   Verger, A., & Zancajo. A. (2026). [Education Policies amid Covid-19. Long-Term responses in Europe](https://www.bloomsburycollections.com/monograph-detail?docid=b-9781350520554&tocid=b-9781350520554-chapter3). In M.C. Azaola (Ed.), *Global Perspectives on Recovery from Learning Disruption* (pp. 45-68). Bloomsbury Academic.
+
 -   Bonal, X., Fontdevila, C., & Zancajo, A. (2023). [The World Bank and education in a changing global arena](https://www.researchgate.net/publication/365585540_The_World_Bank_and_education_in_a_changing_global_arena). In R. J. Tierney, F. Rizvi, & K. Ercikan (Eds.), *International Encyclopedia of Education* (Fourth Edition) (pp. 480–487). Elsevier
 
 -   Verger, A., Fontdevila, C., & Zancajo, A. (2023). [The privatization of education. Drivers, social effects and regulatory challenges of private sector participation in schooling](https://www.researchgate.net/publication/365607858_The_privatization_of_education_Drivers_social_effects_and_regulatory_challenges_of_private_sector_participation_in_schooling). In R. J. Tierney, F. Rizvi, & K. Ercikan (Eds.), *International Encyclopedia of Education* (Fourth Edition) (pp. 174–182). Elsevier
