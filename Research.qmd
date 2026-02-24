@@ -5,6 +5,10 @@ format: html
 
 ## Journal articles {#journal-articles}
 
+-   Zancajo, A., González Motos, S., & Quilabert, E. (2026). [Redesigning choice to tackle school segregation: the impact of Barcelona’s desegregation policies](https://d1wqtxts1xzle7.cloudfront.net/126225074/Redesigning_choice_to_tackle_school_segregation-libre.pdf?1768468778=&response-content-disposition=inline%3B+filename%3DRedesigning_choice_to_tackle_school_segr.pdf&Expires=1771917759&Signature=bNs9L~IfKXuZ0S~iFmPuYph0MxLly~RM9HjSve2ZniM8DuGVEyzEcgT3xqQittbHzqNYML20P4eSFr2v4xRGmqWqJIix2Q6wpGMiDQuEyQRpHeJdlFgCSVdwrSKXq8O19D-5nSkbAGTqTQ5ZmDXGtY3LrhO4Boph66OYPpRWae2GZ4NT8KmyFGKVyoIRs71SI4QZUitiKRfngD6wy2RKKt-3MhMLZD3bP~88l-EYFWMHpEjIJ-wI1CFXMBmqfBzdd0fZuqqOX39RM0to5iRmmKw3krcCcPkUtou0pgU1cYgqg0UlOE37reOV~v6wXVA4hbP5a3uFR77CG1Nza-59RA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA). *Policy Studies*, 1-35.
+
+-   Fontdevila, C., & Zancajo, A. (2025). [Examining pro-equity redesigns of educational quasi-markets: a mechanism-based approach to their effects](https://www.tandfonline.com/doi/full/10.1080/00220620.2025.2538455). *Journal of Educational Administration and History*, 1-20.
+
 -   Fontdevila, C., Zancajo, A., & Verger, A. (2024). [Catholic Schools in the Marketplace: Changing and Enduring Religious Identities](https://www.tandfonline.com/doi/epdf/10.1080/0161956X.2024.2381393?needAccess=true). *Peabody Journal of Education*, *99*(4), 464–481.
 
 -   Bonal, X., Pagès, M., Verger, A., & Zancajo, A. (2023). [Regional policy trajectories in the Spanish education system: Different uses of relative autonomy](https://epaa.asu.edu/index.php/epaa/article/view/8031/3120). *Education Policy Analysis Archives*, *31*.
