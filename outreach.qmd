@@ -15,7 +15,7 @@ format:
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #aaa;
+  color: #black;
   border-bottom: 1px solid #efefef;
   padding-bottom: 0.5rem;
   margin-bottom: 0;

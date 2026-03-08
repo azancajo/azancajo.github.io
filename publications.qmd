@@ -75,30 +75,30 @@ toc: false
 }
 .pub-icon {
   font-size: 0.75rem;
-  color: #ccc;
+  color: #black;
 }
 .pub-badge {
   font-size: 0.64rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.09em;
-  color: #aaa;
+  color: #black;
 }
 /* Override coloured badges — keep classes for JS targeting */
 .badge-article, .badge-book, .badge-chapter, .badge-report {
   background: none;
-  color: #aaa;
+  color: #black;
   padding: 0;
   border-radius: 0;
 }
 .pub-sep {
   font-size: 0.65rem;
-  color: #ddd;
+  color: #black;
   user-select: none;
 }
 .pub-year {
   font-size: 0.75rem;
-  color: #bbb;
+  color: #black;
   font-weight: 500;
 }
 .pub-title-link {
@@ -120,7 +120,7 @@ toc: false
 }
 .pub-venue {
   font-size: 0.875rem;
-  color: #999;
+  color: #black;
   font-style: italic;
   margin-top: 0.06rem;
 }
