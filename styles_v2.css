@@ -1,0 +1,114 @@
+/* ── Navbar ─────────────────────────────────────────────── */
+body,
+.navbar,
+.navbar-expand-lg {
+  background-color: #ffffff !important;
+}
+
+.navbar a,
+.navbar-brand {
+  color: #000000 !important;
+}
+
+/* ── Remove hover effects globally ──────────────────────── */
+a:hover,
+a:focus,
+a:active {
+  color: inherit !important;
+  text-decoration: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.navbar a:hover,
+.navbar a:focus,
+.navbar a:active {
+  color: inherit !important;
+  text-decoration: none !important;
+  background: none !important;
+}
+
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+  color: inherit !important;
+  background-color: transparent !important;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ── Trestles: left panel ────────────────────────────────── */
+.quarto-about-trestles .about-entity {
+  border-right: 1px solid #e8e8e8;
+  padding-right: 2rem;
+}
+
+/* ── Profile image ───────────────────────────────────────── */
+.quarto-about-trestles img.about-image {
+  display: block;
+  margin: 0 auto 1.5rem auto;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* ── Social / profile links ─────────────────────────────── */
+.about-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.9rem;
+  margin-bottom: 0.45rem;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: #24292f !important;
+  background: #f6f8fa;
+  transition: background 0.15s ease, border-color 0.15s ease;
+  text-decoration: none !important;
+}
+
+.about-link:hover {
+  background: #eaf0f7 !important;
+  border-color: #3a7abf !important;
+  color: #1a4f8a !important;
+}
+
+/* ── Content: section headings ───────────────────────────── */
+.quarto-about-trestles .about-contents h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #3a7abf;
+  margin-top: 1.6rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid #e0ecf8;
+}
+
+/* ── Body typography ─────────────────────────────────────── */
+.quarto-about-trestles .about-contents p {
+  line-height: 1.75;
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
+/* ── Accent links inside bio ─────────────────────────────── */
+.quarto-about-trestles .about-contents a {
+  color: #3a7abf !important;
+  text-decoration: none !important;
+}
+
+.quarto-about-trestles .about-contents a:hover {
+  text-decoration: underline !important;
+  color: #1a4f8a !important;
+}
+
+/* ── Title ───────────────────────────────────────────────── */
+.quarto-about-trestles h1.title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
