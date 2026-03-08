@@ -10,16 +10,8 @@ website:
         text: About
       - href: CV.pdf
         text: CV  
-      - text: Research
-        menu: 
-          - text: "Journal articles"
-            href: Research.qmd#journal-articles
-          - text: "Books"
-            href: Research.qmd#books-page
-          - text: "Book chapters"
-            href: Research.qmd#book-chapters
-          - text: "Reports and working papers"
-            href: Research.qmd#reports-page
+      - href: publications.qmd
+        text: Publications
       - outreach.qmd
 
   page-footer:
