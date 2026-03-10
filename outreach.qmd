@@ -7,6 +7,31 @@ format:
 
 ```{=html}
 <style>
+.out-nav {
+  display: flex;
+  gap: 0;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e0e0e0;
+  flex-wrap: wrap;
+}
+.out-nav a {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #888;
+  text-decoration: none;
+  padding: 0.5rem 1rem 0.5rem 0;
+  margin-right: 1.2rem;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  transition: color 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+.out-nav a:hover {
+  color: #111;
+  border-bottom-color: #111;
+}
 .out-section {
   margin-bottom: 2.5rem;
 }
@@ -74,8 +99,14 @@ format:
 }
 </style>
 
+<nav class="out-nav">
+  <a href="#media-articles"><i class="bi bi-newspaper"></i> Media & Blog</a>
+  <a href="#interviews"><i class="bi bi-mic-fill"></i> Interviews</a>
+  <a href="#seminars"><i class="bi bi-camera-video"></i> Seminars</a>
+</nav>
+
 <!-- Media and blog articles -->
-<div class="out-section">
+<div class="out-section" id="media-articles">
   <h2 class="out-section-header"><i class="bi bi-newspaper"></i> Media and blog articles</h2>
   <ul class="out-list">
 
@@ -177,7 +208,7 @@ format:
 </div>
 
 <!-- Interviews and media appearances -->
-<div class="out-section">
+<div class="out-section" id="interviews">
   <h2 class="out-section-header"><i class="bi bi-mic-fill"></i> Interviews and media appearances</h2>
   <ul class="out-list">
 
@@ -223,7 +254,7 @@ format:
 </div>
 
 <!-- Seminars and presentations -->
-<div class="out-section">
+<div class="out-section" id="seminars">
   <h2 class="out-section-header"><i class="bi bi-camera-video"></i> Seminars and presentations (recorded)</h2>
   <ul class="out-list">
     
