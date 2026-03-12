@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://azancajo.github.io/sitemap.xml
