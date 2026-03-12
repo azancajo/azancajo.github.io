@@ -1,5 +1,5 @@
 ---
-description: "Ramón y Cajal Researcher at the Autonomous University of Barcelona specializing in education privatization, school markets, and educational inequality."
+title: "Adrián Zancajo"
 image: images/prof_pic2.jpg
 toc: false
 about:
@@ -22,28 +22,4 @@ My research areas are education privatisation and markets, educational policies 
 
 ```{=html}
 <script defer src="https://cdn.overtracking.com/t/tjs6NPq4iftwhE1H9/"></script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Adrián Zancajo",
-  "jobTitle": "Ramón y Cajal Researcher",
-  "affiliation": {
-    "@type": "Organization",
-    "name": "Autonomous University of Barcelona",
-    "url": "https://www.uab.cat"
-  },
-  "url": "https://azancajo.github.io",
-  "email": "adrian.zancajo@uab.cat",
-  "sameAs": [
-    "https://orcid.org/0000-0002-4431-8155",
-    "https://scholar.google.nl/citations?hl=en&user=mJmENSwAAJ",
-    "https://www.researchgate.net/profile/Adrian-Zancajo-2",
-    "https://uab.academia.edu/AdrianZancajo",
-    "https://www.linkedin.com/in/azancajo",
-    "https://x.com/AdrianZancajo",
-    "https://bsky.app/profile/adrianzancajo.bsky.social"
-  ]
-}
-</script>
 ```

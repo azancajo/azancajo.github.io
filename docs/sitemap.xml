@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://azancajo.github.io/index.html</loc>
-    <lastmod>2026-03-12T20:13:53.013Z</lastmod>
+    <lastmod>2026-03-12T20:16:52.213Z</lastmod>
   </url>
   <url>
     <loc>https://azancajo.github.io/publications.html</loc>
@@ -11,5 +11,13 @@
   <url>
     <loc>https://azancajo.github.io/outreach.html</loc>
     <lastmod>2026-03-12T20:05:54.077Z</lastmod>
+  </url>
+  <url>
+    <loc>https://azancajo.github.io/index copy.html</loc>
+    <lastmod>2026-03-12T20:15:28.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://azancajo.github.io/index copy 2.html</loc>
+    <lastmod>2026-03-12T20:16:52.213Z</lastmod>
   </url>
 </urlset>
