@@ -1,5 +1,4 @@
 ---
-title: "Home"
 description: "Ramón y Cajal Researcher at the Autonomous University of Barcelona specializing in education privatization, school markets, and educational inequality."
 image: images/prof_pic2.jpg
 toc: false
