@@ -87,13 +87,13 @@ format:
 }
 .out-meta {
   font-size: 0.875rem;
-  color: #999;
+  color: #black;
   margin-top: 0.2rem;
   font-style: italic;
 }
 .out-with {
   font-style: normal;
-  color: #777;
+  color: #black;
   font-size: 0.875rem;
   margin-top: 0.1rem;
 }

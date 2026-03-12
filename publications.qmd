@@ -770,18 +770,10 @@ toc: false
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2015</span></div>
       <span class="pub-title-text">Public-private partnerships in Colombian education: the equity and quality implications of Colegios en Concesión</span>
       <div class="pub-authors">Termes, A., Bonal, X., Verger, A., &amp; Zancajo, A.</div>
-      <div class="pub-venue"></div>
-    </div>
-  </li>
-
-  <li class="pub-item" data-type="report" data-year="2015">
-    <div>
-      <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2015</span></div>
-      <span class="pub-title-text">Alianzas Público-Privadas en la educación colombiana: las implicaciones en equidad y calidad de los Colegios en Concesión de Bogotá</span>
-      <div class="pub-authors">Termes, A., Bonal, X., Verger, A., Zancajo, A., López, L., Ramírez, Y.C., &amp; Sierra, A.</div>
       <div class="pub-venue">Privatisation in Education Research Initiative, 66, 1–7</div>
     </div>
   </li>
+
 
   <!-- 2014 -->
   <li class="pub-item" data-type="article" data-year="2014">
@@ -884,15 +876,6 @@ toc: false
       <a class="pub-title-link" href="https://fundaciobofill.cat/uploads/docs/a/3/y/8/b/q/c/2/k/546.pdf" target="_blank" rel="noopener">PISA-2009: Avaluació de les desigualtats educatives a Catalunya</a>
       <div class="pub-authors">Ferrer, F., Castel, J.L., Castejón, A., &amp; Zancajo, A.</div>
       <div class="pub-venue">Editorial Mediterrània, Barcelona</div>
-    </div>
-  </li>
-
-  <li class="pub-item" data-type="report" data-year="2011">
-    <div>
-      <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2011</span></div>
-      <span class="pub-title-text">FCT on plus: Avaluació de l'eficàcia de la Formació en Centres de Treball</span>
-      <div class="pub-authors">Pineda, P., Mas, O., Quesada, C., Espona, B., Garcia, N., Zancajo, A., &amp; Ciraso, A.</div>
-      <div class="pub-venue">Technical report, Universitat Autònoma de Barcelona</div>
     </div>
   </li>
 
