@@ -212,6 +212,11 @@ format:
   <h2 class="out-section-header"><i class="bi bi-mic-fill"></i> Interviews and media appearances</h2>
   <ul class="out-list">
 
+<li class="out-item">
+      <div><a class="out-title-link" href="https://www.diaridetarragona.com/tarragona/254428/alumnos-estudian-cerca-casa-reforma-mapa-escolar-tarragona.html">Más alumnos estudian cerca de casa tras la reforma del mapa escolar en Tarragona</a></div>
+      <div class="out-meta">Diari de Tarragona · March 12, 2026</div>
+    </li>
+
     <li class="out-item">
       <div><a class="out-title-link" href="https://www.3cat.cat/3cat/adrian-zancajo-investigador-departament-sociologia-uab/video/6255372/?ext=SM_WP_F4_CE24">Hem de buscar solucions per als alumnes de segona generació de la inmigració</a></div>
       <div class="out-meta">Entrevistes 3/24 · December 10, 2023</div>
