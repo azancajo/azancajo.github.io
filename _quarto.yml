@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Adrián Zancajo"
+  title: "Adrián **Zancajo**"
   site-url: https://azancajo.github.io
   description: "Ramón y Cajal Researcher at the Autonomous University of Barcelona specializing in education privatization, school markets, and educational inequality."
   open-graph:
