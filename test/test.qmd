@@ -4,7 +4,6 @@ format:
   quarto-cv-pdf: default
 author: Adrián Zancajo
 date: last-modified
-phone:
 address: "Edifici E · Campus UAB · Cerdanyola del Vallès 08193, Spain"
 email: adrian.zancajo@gmail.com
 fontsize: 11pt
@@ -15,7 +14,7 @@ fontsize: 11pt
 orcid: 0000-0002-4431-8155 # orcid identifier
 #osf: ymqui # osf five character id
 twitter: AdrianZancajo
-web: azancajo.github.com
+web: azancajo.github.io
 fontawesome: yes
 nocite: '@*'
 bibliography: 
@@ -47,108 +46,112 @@ February 2013 - August 2017: & Research Fellow (Education Policy and Internation
 
 # Publications
 
-## ***Articles in peer review journals***
+## Articles in peer-reviewed journals
 
 ::: {#refs-peer}
 :::
 
-## ***Books***
+## Books
 
 ::: {#refs-books}
 :::
 
-## ***Book cahpters***
+## Book chapters
 
 ::: {#refs-chapters}
 :::
 
-# ***Policy reports and working papers***
+## Policy reports and working papers
 
 ::: {#refs-reports}
 :::
 
 # Research projects and contracts
 
-## ***Competitive calls***
+## Competitive calls
 
--   **Teacher attraction, retention, and stratification: Analysis of the determinants of teacher attraction, stability, and stratification for improving public policies**. Funding body and call: Spanish Foundation for Science and Technology (Fecyt). Principal Investigator: Sheila González (University of Barcelona). Starting date and duration: 1/04/2024, 2 years. Amount: 60,700€. Ref.: 21061. Participation: Researcher.
+- **Teacher attraction, retention, and stratification: Analysis of the determinants of teacher attraction, stability, and stratification for improving public policies**. Funding body and call: Spanish Foundation for Science and Technology (Fecyt). Principal Investigator: Sheila González (University of Barcelona). Starting date and duration: 1/04/2024, 2 years. Amount: 60,700€. Ref.: 21061. Participation: Researcher.
 
--   **Effects of Gentrification on Education Inequalities**. Funding body and call: Spanish Agency of Research. Principal Investigator: Xavier Bonal and Adrián Zancajo (Autonomous University of Barcelona). Starting date and duration: 01/09/2023, 3 years. Amount: 60,375€. Ref.: PID2022-137183NB-I00.
+- **Effects of Gentrification on Education Inequalities**. Funding body and call: Spanish Agency of Research. Principal Investigator: Xavier Bonal and Adrián Zancajo (Autonomous University of Barcelona). Starting date and duration: 01/09/2023, 3 years. Amount: 60,375€. Ref.: PID2022-137183NB-I00.
 
--   **School desegregation policies in the city of Barcelona: impact and mechanisms**. Funding body and call: Municipality of Barcelona (Grants for young and emerging research projects 2022). Principal Investigator: Adrián Zancajo (Autonomous University of Barcelona). Starting date and duration: 22/12/2022, 1.5 years. Amount: 58,453€. Ref.: 22S09373-001.
+- **School desegregation policies in the city of Barcelona: impact and mechanisms**. Funding body and call: Municipality of Barcelona (Grants for young and emerging research projects 2022). Principal Investigator: Adrián Zancajo (Autonomous University of Barcelona). Starting date and duration: 22/12/2022, 1.5 years. Amount: 58,453€. Ref.: 22S09373-001.
 
--   **Is it Possible to Decommodify Education? Evidence and Lessons from the Chilean Education Market Reform**. Funding source: British Academy. Principal investigator: Dr Adrian Zancajo. Starting date and duration: 01/01/2019, 3.5 years. Amount: £305,310. Ref.: PF2\\180006
+- **Is it Possible to Decommodify Education? Evidence and Lessons from the Chilean Education Market Reform**. Funding source: British Academy. Principal investigator: Dr Adrián Zancajo. Starting date and duration: 01/01/2019, 3.5 years. Amount: £305,310. Ref.: PF2\\180006
 
--   **Governing the educational and labour market trajectories of secondary TVET graduates in Chile**. Funding body and call: RCUK (Newton Fund). Principal Investigator: Oscar Valiente (University of Glasgow). Starting date and duration: 01/02/2016, 3 years. Amount: £206,698. Participation: Co-Principal Investigator. Ref.: ES/N019229/1.
+- **Governing the educational and labour market trajectories of secondary TVET graduates in Chile**. Funding body and call: RCUK (Newton Fund). Principal Investigator: Oscar Valiente (University of Glasgow). Starting date and duration: 01/02/2016, 3 years. Amount: £206,698. Participation: Co-Principal Investigator. Ref.: ES/N019229/1.
 
--   **Public-Private Partnerships in Educational Governance: An analysis of its dissemination, implementation and impact in a globalizing world**. Funding body and call: European Commission (FP7-PEOPLE-2011-CIG). Principal Investigator: Antoni Verger (Autonomous University of Barcelona). Starting date and duration: 01/02/2013, 4 years. Amount: 100.000€. Participation: Research fellow. Ref: GA-2012-322350
+- **Public-Private Partnerships in Educational Governance: An analysis of its dissemination, implementation and impact in a globalizing world**. Funding body and call: European Commission (FP7-PEOPLE-2011-CIG). Principal Investigator: Antoni Verger (Autonomous University of Barcelona). Starting date and duration: 01/02/2013, 4 years. Amount: 100.000€. Participation: Research fellow. Ref: GA-2012-322350
 
--   **The new quasi-market reforms in education in Latin America. An analysis of policy processes and policy impacts on inequalities and poverty**. Funding body and call: Spanish Ministry of Science (Proyectos de investigación no orientada). Principal Investigator: Xavier Bonal and Antoni Verger (Autonomous University of Barcelona). Starting date and duration: 01/01/2012, 3 years. Amount: 50,000€. Participation: Researcher. Ref.: CSO2011-22697.
+- **The new quasi-market reforms in education in Latin America. An analysis of policy processes and policy impacts on inequalities and poverty**. Funding body and call: Spanish Ministry of Science (Proyectos de investigación no orientada). Principal Investigator: Xavier Bonal and Antoni Verger (Autonomous University of Barcelona). Starting date and duration: 01/01/2012, 3 years. Amount: 50,000€. Participation: Researcher. Ref.: CSO2011-22697.
 
-## ***Research contracts***
+## Research contracts
 
--   **Regulating Public-Private Partnerships, governing non-state schools: An equity perspective**. Principal Investigator: Adrián Zancajo (University of Glasgow). Funding: UNESCO. Starting date and duration: 15/05/2020, 6 months. Amount: 10,000 US \$.
+- **Regulating Public-Private Partnerships, governing non-state schools: An equity perspective**. Principal Investigator: Adrián Zancajo (University of Glasgow). Funding: UNESCO. Starting date and duration: 15/05/2020, 6 months. Amount: 10,000 US \$.
 
--   **The model of private subsidised education under debate. An international and comparative perspective**. Principal Investigator: Antoni Verger (Autonomous University of Barcelona) and Adrián Zancajo (University of Glasgow). Funding: Fundació Jaume Bofill. Starting date and duration: 01/12/2019, 10 months. Amount: 20,297€.
+- **The model of private subsidised education under debate. An international and comparative perspective**. Principal Investigator: Antoni Verger (Autonomous University of Barcelona) and Adrián Zancajo (University of Glasgow). Funding: Fundació Jaume Bofill. Starting date and duration: 01/12/2019, 10 months. Amount: 20,297€.
 
--   **Equivalence criteria in Barcelona’s educational planning: Diagnosis and proposals**. Principal Investigator: Xavier Bonal (Autonomous University of Barcelona) and Adrian Zancajo (Catholic University of Louvain). Funding: Barcelona Education Consortium. Starting date and duration: 01/05/2017, 1 year. Amount: 26,000€.
+- **Equivalence criteria in Barcelona’s educational planning: Diagnosis and proposals**. Principal Investigator: Xavier Bonal (Autonomous University of Barcelona) and Adrian Zancajo (Catholic University of Louvain). Funding: Barcelona Education Consortium. Starting date and duration: 01/05/2017, 1 year. Amount: 26,000€.
 
--   **The political economy of education privatization. A systematic review**. Principal Investigator: Antoni Verger (Autonomous University of Barcelona). Funding: Education International. Starting date and duration: 10/01/2015, 1 year. Amount: 23,000€.
+- **The political economy of education privatization. A systematic review**. Principal Investigator: Antoni Verger (Autonomous University of Barcelona). Funding: Education International. Starting date and duration: 10/01/2015, 1 year. Amount: 23,000€.
 
--   **Formulating Potential Indicators for a Broad and Bold Global Education Agenda for Post-2015**. Principal Investigator: Antoni Verger, Xavier Bonal and Adrián Zancajo (Autonomous University of Barcelona). Funding: Open Society Foundations (OSF). Starting date and duration: 21/05/2015, 9 months. Amount: 10,000 US \$.
+- **Formulating Potential Indicators for a Broad and Bold Global Education Agenda for Post-2015**. Principal Investigator: Antoni Verger, Xavier Bonal and Adrián Zancajo (Autonomous University of Barcelona). Funding: Open Society Foundations (OSF). Starting date and duration: 21/05/2015, 9 months. Amount: 10,000 US \$.
 
--   **PISA 2012 in Catalonia**. Principal investigator: Professor Xavier Bonal. Funding institution: Fundació Jaume Bofill. Starting date and duration: 18/01/2014, 1 year. Amount: £19,381
+- **PISA 2012 in Catalonia**. Principal investigator: Professor Xavier Bonal. Funding institution: Fundació Jaume Bofill. Starting date and duration: 18/01/2014, 1 year. Amount: £19,381
 
--   **Educational Inequalities and public-private partnerships in Colombian Education**. Principal investigators: Professor Antoni Verger and Professor Xavier Bonal. Funding institution: Open Society Foundations (OSF). Starting date and duration: 21/05/2015, 9 months. Amount: £15,936
+- **Educational Inequalities and public-private partnerships in Colombian Education**. Principal investigators: Professor Antoni Verger and Professor Xavier Bonal. Funding institution: Open Society Foundations (OSF). Starting date and duration: 21/05/2015, 9 months. Amount: £15,936
 
--   **Catalan Youth Survey 2012- Education**. Principal investigators: Adrian Zancajo and Alba Castejón. Funding institution: Observatori Català de la Joventut. Starting date and duration: 12/09/2012, 6 months. Amount: £2,584
+- **Catalan Youth Survey 2012- Education**. Principal investigators: Adrián Zancajo and Alba Castejón. Funding institution: Observatori Català de la Joventut. Starting date and duration: 12/09/2012, 6 months. Amount: £2,584
 
--   **TVET and Employment in Catalonia**.Principal investigator: Dr Oscar Valiente. Funding institution: Fundació Jaume Bofill. Starting date and duration: 10/03/2012, 9 months. Amount: £21,535
+- **TVET and Employment in Catalonia**. Principal investigator: Dr Oscar Valiente. Funding institution: Fundació Jaume Bofill. Starting date and duration: 10/03/2012, 9 months. Amount: £21,535
 
--   **The measure of educational development**. Principal investigators: Professor Xavier Bonal and Professor Antoni Verger. Funding institution: International Institute for Educational Planning – UNESCO. Starting date and duration: 05/09/2011, 5 months. Amount: £7,752
+- **The measure of educational development**. Principal investigators: Professor Xavier Bonal and Professor Antoni Verger. Funding institution: International Institute for Educational Planning – UNESCO. Starting date and duration: 05/09/2011, 5 months. Amount: £7,752
 
--   **PISA – 2009 in Catalonia.**. Principal investigator: Professor Ferran Ferrer. Funding institution: Fundació Jaume Bofill. Starting date and duration: 12/01/2012, 9 months. Amount: £17,228
+- **PISA – 2009 in Catalonia**. Principal investigator: Professor Ferran Ferrer. Funding institution: Fundació Jaume Bofill. Starting date and duration: 12/01/2012, 9 months. Amount: £17,228
 
-# Resaearch stages
+# Research visits
 
--   March-June 2016: **Robert Owen Centre for Educational Change**, University of Glasgow.
+- April 2026: **Department of Geography**, J. E. Purkyně University.
 
--   March-June 2015: **Centre for Advanced Research in Education**, University of Chile.
+- March-June 2016: **Robert Owen Centre for Educational Change**, University of Glasgow.
+
+- March-June 2015: **Centre for Advanced Research in Education**, University of Chile.
 
 # Awards and other merits
 
-## ***Awards***
+## Awards
 
--   2023 Best Paper. Journal of Vocational Education & Training.
+- 2023 Best Paper. Journal of Vocational Education & Training.
 
--   2019 Best Paper. Journal of Vocational Education & Training.
+- 2019 Best Paper. Journal of Vocational Education & Training.
 
--   2018 Best Doctoral Dissertation. Comparative and International Education Society’s Globalization and Education SIG.
+- 2018 Best Doctoral Dissertation. Comparative and International Education Society’s Globalization and Education SIG.
 
--   2016 Best Book on Globalization and Education. Comparative and International Education Society’s Globalization and Education SIG.
+- 2016 Best Book on Globalization and Education. Comparative and International Education Society’s Globalization and Education SIG.
 
--   2015 Ibero-American Young Researchers' Grant. Banco Santander.
+- 2015 Ibero-American Young Researchers' Grant. Banco Santander.
 
-## ***Invited presentations***
+## Invited presentations
 
--   *Development paradigms and TVET policies in Chile. Suitable development at human scale: What do we expect from vocational education?* Seminar organised by the Chilean Ministry of Education. 31st of August 2022. Santiago, Chile
+- *School Choice and Socio-Spatial Inequalities: The Role of Geography*. Department of Geography, J. E. Purkyně University. 14th of April 2026. Ústí nad Labem, Czech Republic.
 
--   *Regulating education PPPs: an equity perspective*. Second global meeting of the Education Finance Network organised by the United States Agency for International Development (USAID). 9th of June 2022. Online.
+- *Development paradigms and TVET policies in Chile. Suitable development at human scale: What do we expect from vocational education?* Seminar organised by the Chilean Ministry of Education. 31st of August 2022. Santiago, Chile.
 
--   *Is it possible to balance education markets and equity? An international approach to the regulation of pro-market policies in education*. The Ideas Lab, University of Cambridge. 18th of November 2021. Online.
+- *Regulating education PPPs: an equity perspective*. Second global meeting of the Education Finance Network organised by the United States Agency for International Development (USAID). 9th of June 2022. Online.
 
--   *Vocational education policies in Chile (2006-2018). Views of presidential candidacies on the future of the vocational education in Chile*. Seminar organised by Aequalis. November 2, 2021.
+- *Is it possible to balance education markets and equity? An international approach to the regulation of pro-market policies in education*. The Ideas Lab, University of Cambridge. 18th of November 2021. Online.
 
--   *Private subsidised schools: Propossals of educational policy*. Seminar organised by Eusko Ikaskuntza. October 22, 2021.
+- *Vocational education policies in Chile (2006-2018). Views of presidential candidacies on the future of the vocational education in Chile*. Seminar organised by Aequalis. November 2, 2021.
 
--   *Paths towards privatisation: a political economy approach. Education and training policies for social inclusion and sustainable development in Chile and Latin America*. Seminar organised by Chile Global Seminars UK. 26th of September 2018. Glasgow, United Kingdom.
+- *Private subsidised schools: Proposals of educational policy*. Seminar organised by Eusko Ikaskuntza. October 22, 2021.
 
-## ***Other relevant academic experience***
+- *Paths towards privatisation: a political economy approach. Education and training policies for social inclusion and sustainable development in Chile and Latin America*. Seminar organised by Chile Global Seminars UK. 26th of September 2018. Glasgow, United Kingdom.
 
--   Member of the evaluation committee of 2023 ‘Juan de la Cierva’ postdoctoral fellowships call (Spanish Agency of Research).
+## Other relevant academic experience
 
--   External evaluator of the 2019 Youth Futures Programme (British Academy) and 2024 Fondecyt call (Chilean National Research and Development Agency).
+- Member of the evaluation committee of 2023 ‘Juan de la Cierva’ postdoctoral fellowships call (Spanish Agency of Research).
 
--   Editor of *Papers. Revista de Sociologia* since 2022.
+- External evaluator of the 2019 Youth Futures Programme (British Academy) and 2024 Fondecyt call (Chilean National Research and Development Agency).
 
--   Reviewer for the academic journals: *British Educational Research Journal*, *Education Policy Analysis Archives*, *European Educational Research Journal*, *Globalisation, Societies and Education*, *Journal of Education Policy*, *Comparative Education Review*, *International Journal of Education and Development*, *Critical Studies in Education*, *Journal of Adult & Continuing Education*, *Review of Education*, *Educação & Sociedade*, *Education Inquiry*, *Review of Educational Research*, *Revista Internacional de Sociología (RIS)*, *The International Journal of Human Rights*
+- Editor of *Papers. Revista de Sociologia* since 2022.
+
+- Reviewer for the academic journals: *British Educational Research Journal*, *Education Policy Analysis Archives*, *European Educational Research Journal*, *Globalisation, Societies and Education*, *Journal of Education Policy*, *Comparative Education Review*, *International Journal of Education and Development*, *Critical Studies in Education*, *Journal of Adult & Continuing Education*, *Review of Education*, *Educação & Sociedade*, *Education Inquiry*, *Review of Educational Research*, *Revista Internacional de Sociología (RIS)*, *The International Journal of Human Rights*
