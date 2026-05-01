@@ -18,7 +18,9 @@ website:
       - href: index.qmd
         text: About
       - href: CV.pdf
-        text: CV  
+        text: CV
+      - href: research-lines.qmd
+        text: Research
       - href: publications.qmd
         text: Publications
       - outreach.qmd

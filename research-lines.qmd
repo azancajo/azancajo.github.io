@@ -1,0 +1,520 @@
+---
+title: "Research"
+toc: false
+format:
+  html:
+    css: styles.css
+---
+
+```{=html}
+<style>
+/* ── Research Lines Page ── */
+.rl-intro {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #444;
+  max-width: 720px;
+  margin-bottom: 2.5rem;
+}
+
+/* Navigation tabs */
+.rl-nav {
+  display: flex;
+  gap: 0;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid #e0e0e0;
+  flex-wrap: wrap;
+}
+.rl-nav a {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #999;
+  text-decoration: none !important;
+  padding: 0.55rem 0;
+  margin-right: 1.5rem;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  transition: color 0.2s, border-color 0.2s;
+  white-space: nowrap;
+}
+.rl-nav a:hover {
+  color: #111 !important;
+  border-bottom-color: #111;
+}
+
+/* Research line block */
+.rl-block {
+  margin-bottom: 3rem;
+  scroll-margin-top: 80px;
+}
+
+.rl-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.15rem;
+}
+.rl-number {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #fff;
+  background: #111;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  letter-spacing: 0;
+}
+.rl-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #111;
+  letter-spacing: 0.01em;
+}
+
+.rl-description {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: #555;
+  margin: 0.5rem 0 1.1rem 0;
+  padding-left: 2.1rem;
+}
+
+/* Outputs section (publications + projects) */
+.rl-outputs {
+  padding-left: 2.1rem;
+}
+
+.rl-output-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: #aaa;
+  margin-bottom: 0.4rem;
+  margin-top: 0.8rem;
+}
+
+.rl-pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.6rem 0;
+}
+.rl-pub-item {
+  padding: 0.55rem 0.65rem 0.55rem 0.85rem;
+  border-left: 2px solid transparent;
+  border-bottom: 1px solid #f3f3f3;
+  transition: background 0.12s, border-left-color 0.12s;
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: #333;
+}
+.rl-pub-item:last-child {
+  border-bottom: none;
+}
+.rl-pub-item:hover {
+  background: #fafafa;
+  border-left-color: #111;
+}
+.rl-pub-item a {
+  color: #111 !important;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+.rl-pub-item a:hover {
+  text-decoration: underline !important;
+}
+
+.rl-pub-meta {
+  font-size: 0.78rem;
+  color: #999;
+  margin-top: 0.1rem;
+}
+
+/* Project tags */
+.rl-project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.3rem 0 0.5rem 0;
+  padding: 0;
+  list-style: none;
+}
+.rl-project-tag {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #555;
+  background: #f5f5f5;
+  border: 1px solid #e8e8e8;
+  border-radius: 2rem;
+  padding: 0.22rem 0.75rem;
+  transition: border-color 0.15s, color 0.15s;
+  line-height: 1.5;
+}
+.rl-project-tag:hover {
+  border-color: #111;
+  color: #111;
+}
+
+/* Toggle for show more */
+.rl-toggle {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #999;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0.3rem 0;
+  margin-top: 0.2rem;
+  letter-spacing: 0.03em;
+  transition: color 0.15s;
+}
+.rl-toggle:hover {
+  color: #111;
+}
+.rl-hidden {
+  display: none;
+}
+
+/* Divider between blocks */
+.rl-divider {
+  border: none;
+  border-top: 1px solid #efefef;
+  margin: 0 0 2.5rem 0;
+}
+
+/* Area label for non-market research */
+.rl-area-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #bbb;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+</style>
+
+<p class="rl-intro">
+  My research focuses on how education policies shape equity and opportunity. While I have worked across several areas — including vocational education, educational inequalities, and education and development — my primary research focus has been <strong>privatisation and marketisation policies in education</strong>. Below, I outline my main research lines together with selected outputs and projects.
+</p>
+
+<nav class="rl-nav">
+  <a href="#political-economy">Political Economy</a>
+  <a href="#school-responses">School Responses</a>
+  <a href="#choice-segregation">Choice & Segregation</a>
+  <a href="#market-regulation">Market Regulation</a>
+  <a href="#vocational-education">Vocational Education</a>
+  <a href="#inequalities">Educational Inequalities</a>
+  <a href="#education-development">Education & Development</a>
+</nav>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- AREA: EDUCATION PRIVATISATION AND MARKETISATION        -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="rl-area-label">Education Privatisation &amp; Marketisation</div>
+
+<!-- ── 1. Political Economy ── -->
+<div class="rl-block" id="political-economy">
+  <div class="rl-header">
+    <span class="rl-number">1</span>
+    <span class="rl-title">Political Economy of Education Privatisation</span>
+  </div>
+  <p class="rl-description">
+    This line examines how and why education privatisation and marketisation reforms emerge and consolidate. Beyond structural drivers, this research explores how ideational factors — narratives, paradigms and policy discourses — contribute to triggering, shaping and legitimising these reform processes in different national contexts.
+  </p>
+  <div class="rl-outputs">
+    <div class="rl-output-label">Selected publications</div>
+    <ul class="rl-pub-list">
+      <li class="rl-pub-item">
+        <a href="https://www.researchgate.net/publication/316196658_Multiple_paths_towards_education_privatization_in_a_globalizing_world_a_cultural_political_economy_review">Multiple paths towards education privatization in a globalizing world</a>
+        <div class="rl-pub-meta">Verger, Fontdevila &amp; Zancajo (2017) · <em>Journal of Education Policy</em></div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://www.researchgate.net/publication/299472482_What_Are_the_Role_and_Impact_of_Public-Private_Partnerships_in_Education_A_Realist_Evaluation_of_the_Chilean_Education_Quasi-Market">What are the role and impact of public-private partnerships in education?</a>
+        <div class="rl-pub-meta">Verger, Bonal &amp; Zancajo (2016) · <em>Comparative Education Review</em></div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="http://download.ei-ie.org/Docs/WebDepot/The_Privatization_of_Education.pdf">The Privatization of Education. A Political Economy Approach to Global Education Reform</a>
+        <div class="rl-pub-meta">Verger, Fontdevila &amp; Zancajo (2016) · Teachers College Press</div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://ncspe.tc.columbia.edu/working-papers/files/WP239.pdf">Drivers and Resistances to Regulation of Education Markets: The Political Economy of the Chilean Reform</a>
+        <div class="rl-pub-meta">Zancajo (2019) · NCSPE Working Paper, Teachers College, Columbia University</div>
+      </li>
+    </ul>
+
+    <div class="rl-output-label">Related projects</div>
+    <ul class="rl-project-list">
+      <li class="rl-project-tag">The political economy of education privatization (Education International, 2015)</li>
+      <li class="rl-project-tag">Is it Possible to Decommodify Education? (British Academy, 2019–2022)</li>
+      <li class="rl-project-tag">Public-Private Partnerships in Educational Governance (EU FP7, 2013–2017)</li>
+    </ul>
+  </div>
+</div>
+
+<hr class="rl-divider">
+
+<!-- ── 2. School Responses ── -->
+<div class="rl-block" id="school-responses">
+  <div class="rl-header">
+    <span class="rl-number">2</span>
+    <span class="rl-title">Schools' Responses to Market Policies</span>
+  </div>
+  <p class="rl-description">
+    This research strand analyses how schools respond to competitive incentives introduced by market-oriented policies. It has involved developing new analytical frameworks to examine under-theorised phenomena such as schools' marketing strategies, enrolment practices and mechanisms of exclusion.
+  </p>
+  <div class="rl-outputs">
+    <div class="rl-output-label">Selected publications</div>
+    <ul class="rl-pub-list">
+      <li class="rl-pub-item">
+        <a href="https://journals.sagepub.com/doi/epub/10.1177/0895904819881781">Schools in the Marketplace: Analysis of School Supply Responses in the Chilean Education Market</a>
+        <div class="rl-pub-meta">Zancajo (2020) · <em>Educational Policy</em></div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://www.researchgate.net/publication/321063384_Educational_providers_in_the_marketplace_Schools'_marketing_responses_in_Chile">Educational providers in the marketplace: Schools' marketing responses in Chile</a>
+        <div class="rl-pub-meta">Zancajo (2018) · <em>International Journal of Educational Research</em></div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://epaa.asu.edu/index.php/epaa/article/view/4318/2325">Education markets and schools' mechanisms of exclusion: The case of Chile</a>
+        <div class="rl-pub-meta">Zancajo (2019) · <em>Education Policy Analysis Archives</em></div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://www.tandfonline.com/doi/full/10.1080/00220620.2025.2538455">Examining pro-equity redesigns of educational quasi-markets: a mechanism-based approach</a>
+        <div class="rl-pub-meta">Fontdevila &amp; Zancajo (2025) · <em>Journal of Educational Administration and History</em></div>
+      </li>
+    </ul>
+
+    <div class="rl-output-label">Related projects</div>
+    <ul class="rl-project-list">
+      <li class="rl-project-tag">Is it Possible to Decommodify Education? (British Academy, 2019–2022)</li>
+      <li class="rl-project-tag">New quasi-market reforms in Latin America (Spanish Ministry of Science, 2012–2015)</li>
+    </ul>
+  </div>
+</div>
+
+<hr class="rl-divider">
+
+<!-- ── 3. Choice & Segregation ── -->
+<div class="rl-block" id="choice-segregation">
+  <div class="rl-header">
+    <span class="rl-number">3</span>
+    <span class="rl-title">School Choice and School Segregation</span>
+  </div>
+  <p class="rl-description">
+    This strand focuses on the relationship between families' increasing capacity to choose schools, competition among providers and the distribution of students across schools. It analyses how choice policies shape segregation patterns through demand- and supply-side mechanisms, and how desegregation reforms can reconfigure these dynamics.
+  </p>
+  <div class="rl-outputs">
+    <div class="rl-output-label">Selected publications</div>
+    <ul class="rl-pub-list">
+      <li class="rl-pub-item">
+        <a href="https://d1wqtxts1xzle7.cloudfront.net/126225074/Redesigning_choice_to_tackle_school_segregation-libre.pdf?1768468778=&response-content-disposition=inline%3B+filename%3DRedesigning_choice_to_tackle_school_segr.pdf&Expires=1771917759&Signature=bNs9L~IfKXuZ0S~iFmPuYph0MxLly~RM9HjSve2ZniM8DuGVEyzEcgT3xqQittbHzqNYML20P4eSFr2v4xRGmqWqJIix2Q6wpGMiDQuEyQRpHeJdlFgCSVdwrSKXq8O19D-5nSkbAGTqTQ5ZmDXGtY3LrhO4Boph66OYPpRWae2GZ4NT8KmyFGKVyoIRs71SI4QZUitiKRfngD6wy2RKKt-3MhMLZD3bP~88l-EYFWMHpEjIJ-wI1CFXMBmqfBzdd0fZuqqOX39RM0to5iRmmKw3krcCcPkUtou0pgU1cYgqg0UlOE37reOV~v6wXVA4hbP5a3uFR77CG1Nza-59RA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA">Redesigning choice to tackle school segregation</a>
+        <div class="rl-pub-meta">Zancajo, González Motos &amp; Quilabert (2026) · <em>Policy Studies</em></div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://www.researchgate.net/publication/347422570_Education_markets_and_school_segregation_a_mechanism-based_explanation">Education markets and school segregation: a mechanism-based explanation</a>
+        <div class="rl-pub-meta">Zancajo &amp; Bonal (2022) · <em>Compare</em></div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/psp.2542">Opting out of neighbourhood schools: The role of local education markets in student mobility</a>
+        <div class="rl-pub-meta">Scandurra, Zancajo &amp; Bonal (2022) · <em>Population, Space and Place</em></div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://bera-journals.onlinelibrary.wiley.com/doi/epdf/10.1002/berj.3694">Student mobility and school segregation in an (un)controlled choice system</a>
+        <div class="rl-pub-meta">Bonal, Zancajo &amp; Scandurra (2021) · <em>British Educational Research Journal</em></div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://www.researchgate.net/publication/335840990_Residential_segregation_and_school_segregation_of_foreign_students_in_Barcelona">Residential segregation and school segregation of foreign students in Barcelona</a>
+        <div class="rl-pub-meta">Bonal, Zancajo &amp; Scandurra (2019) · <em>Urban Studies</em></div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://www.researchgate.net/publication/313660554_Making_Poor_Choices_Demand_Rationalities_and_School_Choice_in_a_Chilean_Local_Education_Market">Making poor choices? Demand rationalities and school choice in a Chilean local education market</a>
+        <div class="rl-pub-meta">Bonal, Verger &amp; Zancajo (2017) · <em>Journal of School Choice</em></div>
+      </li>
+    </ul>
+
+    <div class="rl-output-label">Related projects</div>
+    <ul class="rl-project-list">
+      <li class="rl-project-tag">School desegregation policies in Barcelona (Municipality of Barcelona, 2022–2024)</li>
+      <li class="rl-project-tag">Effects of Gentrification on Education Inequalities (Spanish Agency of Research, 2023–2026)</li>
+      <li class="rl-project-tag">Equivalence criteria in Barcelona's educational planning (Barcelona Education Consortium, 2017–2018)</li>
+    </ul>
+  </div>
+</div>
+
+<hr class="rl-divider">
+
+<!-- ── 4. Market Regulation ── -->
+<div class="rl-block" id="market-regulation">
+  <div class="rl-header">
+    <span class="rl-number">4</span>
+    <span class="rl-title">Public Regulation of Education Markets</span>
+  </div>
+  <p class="rl-description">
+    This line analyses how education markets are problematised and how regulatory reforms are adopted to improve equity outcomes. It examines models of public subsidies for private schools, the governance of non-state providers and international trends in the regulation of public-private partnerships in education.
+  </p>
+  <div class="rl-outputs">
+    <div class="rl-output-label">Selected publications</div>
+    <ul class="rl-pub-list">
+      <li class="rl-pub-item">
+        <a href="https://www.elgaronline.com/edcollbook/book/9781035311385/9781035311385.xml">Research Handbook on Education Privatization and Marketization</a>
+        <div class="rl-pub-meta">Zancajo, Fontdevila, Jabbar &amp; Verger (Eds.) (2025) · Edward Elgar Publishing</div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://journals.sagepub.com/doi/epub/10.1177/14749041211023339">The instrumentation of public subsidies for private schools</a>
+        <div class="rl-pub-meta">Zancajo, Verger &amp; Fontdevila (2022) · <em>European Educational Research Journal</em></div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://www.tandfonline.com/doi/epdf/10.1080/0161956X.2024.2381393?needAccess=true">Catholic Schools in the Marketplace: Changing and Enduring Religious Identities</a>
+        <div class="rl-pub-meta">Fontdevila, Zancajo &amp; Verger (2024) · <em>Peabody Journal of Education</em></div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://unesdoc.unesco.org/ark:/48223/pf0000380092">Regulating Public-Private Partnerships, governing non-state schools: An equity perspective</a>
+        <div class="rl-pub-meta">Zancajo, Fontdevila, Verger &amp; Bonal (2021) · UNESCO GEM Report Background Paper</div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://fundaciobofill.cat/uploads/docs/d/n/j/97z-laeducacionconcertada_281122_zancajovergerfontdevila.pdf">La educación concertada en España</a>
+        <div class="rl-pub-meta">Zancajo, Verger &amp; Fontdevila (2022) · Fundació Jaume Bofill</div>
+      </li>
+    </ul>
+
+    <div class="rl-output-label">Related projects</div>
+    <ul class="rl-project-list">
+      <li class="rl-project-tag">Regulating PPPs, governing non-state schools (UNESCO, 2020)</li>
+      <li class="rl-project-tag">The model of private subsidised education under debate (Fundació Bofill, 2019–2020)</li>
+      <li class="rl-project-tag">Educational Inequalities and PPPs in Colombian Education (OSF, 2015–2016)</li>
+    </ul>
+  </div>
+</div>
+
+<hr class="rl-divider">
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- AREA: OTHER RESEARCH AREAS                             -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="rl-area-label">Other Research Areas</div>
+
+<!-- ── 5. Vocational Education ── -->
+<div class="rl-block" id="vocational-education">
+  <div class="rl-header">
+    <span class="rl-number">5</span>
+    <span class="rl-title">Vocational Education and Training</span>
+  </div>
+  <p class="rl-description">
+    This line analyses the political economy of vocational education and training (VET) policies, with a focus on Chile and Catalonia. It explores the institutional configuration of VET systems, their relationship with labour market outcomes, and how development paradigms shape policy reforms in this field.
+  </p>
+  <div class="rl-outputs">
+    <div class="rl-output-label">Selected publications</div>
+    <ul class="rl-pub-list">
+      <li class="rl-pub-item">
+        <a href="https://www.tandfonline.com/doi/epdf/10.1080/13636820.2021.1973543?needAccess=true">Understanding aspirations: why do secondary TVET students aim so high in Chile?</a>
+        <div class="rl-pub-meta">Aldinucci, Valiente, Hurrell &amp; Zancajo (2023) · <em>Journal of Vocational Education &amp; Training</em></div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://www.tandfonline.com/doi/epdf/10.1080/13636820.2020.1833076?needAccess=true">Development paradigms in the institutional configuration of VET in Chile (1964–2005)</a>
+        <div class="rl-pub-meta">Valiente, Sepúlveda &amp; Zancajo (2021) · <em>Journal of Vocational Education &amp; Training</em></div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://www.tandfonline.com/doi/epdf/10.1080/13636820.2018.1548500?needAccess=true">TVET policy reforms in Chile 2006–2018: between human capital and the right to education</a>
+        <div class="rl-pub-meta">Zancajo &amp; Valiente (2019) · <em>Journal of Vocational Education &amp; Training</em></div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://www.tandfonline.com/doi/epdf/10.1080/02601370.2019.1678692?needAccess=true">The coordination of skill supply and demand in the market model of skill formation</a>
+        <div class="rl-pub-meta">Valiente, Zancajo &amp; Jacovkis (2020) · <em>International Journal of Lifelong Education</em></div>
+      </li>
+    </ul>
+
+    <div class="rl-output-label">Related projects</div>
+    <ul class="rl-project-list">
+      <li class="rl-project-tag">Governing educational and labour market trajectories of secondary TVET graduates in Chile (RCUK Newton Fund, 2016–2019)</li>
+      <li class="rl-project-tag">TVET and Employment in Catalonia (Fundació Bofill, 2012)</li>
+    </ul>
+  </div>
+</div>
+
+<hr class="rl-divider">
+
+<!-- ── 6. Educational Inequalities ── -->
+<div class="rl-block" id="inequalities">
+  <div class="rl-header">
+    <span class="rl-number">6</span>
+    <span class="rl-title">Educational Inequalities</span>
+  </div>
+  <p class="rl-description">
+    This research area examines how educational policies and institutional arrangements shape inequality in educational outcomes and trajectories. It includes work on educational differentiation, school dropout, and the impact of socio-spatial dynamics on educational opportunity, with a particular focus on Catalonia and Spain.
+  </p>
+  <div class="rl-outputs">
+    <div class="rl-output-label">Selected publications</div>
+    <ul class="rl-pub-list">
+      <li class="rl-pub-item">
+        <a href="https://journals.sagepub.com/doi/epub/10.1177/1474904115592489">Educational differentiation policies and the performance of disadvantaged students across OECD countries</a>
+        <div class="rl-pub-meta">Castejón &amp; Zancajo (2015) · <em>European Educational Research Journal</em></div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://fundaciobofill.cat/uploads/docs/a/k/2/nbn-abandonamentbatxcicleformatius_061124.pdf">L'abandonament al batxillerat i als cicles formatius de grau mitjà</a>
+        <div class="rl-pub-meta">Zancajo &amp; Bueno (2024) · Fundació Jaume Bofill</div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://fundaciobofill.cat/uploads/docs/w/b/l/15d-abandonament_zancajobueno020523.pdf">L'abandonament a 4t d'ESO: les desigualtats en la transició a l'educació postobligatòria</a>
+        <div class="rl-pub-meta">Zancajo &amp; Bueno (2023) · Fundació Jaume Bofill</div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://epaa.asu.edu/index.php/epaa/article/view/8031/3120">Regional policy trajectories in the Spanish education system</a>
+        <div class="rl-pub-meta">Bonal, Pagès, Verger &amp; Zancajo (2023) · <em>Education Policy Analysis Archives</em></div>
+      </li>
+    </ul>
+
+    <div class="rl-output-label">Related projects</div>
+    <ul class="rl-project-list">
+      <li class="rl-project-tag">Effects of Gentrification on Education Inequalities (Spanish Agency of Research, 2023–2026)</li>
+      <li class="rl-project-tag">Teacher attraction, retention, and stratification (Fecyt, 2024–2026)</li>
+      <li class="rl-project-tag">PISA 2012 in Catalonia (Fundació Bofill, 2014)</li>
+    </ul>
+  </div>
+</div>
+
+<hr class="rl-divider">
+
+<!-- ── 7. Education & Development ── -->
+<div class="rl-block" id="education-development">
+  <div class="rl-header">
+    <span class="rl-number">7</span>
+    <span class="rl-title">Education and Development</span>
+  </div>
+  <p class="rl-description">
+    This line addresses the intersection of education, development agendas and global governance. It examines the role of international organisations in promoting education reform, the effects of the Covid-19 pandemic on education systems, and the formulation of global education indicators and frameworks.
+  </p>
+  <div class="rl-outputs">
+    <div class="rl-output-label">Selected publications</div>
+    <ul class="rl-pub-list">
+      <li class="rl-pub-item">
+        <a href="https://academic.oup.com/policyandsociety/article-pdf/41/1/111/46878820/puab016.pdf">Digitalization and beyond: the effects of Covid-19 on post-pandemic educational policy and delivery in Europe</a>
+        <div class="rl-pub-meta">Zancajo, Verger &amp; Bolea (2022) · <em>Policy and Society</em></div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://www.bloomsburycollections.com/monograph-detail?docid=b-9781350520554&tocid=b-9781350520554-chapter3">Education Policies amid Covid-19. Long-Term responses in Europe</a>
+        <div class="rl-pub-meta">Verger &amp; Zancajo (2026) · In Azaola (Ed.), Bloomsbury Academic</div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://www.thebritishacademy.ac.uk/documents/3226/COVID-decade-The-impact-on-education-Rapid-review-Adrian-Zancajo-Glasgow.pdf">The impact of the Covid-19 pandemic on education. Rapid review of the literature</a>
+        <div class="rl-pub-meta">Zancajo (2021) · British Academy 'COVID-19 and Society' project</div>
+      </li>
+      <li class="rl-pub-item">
+        <a href="https://www.opensocietyfoundations.org/sites/default/files/verger-indicatiors-broad-bold-20150520.pdf">Indicators for a Broad and Bold Post-2015 Agenda</a>
+        <div class="rl-pub-meta">Verger, Bonal &amp; Zancajo (2015) · Open Society Foundations</div>
+      </li>
+    </ul>
+
+    <div class="rl-output-label">Related projects</div>
+    <ul class="rl-project-list">
+      <li class="rl-project-tag">The measure of educational development (UNESCO-IIEP, 2011)</li>
+      <li class="rl-project-tag">Formulating Potential Indicators for a Broad and Bold Global Education Agenda (OSF, 2015)</li>
+    </ul>
+  </div>
+</div>
+```
