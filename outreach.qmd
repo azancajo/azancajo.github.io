@@ -264,6 +264,11 @@ format:
   <ul class="out-list">
     
     <li class="out-item">
+      <div><a class="out-title-link" href="https://www.youtube.com/live/Mb5f5Z6YoEA?si=BppE51j9bxCJ4XoJ&t=247">Abandonament als CFGM: què podem fer diferent?</a></div>
+      <div class="out-meta">Webinar organised by Mentora and Equitat.org · May 15, 2026</div>
+    </li>
+    
+    <li class="out-item">
       <div><a class="out-title-link" href="https://www.youtube.com/watch?v=XoItjKpeoLQ">Per què deixen d'estudiar?</a></div>
       <div class="out-meta">Webinar organised by Fundació Bofill · May 26, 2025</div>
     </li>
