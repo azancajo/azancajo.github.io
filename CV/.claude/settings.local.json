@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:azancajo.github.io)",
+      "Bash(quarto render *)",
+      "Bash(tlmgr install *)",
+      "Bash(kpsewhich academicons.sty)",
+      "Read(//Library/TeX/**)",
+      "Bash(lualatex --version)",
+      "Bash(curl -s https://azancajo.github.io/)",
+      "Bash(quarto tinytex *)",
+      "Bash(~/Library/TinyTeX/bin/universal-darwin/tlmgr --version)",
+      "Bash(~/Library/TinyTeX/bin/universal-darwin/tlmgr install *)",
+      "Bash(curl -sL \"https://mirrors.ctan.org/fonts/academicons.zip\" -o /tmp/academicons.zip)",
+      "Read(//private/tmp/**)",
+      "Bash(unzip -o /tmp/academicons.zip -d /tmp/academicons-pkg)",
+      "Bash(~/Library/TinyTeX/bin/universal-darwin/kpsewhich *)",
+      "Bash(python3 *)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(brew list *)",
+      "Bash(brew install *)",
+      "Bash(pandoc cover_letter_PolicyStudies.md -o cover_letter_PolicyStudies.docx)"
+    ]
+  }
+}

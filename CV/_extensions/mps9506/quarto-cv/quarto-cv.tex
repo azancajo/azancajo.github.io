@@ -92,17 +92,23 @@ $endfor$
 % Custom section fonts
 \usepackage{sectsty}
 \sectionfont{\rmfamily\mdseries\large\bf}
-\subsectionfont{\rmfamily\mdseries\normalsize\scshape}
+\subsectionfont{\rmfamily\mdseries\normalsize\itshape}
 
 
 % Make lists without bullets
 \renewenvironment{itemize}{
   \begin{list}{}{
     \setlength{\leftmargin}{1.5em}
+    \setlength{\itemsep}{2pt}
+    \setlength{\parsep}{0pt}
   }
 }{
   \end{list}
 }
+
+% Match enumerate spacing
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=2pt,parsep=0pt,leftmargin=2em}
 
 
 % Make parskips rather than indent with lists.
@@ -159,7 +165,7 @@ $endif$
 % ^ removed from that front bar.
 
 \usepackage{orcidlink}
-%\usepackage{academicons}
+\usepackage{academicons}
 %\definecolor{orcidlogocol}{HTML}{A6CE39}
 % \newcommand{\orcid}[1]{\href{https://orcid.org/#1}{\textcolor[HTML]{A6CE39}{\aiOrcid}}}
 
@@ -176,7 +182,9 @@ $endif$
 
 $if(jobtitle)$\moveleft.5\hoffset\centerline{$jobtitle$}$endif$
 $if(address)$\moveleft.5\hoffset\centerline{$address$}$endif$
-\moveleft.5\hoffset\centerline{ $if(email)$$if(fontawesome)$\faEnvelope \hspace{1 mm}$else$\emph{E-mail:}$endif$ \href{mailto:}{\tt $email$} \hspace{1 mm}$endif$ $if(phone)$$if(fontawesome)$ \faPhone \hspace{1 mm}$else$\emph{Phone:}$endif$  $phone$  \hspace{1 mm} $endif$ $if(github)$$if(fontawesome)$\faGithub \hspace{1 mm}$else$\emph{Github:}$endif$ \href{http://github.com/$github$}{\tt $github$} \hspace{1 mm} $endif$  $if(twitter)$$if(fontawesome)$\faTwitter \hspace{1 mm}$else$\emph{Twitter:}$endif$ \href{https:/twitter.com/$twitter$}{\tt $twitter$} \hspace{1 mm} $endif$ $if(osf)$$if(fontawesome)$\faUnlock \hspace{1 mm}$else$\emph{osf:}$endif$ \href{https:/osf.io/$osf$}{\tt osf.io/$osf$} \hspace{1 mm} $endif$ $if(orcid)$$if(fontawesome)$\orcidlink{$orcid$} \hspace{.5 mm}$else$\emph{ORCID:}$endif$ \href{https://orcid.org/$orcid$}{\tt $orcid$} \hspace{1 mm} $endif$ $if(web)$$if(fontawesome)$\faGlobe \hspace{1 mm}$else$\emph{Web:}$endif$ \href{http://$web$}{\tt $web$}  $endif$ $if(kaggle)$$if(fontawesome)$\faKaggle \hspace{1 mm}$else$\emph{Kaggle:}$endif$ \href{http://kaggle.com/$kaggle$}{\tt $kaggle$} \hspace{1 mm} $endif$   $if(updated)$ | \emph{Updated:} $if(rdateformat)$$rdateformat$$else$\apstylekinda\today$endif$$endif$}
+\moveleft.5\hoffset\centerline{ $if(email)$$if(fontawesome)$\faEnvelope \hspace{1 mm}$else$\emph{E-mail:}$endif$ \href{mailto:}{\tt $email$} \hspace{1 mm}$endif$ $if(phone)$$if(fontawesome)$ \faPhone \hspace{1 mm}$else$\emph{Phone:}$endif$  $phone$  \hspace{1 mm} $endif$ $if(github)$$if(fontawesome)$\faGithub \hspace{1 mm}$else$\emph{Github:}$endif$ \href{http://github.com/$github$}{\tt $github$} \hspace{1 mm} $endif$  $if(twitter)$$if(fontawesome)$\faTwitter \hspace{1 mm}$else$\emph{Twitter:}$endif$ \href{https:/twitter.com/$twitter$}{\tt $twitter$} \hspace{1 mm} $endif$ $if(linkedin)$$if(fontawesome)$\faLinkedin \hspace{1 mm}$else$\emph{LinkedIn:}$endif$ \href{https://linkedin.com/in/$linkedin$}{\tt $linkedin$} \hspace{1 mm} $endif$ $if(osf)$$if(fontawesome)$\faUnlock \hspace{1 mm}$else$\emph{osf:}$endif$ \href{https:/osf.io/$osf$}{\tt osf.io/$osf$} \hspace{1 mm} $endif$ $if(orcid)$$if(fontawesome)$\orcidlink{$orcid$} \hspace{.5 mm}$else$\emph{ORCID:}$endif$ \href{https://orcid.org/$orcid$}{\tt $orcid$} \hspace{1 mm} $endif$ $if(web)$$if(fontawesome)$\faGlobe \hspace{1 mm}$else$\emph{Web:}$endif$ \href{http://$web$}{\tt $web$}  $endif$ $if(kaggle)$$if(fontawesome)$\faKaggle \hspace{1 mm}$else$\emph{Kaggle:}$endif$ \href{http://kaggle.com/$kaggle$}{\tt $kaggle$} \hspace{1 mm} $endif$   $if(updated)$ | \emph{Updated:} $if(rdateformat)$$rdateformat$$else$\apstylekinda\today$endif$$endif$}
+
+\moveleft.5\hoffset\centerline{ $if(gscholar)$\aiGoogleScholar \hspace{1 mm} \href{https://scholar.google.com/citations?user=$gscholar$}{\tt Google Scholar} \hspace{3 mm} $endif$ $if(academia)$\aiAcademiaSquare \hspace{1 mm} \href{https://$academia$}{\tt Academia.edu} \hspace{3 mm} $endif$ $if(researchgate)$\aiResearchGateSquare \hspace{1 mm} \href{https://www.researchgate.net/profile/$researchgate$}{\tt ResearchGate} \hspace{1 mm} $endif$}
 
 
 

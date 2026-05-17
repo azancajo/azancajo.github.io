@@ -142,6 +142,16 @@ toc: false
 <ul class="pub-list" id="pubList">
 
   <!-- 2026 -->
+  
+   <li class="pub-item" data-type="report" data-year="2026">
+    <div>
+      <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2026</span></div>
+      <a class="pub-title-link" href="https://www.equitat.org/app/uploads/2026/05/Abandonament_escolar_secundaria140526.pdf" target="_blank" rel="noopener">L’abandonament escolar a secundària. Radiografia d'un estancament</a>
+      <div class="pub-authors">Zancajo, A., &amp; Bueno, C.</div>
+      <div class="pub-venue">Equitat.org</div>
+    </div>
+  </li>
+  
   <li class="pub-item" data-type="article" data-year="2026">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2026</span></div>

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"import requests\")",
+      "Bash(pip3 install *)",
+      "Bash(python3 scripts/update_citations.py)",
+      "Bash(git checkout *)",
+      "Bash(rm -f scripts/update_citations.py .github/workflows/update-citations.yml)",
+      "Bash(rmdir scripts *)"
+    ]
+  }
+}

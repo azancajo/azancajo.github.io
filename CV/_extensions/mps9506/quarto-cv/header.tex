@@ -1,0 +1,17 @@
+% TODO: Add custom LaTeX header directives here
+
+% Push CSL bibliography numbers right + tighten gap between number and entry
+\AtBeginDocument{%
+  \setlength{\csllabelwidth}{1.6em}%
+  \renewenvironment{CSLReferences}[2]%
+    {\begin{list}{}{%
+      \setlength{\itemindent}{0pt}%
+      \setlength{\leftmargin}{2em}%
+      \setlength{\parsep}{0pt}%
+      \ifodd #1%
+        \setlength{\leftmargin}{\dimexpr2em+\cslhangindent\relax}%
+        \setlength{\itemindent}{-1\cslhangindent}%
+      \fi%
+      \setlength{\itemsep}{\dimexpr #2\baselineskip + 2pt\relax}}}%
+    {\end{list}}%
+}
