@@ -98,7 +98,7 @@ $endfor$
 % Make lists without bullets
 \renewenvironment{itemize}{
   \begin{list}{}{
-    \setlength{\leftmargin}{1.5em}
+    \setlength{\leftmargin}{2em}
     \setlength{\itemsep}{2pt}
     \setlength{\parsep}{0pt}
   }
@@ -108,7 +108,8 @@ $endfor$
 
 % Match enumerate spacing
 \usepackage{enumitem}
-\setlist[enumerate]{itemsep=2pt,parsep=0pt,leftmargin=2em}
+\setlist[enumerate]{itemsep=2pt,parsep=0pt,leftmargin=2em,labelindent=0.5em,align=left,labelwidth=1em,labelsep=0.5em}
+\setlist[itemize]{itemsep=6pt,parsep=0pt,leftmargin=2em,labelindent=0.5em,align=left,labelwidth=1em,labelsep=0.5em}
 
 
 % Make parskips rather than indent with lists.

@@ -1,16 +1,16 @@
 % TODO: Add custom LaTeX header directives here
+\usepackage{array}
 
-% Push CSL bibliography numbers right + tighten gap between number and entry
+% Align CSL bibliography with enumerate lists (leftmargin=2em)
 \AtBeginDocument{%
-  \setlength{\csllabelwidth}{1.6em}%
+  \setlength{\csllabelwidth}{1.5em}%
   \renewenvironment{CSLReferences}[2]%
     {\begin{list}{}{%
       \setlength{\itemindent}{0pt}%
       \setlength{\leftmargin}{2em}%
       \setlength{\parsep}{0pt}%
       \ifodd #1%
-        \setlength{\leftmargin}{\dimexpr2em+\cslhangindent\relax}%
-        \setlength{\itemindent}{-1\cslhangindent}%
+        \setlength{\itemindent}{-1.5em}%
       \fi%
       \setlength{\itemsep}{\dimexpr #2\baselineskip + 2pt\relax}}}%
     {\end{list}}%
