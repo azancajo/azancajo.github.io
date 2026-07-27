@@ -9,7 +9,19 @@
       "Bash(rm -f scripts/update_citations.py .github/workflows/update-citations.yml)",
       "Bash(rmdir scripts *)",
       "Bash(quarto --version)",
-      "Bash(quarto render *)"
+      "Bash(quarto render *)",
+      "Read(//usr/local/bin/**)",
+      "Read(//Applications/RStudio.app/Contents/Resources/app/quarto/bin/**)",
+      "Bash(timeout 400 /Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto render CV.qmd)",
+      "Bash(/Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto render *)",
+      "Read(//Users/adrianzancajo/Library/CloudStorage/GoogleDrive-adrian.zancajo@gmail.com/My Drive/Website/azancajo.github.io/docs/CV/**)",
+      "Bash(pdftotext CV.pdf -)",
+      "Bash(git diff *)",
+      "Bash(sed 's/<key macro=\"date-sort-group\" sort=\"descending\"\\\\/>/<key macro=\"date-sort-group\"\\\\/>/; s/<key variable=\"issued\" sort=\"descending\"\\\\/>/<key variable=\"issued\"\\\\/>/' apa-cv-numbered.csl)",
+      "Bash(pandoc t.md -t plain --citeproc --csl=asc.csl --bibliography=t.bib)",
+      "Bash(pandoc t.md -t native --citeproc --csl=apa-cv-numbered.csl --bibliography=t.bib)",
+      "Bash(awk '/^Articles in peer-reviewed/{s=\"peer\"} /^Books$/{s=\"books\"} /^Book chapters$/{s=\"chapters\"} /^Policy reports/{s=\"reports\"} /^Research projects/{s=\"\"} s && match\\($0,/^[0-9]+\\\\. /\\){printf \"%s %s\\\\n\", s, substr\\($0,1,RLENGTH-2\\)}')",
+      "Bash(awk '{a[$1]=a[$1]\" \"$2} END{for\\(k in a\\) print k\":\"a[k]}')"
     ]
   }
 }

@@ -27,6 +27,8 @@ bibliography:
   reports: reports_and_working_papers.bib
 validate-yaml: false
 csl: apa-cv-numbered.csl
+filters:
+  - renumber-refs.lua
 ---
 
 # Education
