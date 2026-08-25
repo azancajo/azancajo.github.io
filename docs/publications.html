@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d11ecab9ed13fa79bde0a35b40315207.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-8f53892ffe1685dd32b39220f8e62dc2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -192,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
 .pub-search:focus { border-color: #111; }
 .pub-count {
   font-size: 0.8rem;
-  color: #bbb;
+  color: #767676;
   margin-top: 0.5rem;
   margin-bottom: 0;
   letter-spacing: 0.02em;
@@ -222,30 +225,30 @@ ul.task-list li input[type="checkbox"] {
 }
 .pub-icon {
   font-size: 0.75rem;
-  color: #black;
+  color: #000;
 }
 .pub-badge {
   font-size: 0.64rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.09em;
-  color: #black;
+  color: #000;
 }
 /* Override coloured badges — keep classes for JS targeting */
 .badge-article, .badge-book, .badge-chapter, .badge-report {
   background: none;
-  color: #black;
+  color: #000;
   padding: 0;
   border-radius: 0;
 }
 .pub-sep {
   font-size: 0.65rem;
-  color: #black;
+  color: #000;
   user-select: none;
 }
 .pub-year {
   font-size: 0.75rem;
-  color: #black;
+  color: #000;
   font-weight: 500;
 }
 .pub-title-link {
@@ -267,11 +270,72 @@ ul.task-list li input[type="checkbox"] {
 }
 .pub-venue {
   font-size: 0.875rem;
-  color: #black;
+  color: #000;
   font-style: italic;
   margin-top: 0.06rem;
 }
 .pub-hidden { display: none; }
+
+/* Topic filter row */
+.filter-group-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid #eee;
+}
+.filter-label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #767676;
+  margin-right: 0.3rem;
+}
+.topic-btn {
+  border: 1px solid #e0e0e0;
+  background: #fafafa;
+  border-radius: 2rem;
+  padding: 0.12rem 0.7rem;
+  font-size: 0.74rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: #666;
+  line-height: 1.6;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+.topic-btn:hover:not(.active) { border-color: #999; color: #111; background: #fff; }
+.topic-btn.active { background: #fff; color: #111; border-color: #111; font-weight: 600; }
+.topic-btn .topic-n { color: #aaa; font-weight: 400; margin-left: 0.2rem; }
+.topic-btn.active .topic-n { color: #666; }
+
+/* Topic chips on each publication */
+.pub-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-top: 0.4rem;
+}
+.pub-topic {
+  font-size: 0.68rem;
+  line-height: 1.5;
+  padding: 0.02rem 0.5rem;
+  border-radius: 2rem;
+  border: 1px solid #ececec;
+  background: #f7f7f7;
+  color: #767676;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+.pub-topic:hover { border-color: #111; color: #111; background: #fff; }
+.pub-topic.active { border-color: #111; color: #111; background: #fff; font-weight: 600; }
+
+.pub-empty {
+  padding: 1.5rem 0.75rem;
+  color: #767676;
+  font-size: 0.9rem;
+}
 </style>
 
 <div class="pub-controls">
@@ -282,7 +346,10 @@ ul.task-list li input[type="checkbox"] {
     <button class="filter-btn" data-value="chapter"><i class="bi bi-bookmark"></i>Book Chapters</button>
     <button class="filter-btn" data-value="report"><i class="bi bi-file-earmark-text"></i>Reports &amp; Working Papers</button>
   </div>
-  <input class="pub-search" type="text" id="pubSearch" placeholder="Search by title, author, or journal…" autocomplete="off">
+  <div class="filter-group-topics" id="topicFilters">
+    <span class="filter-label">Topics</span>
+  </div>
+  <input class="pub-search" type="text" id="pubSearch" placeholder="Search by title, author, journal, or topic…" autocomplete="off">
   <p class="pub-count" id="pubCount"></p>
 </div>
 
@@ -290,7 +357,7 @@ ul.task-list li input[type="checkbox"] {
 
   <!-- 2026 -->
   
-   <li class="pub-item" data-type="report" data-year="2026">
+   <li class="pub-item" data-type="report" data-year="2026" data-topics="dropout inequality">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2026</span></div>
       <a class="pub-title-link" href="https://www.equitat.org/app/uploads/2026/05/Abandonament_escolar_secundaria140526.pdf" target="_blank" rel="noopener">L’abandonament escolar a secundària. Radiografia d'un estancament</a>
@@ -299,7 +366,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
   
-  <li class="pub-item" data-type="article" data-year="2026">
+  <li class="pub-item" data-type="article" data-year="2026" data-topics="segregation markets governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2026</span></div>
       <a class="pub-title-link" href="https://www.researchgate.net/publication/399791527_Redesigning_choice_to_tackle_school_segregation_The_impact_of_Barcelona's_desegregation_policies?_sg%5B0%5D=z_v3lYyr6qKCETNwFbHpZuj9Bz45wJkFEtr1P50aUcERU4HCXgQiyqb1e5NjYY_LFa65fOKDt1li10vd3HI7ABqQHAe0ZTpzdFVF-gqs.WWeo0fmMguMYRdz2K0SYn0y_Awh8Olek7rhI1FXMm3futQyn_NcJSJq4wPsCmkPGRelspmO3yw0t3d_sdfKT2Q&amp;_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoicHJvZmlsZSIsInByZXZpb3VzUGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19" target="_blank" rel="noopener">Redesigning choice to tackle school segregation: the impact of Barcelona's desegregation policies</a>
@@ -308,7 +375,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="chapter" data-year="2026">
+  <li class="pub-item" data-type="chapter" data-year="2026" data-topics="markets segregation inequality">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-chapter">Chapter</span><span class="pub-year">2026</span></div>
       <a class="pub-title-link" href="https://www.researchgate.net/publication/400050856_Education_markets_and_socio-spatial_inequalities_the_role_of_geography" target="_blank" rel="noopener">Education markets and socio-spatial inequalities: the role of geography</a>
@@ -317,7 +384,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="chapter" data-year="2026">
+  <li class="pub-item" data-type="chapter" data-year="2026" data-topics="covid governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-chapter">Chapter</span><span class="pub-year">2026</span></div>
       <a class="pub-title-link" href="https://www.bloomsburycollections.com/monograph-detail?docid=b-9781350520554&amp;tocid=b-9781350520554-chapter3" target="_blank" rel="noopener">Education Policies amid Covid-19: Long-Term responses in Europe</a>
@@ -327,7 +394,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
 
   <!-- 2025 -->
-  <li class="pub-item" data-type="article" data-year="2025">
+  <li class="pub-item" data-type="article" data-year="2025" data-topics="markets governance inequality">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2025</span></div>
       <a class="pub-title-link" href="https://www.tandfonline.com/doi/full/10.1080/00220620.2025.2538455" target="_blank" rel="noopener">Examining pro-equity redesigns of educational quasi-markets: a mechanism-based approach to their effects</a>
@@ -336,7 +403,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="book" data-year="2025">
+  <li class="pub-item" data-type="book" data-year="2025" data-topics="privatization markets">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-book">Book</span><span class="pub-year">2025</span></div>
       <a class="pub-title-link" href="https://www.elgaronline.com/edcollbook/book/9781035311385/9781035311385.xml" target="_blank" rel="noopener">Research handbook on education privatization and marketization</a>
@@ -345,7 +412,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="chapter" data-year="2025">
+  <li class="pub-item" data-type="chapter" data-year="2025" data-topics="privatization markets">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-chapter">Chapter</span><span class="pub-year">2025</span></div>
       <a class="pub-title-link" href="https://www.elgaronline.com/edcollchap/book/9781035311385/chapter1.xml" target="_blank" rel="noopener">Education privatization and marketization: New spaces and research directions</a>
@@ -354,7 +421,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="chapter" data-year="2025">
+  <li class="pub-item" data-type="chapter" data-year="2025" data-topics="privatization markets">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-chapter">Chapter</span><span class="pub-year">2025</span></div>
       <a class="pub-title-link" href="https://www.researchgate.net/publication/389833614_Taking_stock_looking_ahead_new_developments_and_approaches_to_education_privatization_and_marketization_research" target="_blank" rel="noopener">Taking stock, looking ahead: new developments and approaches to education privatization and marketization research</a>
@@ -363,7 +430,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="report" data-year="2025">
+  <li class="pub-item" data-type="report" data-year="2025" data-topics="segregation governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2025</span></div>
       <a class="pub-title-link" href="https://fundaciobofill.cat/uploads/docs/6/m/r/wh0-politiquesdesegregacioescolarabarcelona_adriazacncajo_2aed.pdf" target="_blank" rel="noopener">Les polítiques de desegregació escolar a Barcelona: avenços i reptes pendents</a>
@@ -372,7 +439,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="report" data-year="2025">
+  <li class="pub-item" data-type="report" data-year="2025" data-topics="segregation governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2025</span></div>
        <a class="pub-title-link" href="https://www.researchgate.net/publication/398815733_Estudi_de_l%27impacte_de_la_zonificacio_escolar_a_Tarragona" target="_blank" rel="noopener">Estudi de l'impacte de la zonificació escolar a Tarragona</a>
@@ -382,7 +449,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
 
   <!-- 2024 -->
-  <li class="pub-item" data-type="article" data-year="2024">
+  <li class="pub-item" data-type="article" data-year="2024" data-topics="privatization markets">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2024</span></div>
       <a class="pub-title-link" href="https://www.tandfonline.com/doi/epdf/10.1080/0161956X.2024.2381393?needAccess=true" target="_blank" rel="noopener">Catholic Schools in the Marketplace: Changing and Enduring Religious Identities</a>
@@ -391,16 +458,16 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
   
-  <li class="pub-item" data-type="report" data-year="2024">
+  <li class="pub-item" data-type="report" data-year="2024" data-topics="dropout vet">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2024</span></div>
-      <a class="pub-title-link" href="https://fundaciobofill.cat/uploads/docs/v/3/a/zac-early-leaving310725_2.pdf" target="_blank" rel="noopener">Dropping out in Academicand Vocational Upper SecondaryEducation</a>
+      <a class="pub-title-link" href="https://fundaciobofill.cat/uploads/docs/v/3/a/zac-early-leaving310725_2.pdf" target="_blank" rel="noopener">Dropping out in Academic and Vocational Upper Secondary Education</a>
       <div class="pub-authors">Zancajo, A., &amp; Bueno, C.</div>
       <div class="pub-venue">Fundació Jaume Bofill, Barcelona</div>
     </div>
   </li>
 
-  <li class="pub-item" data-type="book" data-year="2024">
+  <li class="pub-item" data-type="book" data-year="2024" data-topics="dropout vet">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-book">Book</span><span class="pub-year">2024</span></div>
       <a class="pub-title-link" href="https://fundaciobofill.cat/uploads/docs/a/k/2/nbn-abandonamentbatxcicleformatius_061124.pdf" target="_blank" rel="noopener">L'abandonament al batxillerat i als cicles formatius de grau mitjà</a>
@@ -409,16 +476,16 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="chapter" data-year="2024">
+  <li class="pub-item" data-type="chapter" data-year="2024" data-topics="vet markets">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-chapter">Chapter</span><span class="pub-year">2024</span></div>
-      <a class="pub-title-link" href="https://www.routledge.com/Lifelong-Education-Policies-in-Europe-and-Latin-America/Rambla-Milana/p/book/9781032651842" target="_blank" rel="nonopener">The coordination of skill supply and demand in the market model of skill formation: testing the assumptions for the case of Chile</a>
+      <a class="pub-title-link" href="https://www.routledge.com/Lifelong-Education-Policies-in-Europe-and-Latin-America/Rambla-Milana/p/book/9781032651842" target="_blank" rel="noopener">The coordination of skill supply and demand in the market model of skill formation: testing the assumptions for the case of Chile</a>
       <div class="pub-authors">Valiente, O., Zancajo, A., &amp; Jacovkis, J.</div>
       <div class="pub-venue">In <em>Lifelong Education Policies in Europe and Latin America</em> (pp. 90–103). Routledge.</div>
     </div>
   </li>
 
-  <li class="pub-item" data-type="report" data-year="2024">
+  <li class="pub-item" data-type="report" data-year="2024" data-topics="governance global">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2024</span></div>
       <a class="pub-title-link" href="https://nepc.colorado.edu/review/learning" target="_blank" rel="noopener">NEPC Review: Spark &amp; Sustain — How All the World's School Systems Can Improve Learning at Scale</a>
@@ -428,7 +495,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
 
   <!-- 2023 -->
-  <li class="pub-item" data-type="article" data-year="2023">
+  <li class="pub-item" data-type="article" data-year="2023" data-topics="governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2023</span></div>
       <a class="pub-title-link" href="https://epaa.asu.edu/index.php/epaa/article/view/8031/3120" target="_blank" rel="noopener">Regional policy trajectories in the Spanish education system: Different uses of relative autonomy</a>
@@ -437,7 +504,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2023">
+  <li class="pub-item" data-type="article" data-year="2023" data-topics="vet inequality">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2023</span></div>
       <a class="pub-title-link" href="https://www.tandfonline.com/doi/epdf/10.1080/13636820.2021.1973543?needAccess=true" target="_blank" rel="noopener">Understanding aspirations: why do secondary TVET students aim so high in Chile?</a>
@@ -446,7 +513,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="book" data-year="2023">
+  <li class="pub-item" data-type="book" data-year="2023" data-topics="dropout inequality">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-book">Book</span><span class="pub-year">2023</span></div>
       <a class="pub-title-link" href="https://fundaciobofill.cat/uploads/docs/w/b/l/15d-abandonament_zancajobueno020523.pdf" target="_blank" rel="noopener">L'abandonament a 4t d'ESO: les desigualtats en la transició a l'educació postobligatòria</a>
@@ -455,7 +522,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="chapter" data-year="2023">
+  <li class="pub-item" data-type="chapter" data-year="2023" data-topics="global governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-chapter">Chapter</span><span class="pub-year">2023</span></div>
       <a class="pub-title-link" href="https://www.researchgate.net/publication/365585540_The_World_Bank_and_education_in_a_changing_global_arena" target="_blank" rel="noopener">The World Bank and education in a changing global arena</a>
@@ -464,7 +531,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="chapter" data-year="2023">
+  <li class="pub-item" data-type="chapter" data-year="2023" data-topics="privatization governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-chapter">Chapter</span><span class="pub-year">2023</span></div>
       <a class="pub-title-link" href="https://www.researchgate.net/publication/365607858_The_privatization_of_education_Drivers_social_effects_and_regulatory_challenges_of_private_sector_participation_in_schooling" target="_blank" rel="noopener">The privatization of education: Drivers, social effects and regulatory challenges of private sector participation in schooling</a>
@@ -473,7 +540,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="chapter" data-year="2023">
+  <li class="pub-item" data-type="chapter" data-year="2023" data-topics="markets segregation">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-chapter">Chapter</span><span class="pub-year">2023</span></div>
       <a class="pub-title-link" href="https://www.researchgate.net/publication/372472164_Markets_in_Education_and_School_Segregation_Paths_of_Problematization_and_Reform" target="_blank" rel="noopener">Markets in Education and School Segregation: Paths of Problematization and Reform</a>
@@ -482,7 +549,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="report" data-year="2023">
+  <li class="pub-item" data-type="report" data-year="2023" data-topics="inequality segregation">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2023</span></div>
       <a class="pub-title-link" href="https://www.researchgate.net/publication/369184660_Desigualdades_socioespaciales_en_la_educacion_en_Euskadi" target="_blank" rel="noopener">Desigualdades socioespaciales en la educación en Euskadi</a>
@@ -491,26 +558,26 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="report" data-year="2023">
+  <li class="pub-item" data-type="report" data-year="2023" data-topics="privatization governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2023</span></div>
-      <a class="pub-title-link" href="https://www.academia.edu/122370818/Governing_Public_Private_Partnerships_in_Education_Contemporary_Debates_and_Pro_Equity_Regulatory_Trends" target="_blank" rel="noopener">Governing Public-Private Partnerships in Education: Contemporary Debates and Pro-Equity Regulatory Trends
+      <a class="pub-title-link" href="https://www.academia.edu/122370818/Governing_Public_Private_Partnerships_in_Education_Contemporary_Debates_and_Pro_Equity_Regulatory_Trends" target="_blank" rel="noopener">Governing Public-Private Partnerships in Education: Contemporary Debates and Pro-Equity Regulatory Trends</a>
       <div class="pub-authors">Verger, A., Fontdevila, C., &amp; Zancajo, A.</div>
       <div class="pub-venue"></div>
-    </a></div><a class="pub-title-link" href="https://www.academia.edu/122370818/Governing_Public_Private_Partnerships_in_Education_Contemporary_Debates_and_Pro_Equity_Regulatory_Trends" target="_blank" rel="noopener">
-  </a></li><a class="pub-title-link" href="https://www.academia.edu/122370818/Governing_Public_Private_Partnerships_in_Education_Contemporary_Debates_and_Pro_Equity_Regulatory_Trends" target="_blank" rel="noopener">
+    </div>
+  </li>
 
   <!-- 2022 -->
-  </a><li class="pub-item" data-type="article" data-year="2022"><a class="pub-title-link" href="https://www.academia.edu/122370818/Governing_Public_Private_Partnerships_in_Education_Contemporary_Debates_and_Pro_Equity_Regulatory_Trends" target="_blank" rel="noopener">
-    </a><div><a class="pub-title-link" href="https://www.academia.edu/122370818/Governing_Public_Private_Partnerships_in_Education_Contemporary_Debates_and_Pro_Equity_Regulatory_Trends" target="_blank" rel="noopener">
+  <li class="pub-item" data-type="article" data-year="2022" data-topics="privatization governance inequality">
+    <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2022</span></div>
-      </a><a class="pub-title-link" href="https://journals.sagepub.com/doi/epub/10.1177/14749041211023339" target="_blank" rel="noopener">The instrumentation of public subsidies for private schools: Different regulatory models with concurrent equity implications</a>
+      <a class="pub-title-link" href="https://journals.sagepub.com/doi/epub/10.1177/14749041211023339" target="_blank" rel="noopener">The instrumentation of public subsidies for private schools: Different regulatory models with concurrent equity implications</a>
       <div class="pub-authors">Zancajo, A., Verger, A., &amp; Fontdevila, C.</div>
       <div class="pub-venue">European Educational Research Journal, 21(1), 44–70</div>
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2022">
+  <li class="pub-item" data-type="article" data-year="2022" data-topics="privatization governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2022</span></div>
       <a class="pub-title-link" href="https://revistas.uam.es/jospoe/article/view/14352/14758" target="_blank" rel="noopener">Las Alianzas Público-Privadas en educación: debates, modelos y horizontes regulativos en los países de la OCDE</a>
@@ -519,7 +586,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2022">
+  <li class="pub-item" data-type="article" data-year="2022" data-topics="markets segregation">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2022</span></div>
       <a class="pub-title-link" href="https://www.researchgate.net/publication/347422570_Education_markets_and_school_segregation_a_mechanism-based_explanation" target="_blank" rel="noopener">Education markets and school segregation: a mechanism-based explanation</a>
@@ -528,7 +595,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2022">
+  <li class="pub-item" data-type="article" data-year="2022" data-topics="markets segregation">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2022</span></div>
       <a class="pub-title-link" href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/psp.2542" target="_blank" rel="noopener">Opting out of neighbourhood schools: The role of local education markets in student mobility</a>
@@ -537,7 +604,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2022">
+  <li class="pub-item" data-type="article" data-year="2022" data-topics="covid governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2022</span></div>
       <a class="pub-title-link" href="https://academic.oup.com/policyandsociety/article-pdf/41/1/111/46878820/puab016.pdf" target="_blank" rel="noopener">Digitalization and beyond: the effects of Covid-19 on post-pandemic educational policy and delivery in Europe</a>
@@ -546,7 +613,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="book" data-year="2022">
+  <li class="pub-item" data-type="book" data-year="2022" data-topics="privatization governance inequality">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-book">Book</span><span class="pub-year">2022</span></div>
       <a class="pub-title-link" href="https://fundaciobofill.cat/uploads/docs/d/n/j/97z-laeducacionconcertada_281122_zancajovergerfontdevila.pdf" target="_blank" rel="noopener">La educación concertada en España: Reformas en clave de equidad desde una perspectiva internacional</a>
@@ -555,7 +622,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="book" data-year="2022">
+  <li class="pub-item" data-type="book" data-year="2022" data-topics="privatization governance inequality">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-book">Book</span><span class="pub-year">2022</span></div>
       <a class="pub-title-link" href="https://fundaciobofill.cat/uploads/docs/v/l/l/lgb-pol90_concertada_040422.pdf" target="_blank" rel="noopener">La concertada a debat: Reformes contra les desigualtats educatives des d'una mirada internacional i comparada</a>
@@ -564,7 +631,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="chapter" data-year="2022">
+  <li class="pub-item" data-type="chapter" data-year="2022" data-topics="privatization global">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-chapter">Chapter</span><span class="pub-year">2022</span></div>
       <a class="pub-title-link" href="https://www.researchgate.net/publication/359603963_Educational_Privatization_Expanding_spaces_and_new_global_regulatory_trends_in_educational_privatization" target="_blank" rel="noopener">Educational Privatization: Expanding spaces and new global regulatory trends</a>
@@ -574,7 +641,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
 
   <!-- 2021 -->
-  <li class="pub-item" data-type="article" data-year="2021">
+  <li class="pub-item" data-type="article" data-year="2021" data-topics="segregation markets">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2021</span></div>
       <a class="pub-title-link" href="https://bera-journals.onlinelibrary.wiley.com/doi/epdf/10.1002/berj.3694" target="_blank" rel="noopener">Student mobility and school segregation in an (un)controlled choice system: A counterfactual approach</a>
@@ -583,7 +650,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2021">
+  <li class="pub-item" data-type="article" data-year="2021" data-topics="vet governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2021</span></div>
       <a class="pub-title-link" href="https://www.tandfonline.com/doi/epdf/10.1080/13636820.2020.1833076?needAccess=true" target="_blank" rel="noopener">Development paradigms in the institutional configuration of vocational education and training in Chile (1964–2005)</a>
@@ -592,7 +659,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="report" data-year="2021">
+  <li class="pub-item" data-type="report" data-year="2021" data-topics="privatization governance global">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2021</span></div>
       <a class="pub-title-link" href="https://unesdoc.unesco.org/ark:/48223/pf0000380092" target="_blank" rel="noopener">Regulating Public-Private Partnerships, governing non-state schools: An equity perspective</a>
@@ -601,7 +668,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="report" data-year="2021">
+  <li class="pub-item" data-type="report" data-year="2021" data-topics="covid">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2021</span></div>
       <a class="pub-title-link" href="https://www.thebritishacademy.ac.uk/documents/3226/COVID-decade-The-impact-on-education-Rapid-review-Adrian-Zancajo-Glasgow.pdf" target="_blank" rel="noopener">The impact of the Covid-19 pandemic on education: Rapid review of the literature</a>
@@ -611,7 +678,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
 
   <!-- 2020 -->
-  <li class="pub-item" data-type="article" data-year="2020">
+  <li class="pub-item" data-type="article" data-year="2020" data-topics="markets segregation">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2020</span></div>
       <a class="pub-title-link" href="https://revistas.uam.es/reice/article/view/reice2020_18_4_008/12569" target="_blank" rel="noopener">Elección de escuela, movilidad y segregación escolar del alumnado vulnerable en Barcelona</a>
@@ -620,7 +687,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2020">
+  <li class="pub-item" data-type="article" data-year="2020" data-topics="markets privatization">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2020</span></div>
       <a class="pub-title-link" href="https://journals.sagepub.com/doi/epub/10.1177/0895904819881781" target="_blank" rel="noopener">Schools in the Marketplace: Analysis of School Supply Responses in the Chilean Education Market</a>
@@ -629,7 +696,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2020">
+  <li class="pub-item" data-type="article" data-year="2020" data-topics="vet markets">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2020</span></div>
       <a class="pub-title-link" href="https://www.tandfonline.com/doi/epdf/10.1080/02601370.2019.1678692?needAccess=true" target="_blank" rel="noopener">The coordination of skill supply and demand in the market model of skill formation: testing the assumptions for the case of Chile</a>
@@ -638,7 +705,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="report" data-year="2020">
+  <li class="pub-item" data-type="report" data-year="2020" data-topics="privatization global">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2020</span></div>
       <span class="pub-title-text">Private sector participation in education: where it occurs, and why</span>
@@ -648,7 +715,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
 
   <!-- 2019 -->
-  <li class="pub-item" data-type="article" data-year="2019">
+  <li class="pub-item" data-type="article" data-year="2019" data-topics="segregation">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2019</span></div>
       <a class="pub-title-link" href="https://www.researchgate.net/publication/335840990_Residential_segregation_and_school_segregation_of_foreign_students_in_Barcelona" target="_blank" rel="noopener">Residential segregation and school segregation of foreign students in Barcelona</a>
@@ -657,7 +724,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2019">
+  <li class="pub-item" data-type="article" data-year="2019" data-topics="markets segregation">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2019</span></div>
       <a class="pub-title-link" href="https://epaa.asu.edu/index.php/epaa/article/view/4318/2325" target="_blank" rel="noopener">Education markets and schools' mechanisms of exclusion: The case of Chile</a>
@@ -666,7 +733,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2019">
+  <li class="pub-item" data-type="article" data-year="2019" data-topics="vet governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2019</span></div>
       <a class="pub-title-link" href="https://www.tandfonline.com/doi/epdf/10.1080/13636820.2018.1548500?needAccess=true" target="_blank" rel="noopener">TVET policy reforms in Chile 2006–2018: between human capital and the right to education</a>
@@ -675,7 +742,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="chapter" data-year="2019">
+  <li class="pub-item" data-type="chapter" data-year="2019" data-topics="vet governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-chapter">Chapter</span><span class="pub-year">2019</span></div>
       <a class="pub-title-link" href="https://books.google.es/books?id=K5XIDwAAQBAJ&amp;printsec=frontcover" target="_blank" rel="noopener">Evolución de las políticas de ETP en Chile: entre el capital humano y el derecho a la educación</a>
@@ -684,7 +751,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="report" data-year="2019">
+  <li class="pub-item" data-type="report" data-year="2019" data-topics="markets governance privatization">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2019</span></div>
       <a class="pub-title-link" href="https://ncspe.tc.columbia.edu/working-papers/files/WP239.pdf" target="_blank" rel="noopener">Drivers and Resistances to Regulation of Education Markets: The Political Economy of the Chilean Reform</a>
@@ -693,7 +760,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="report" data-year="2019">
+  <li class="pub-item" data-type="report" data-year="2019" data-topics="segregation governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2019</span></div>
       <a class="pub-title-link" href="https://www.edubcn.cat/rcs_gene/extra/01_documents_de_referencia/Equivalencia_BCN_final_v2_20190320.pdf" target="_blank" rel="noopener">Equivalència territorial en la planificació educativa a Barcelona: Diagnòstic i propostes</a>
@@ -702,7 +769,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="report" data-year="2019">
+  <li class="pub-item" data-type="report" data-year="2019" data-topics="segregation governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2019</span></div>
       <a class="pub-title-link" href="https://www.academia.edu/41268608/Lescolaritzaci%C3%B3_a_Tarragona_diagn%C3%B2stic_i_propostes_dequitat_educativa" target="_blank" rel="noopener">L'escolarització a Tarragona: diagnòstic i propostes d'equitat educativa</a>
@@ -712,7 +779,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
 
   <!-- 2018 -->
-  <li class="pub-item" data-type="article" data-year="2018">
+  <li class="pub-item" data-type="article" data-year="2018" data-topics="markets inequality">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2018</span></div>
       <a class="pub-title-link" href="https://www.researchgate.net/publication/323490216_Demand_rationalities_in_contexts_of_poverty_Do_the_Poor_respond_to_market_incentives_in_the_same_way" target="_blank" rel="noopener">Demand rationalities in contexts of poverty: Do the Poor respond to market incentives in the same way?</a>
@@ -721,7 +788,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2018">
+  <li class="pub-item" data-type="article" data-year="2018" data-topics="markets privatization">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2018</span></div>
       <a class="pub-title-link" href="https://www.researchgate.net/publication/321063384_Educational_providers_in_the_marketplace_Schools'_marketing_responses_in_Chile" target="_blank" rel="noopener">Educational providers in the marketplace: Schools' marketing responses in Chile</a>
@@ -730,7 +797,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2018">
+  <li class="pub-item" data-type="article" data-year="2018" data-topics="markets inequality">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2018</span></div>
       <span class="pub-title-text">Is there real freedom of school choice? An analysis from a study in Chile</span>
@@ -739,7 +806,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="chapter" data-year="2018">
+  <li class="pub-item" data-type="chapter" data-year="2018" data-topics="segregation markets">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-chapter">Chapter</span><span class="pub-year">2018</span></div>
       <a class="pub-title-link" href="https://www.researchgate.net/publication/346835932_School_Segregation_in_the_Spanish_Quasi-market_Education_System_Local_Dynamics_and_Policy_Absences" target="_blank" rel="noopener">School segregation in the Spanish quasi-market education system: local dynamics and policy absences</a>
@@ -748,7 +815,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="chapter" data-year="2018">
+  <li class="pub-item" data-type="chapter" data-year="2018" data-topics="privatization global">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-chapter">Chapter</span><span class="pub-year">2018</span></div>
       <a class="pub-title-link" href="https://www.academia.edu/37900928/Experimenting_with_educational_development_international_actors_and_the_promotion_of_private_schooling_in_vulnerable_contexts" target="_blank" rel="noopener">Experimenting with educational development: International actors and the promotion of private schooling in vulnerable contexts</a>
@@ -757,7 +824,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="chapter" data-year="2018">
+  <li class="pub-item" data-type="chapter" data-year="2018" data-topics="privatization global">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-chapter">Chapter</span><span class="pub-year">2018</span></div>
       <span class="pub-title-text">Constructing low-fee private schools as an educational model for the Global South: From local origins to transnational dynamics</span>
@@ -767,7 +834,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
 
   <!-- 2017 -->
-  <li class="pub-item" data-type="article" data-year="2017">
+  <li class="pub-item" data-type="article" data-year="2017" data-topics="privatization global">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2017</span></div>
       <a class="pub-title-link" href="https://www.researchgate.net/publication/316196658_Multiple_paths_towards_education_privatization_in_a_globalizing_world_a_cultural_political_economy_review" target="_blank" rel="noopener">Multiple paths towards education privatization in a globalizing world: A cultural political economy review</a>
@@ -776,7 +843,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2017">
+  <li class="pub-item" data-type="article" data-year="2017" data-topics="markets inequality">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2017</span></div>
       <a class="pub-title-link" href="https://www.researchgate.net/publication/313660554_Making_Poor_Choices_Demand_Rationalities_and_School_Choice_in_a_Chilean_Local_Education_Market" target="_blank" rel="noopener">Making poor choices? Demand rationalities and school choice in a Chilean local education market</a>
@@ -785,7 +852,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="chapter" data-year="2017">
+  <li class="pub-item" data-type="chapter" data-year="2017" data-topics="privatization global">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-chapter">Chapter</span><span class="pub-year">2017</span></div>
       <a class="pub-title-link" href="https://link.springer.com/chapter/10.1007/978-3-658-17104-9_13" target="_blank" rel="noopener">Taking advantage of catastrophes: education privatization reforms in contexts of emergency</a>
@@ -794,7 +861,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="chapter" data-year="2017">
+  <li class="pub-item" data-type="chapter" data-year="2017" data-topics="privatization global">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-chapter">Chapter</span><span class="pub-year">2017</span></div>
       <span class="pub-title-text">Privatization by Default in Low-Income Countries: The emergence and Expansion of Low-Fee Private Schools</span>
@@ -804,7 +871,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
 
   <!-- 2016 -->
-  <li class="pub-item" data-type="article" data-year="2016">
+  <li class="pub-item" data-type="article" data-year="2016" data-topics="vet">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2016</span></div>
       <a class="pub-title-link" href="http://educa.fcc.org.br/pdf/lc/v22n49/1981-0431-lc-22-49-00532.pdf" target="_blank" rel="noopener">La formación profesional en España: efectos sobre la empleabilidad en tiempos de crisis</a>
@@ -813,7 +880,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2016">
+  <li class="pub-item" data-type="article" data-year="2016" data-topics="vet">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2016</span></div>
       <a class="pub-title-link" href="https://www.raco.cat/index.php/RECAT/article/download/389613/483030" target="_blank" rel="noopener">Formació professional i ocupabilitat a Catalunya</a>
@@ -822,16 +889,16 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2016">
+  <li class="pub-item" data-type="article" data-year="2016" data-topics="privatization global">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2016</span></div>
-      <a class="pub-title-link" href="https://revistas.pedagogica.edu.co/index.php/RCE/article/view/3764/3345" target="_blank" rel="noopener">La economía política de la privatización educativa: políticas, tendencias y trayectorias desde una perspectiva</a>
+      <a class="pub-title-link" href="https://revistas.upn.edu.co/index.php/RCE/article/view/3764/3345" target="_blank" rel="noopener">La economía política de la privatización educativa: políticas, tendencias y trayectorias desde una perspectiva comparada</a>
       <div class="pub-authors">Verger, A., Zancajo, A., &amp; Fontdevila, C.</div>
       <div class="pub-venue">Revista colombiana de educación, 70, 47–78</div>
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2016">
+  <li class="pub-item" data-type="article" data-year="2016" data-topics="privatization markets">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2016</span></div>
       <a class="pub-title-link" href="https://www.researchgate.net/publication/299472482_What_Are_the_Role_and_Impact_of_Public-Private_Partnerships_in_Education_A_Realist_Evaluation_of_the_Chilean_Education_Quasi-Market" target="_blank" rel="noopener">What are the role and impact of public-private partnerships in education? A realist evaluation of the Chilean education quasi-market</a>
@@ -840,7 +907,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2016">
+  <li class="pub-item" data-type="article" data-year="2016" data-topics="markets privatization">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2016</span></div>
       <a class="pub-title-link" href="https://www.redalyc.org/articulo.oa?id=275043450052" target="_blank" rel="noopener">Recontextualización de políticas y (cuasi) mercados educativos: un análisis de las dinámicas de demanda y oferta escolar en Chile</a>
@@ -849,7 +916,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2016">
+  <li class="pub-item" data-type="article" data-year="2016" data-topics="inequality">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2016</span></div>
       <a class="pub-title-link" href="https://www.researchgate.net/publication/313750984_Educacio_pobresa_i_desigualtats_en_un_context_de_crisi" target="_blank" rel="noopener">Educació, pobresa i desigualtats en un context de crisi</a>
@@ -858,7 +925,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="book" data-year="2016">
+  <li class="pub-item" data-type="book" data-year="2016" data-topics="privatization global">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-book">Book</span><span class="pub-year">2016</span></div>
       <a class="pub-title-link" href="http://download.ei-ie.org/Docs/WebDepot/The_Privatization_of_Education.pdf" target="_blank" rel="noopener">The Privatization of Education: A Political Economy Approach to Global Education Reform</a>
@@ -868,7 +935,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
 
   <!-- 2015 -->
-  <li class="pub-item" data-type="article" data-year="2015">
+  <li class="pub-item" data-type="article" data-year="2015" data-topics="inequality governance assessment">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2015</span></div>
       <a class="pub-title-link" href="https://journals.sagepub.com/doi/epub/10.1177/1474904115592489" target="_blank" rel="noopener">Educational differentiation policies and the performance of disadvantaged students across OECD countries</a>
@@ -877,7 +944,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2015">
+  <li class="pub-item" data-type="article" data-year="2015" data-topics="inequality governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2015</span></div>
       <span class="pub-title-text">Inclusión, desigualdades y diversidad en la educación obligatoria: retos para el sistema educativo español y evidencias internacionales</span>
@@ -886,7 +953,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="book" data-year="2015">
+  <li class="pub-item" data-type="book" data-year="2015" data-topics="inequality assessment">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-book">Book</span><span class="pub-year">2015</span></div>
       <a class="pub-title-link" href="https://fundaciobofill.cat/uploads/docs/y/a/b/f/e/y/9/7/c/informesbreu60_xavierbonal.pdf" target="_blank" rel="noopener">Equitat i resultats educatius a Catalunya: Una mirada a partir de PISA-2012</a>
@@ -895,16 +962,16 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="book" data-year="2015">
+  <li class="pub-item" data-type="book" data-year="2015" data-topics="vet governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-book">Book</span><span class="pub-year">2015</span></div>
-      <a class="pub-title-link" href="https://fundaciobofill.cat/sites/default/files/607.pdf" target="_blank" rel="noopener">Un model de formació professional dual per a Catalunya? Reptes en el disseny i implementació de la reforma</a>
-      <div class="pub-authors">Valiente, O., Scandurra, R., Zancajo, A., &amp; Brown, C.</div>
+      <a class="pub-title-link" href="https://www.equitat.org/app/uploads/2025/03/607.pdf" target="_blank" rel="noopener">Un model de formació professional dual per a Catalunya? Reptes en el disseny i implementació de la reforma</a>
+      <div class="pub-authors">Valiente, O., Zancajo, A., Scandurra, R., &amp; Brown, C.</div>
       <div class="pub-venue">Fundació Jaume Bofill, Barcelona</div>
     </div>
   </li>
 
-  <li class="pub-item" data-type="report" data-year="2015">
+  <li class="pub-item" data-type="report" data-year="2015" data-topics="global assessment">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2015</span></div>
       <a class="pub-title-link" href="https://www.opensocietyfoundations.org/sites/default/files/verger-indicatiors-broad-bold-20150520.pdf" target="_blank" rel="noopener">Indicators for a Broad and Bold Post-2015 Agenda: A Comprehensive Approach to Educational Development</a>
@@ -913,7 +980,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="report" data-year="2015">
+  <li class="pub-item" data-type="report" data-year="2015" data-topics="markets inequality">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2015</span></div>
       <span class="pub-title-text">Is there real freedom of school choice? An analysis from Chile</span>
@@ -922,7 +989,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="report" data-year="2015">
+  <li class="pub-item" data-type="report" data-year="2015" data-topics="privatization global">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2015</span></div>
       <span class="pub-title-text">Public-private partnerships in Colombian education: the equity and quality implications of Colegios en Concesión</span>
@@ -933,7 +1000,7 @@ ul.task-list li input[type="checkbox"] {
 
 
   <!-- 2014 -->
-  <li class="pub-item" data-type="article" data-year="2014">
+  <li class="pub-item" data-type="article" data-year="2014" data-topics="markets segregation inequality">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2014</span></div>
       <a class="pub-title-link" href="https://dialnet.unirioja.es/servlet/articulo?codigo=5035678&amp;orden=0&amp;info=link" target="_blank" rel="noopener">Mercados educativos y segmentación de la oferta escolar: efectos sobre las desigualdades educativas en Chile</a>
@@ -942,26 +1009,17 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="book" data-year="2014">
+  <li class="pub-item" data-type="book" data-year="2014" data-topics="vet">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-book">Book</span><span class="pub-year">2014</span></div>
-      <a class="pub-title-link" href="https://fundaciobofill.cat/uploads/old-files/Politiques%2082_WEB_seg.pdf" target="_blank" rel="noopener">La Formació professional i l'ocupació a Catalunya: Una ullada als indicadors des d'una perspectiva comparada</a>
+      <a class="pub-title-link" href="https://www.equitat.org/app/uploads/2025/03/politiques2_web_seg.pdf" target="_blank" rel="noopener">La Formació professional i l'ocupació a Catalunya: Una ullada als indicadors des d'una perspectiva comparada</a>
       <div class="pub-authors">Valiente, O., Zancajo, A., &amp; Tarriño, A.</div>
       <div class="pub-venue">Fundació Jaume Bofill, Barcelona</div>
     </div>
   </li>
 
-  <li class="pub-item" data-type="book" data-year="2014">
-    <div>
-      <div class="pub-meta-top"><span class="pub-badge badge-book">Book</span><span class="pub-year">2014</span></div>
-      <span class="pub-title-text">Un model de formació professional dual per a Catalunya? Reptes en el disseny i implementació de la reforma</span>
-      <div class="pub-authors">Scandurra, R., Valiente, O., &amp; Zancajo, A.</div>
-      <div class="pub-venue">Fundació Jaume Bofill, Barcelona</div>
-    </div>
-  </li>
-
   <!-- 2013 -->
-  <li class="pub-item" data-type="chapter" data-year="2013">
+  <li class="pub-item" data-type="chapter" data-year="2013" data-topics="inequality">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-chapter">Chapter</span><span class="pub-year">2013</span></div>
       <a class="pub-title-link" href="https://ddd.uab.cat/pub/caplli/2013/171177/enqjovcat_a2013v1p77.pdf" target="_blank" rel="noopener">Joventut i educació en temps de crisi</a>
@@ -971,7 +1029,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
 
   <!-- 2012 -->
-  <li class="pub-item" data-type="article" data-year="2012">
+  <li class="pub-item" data-type="article" data-year="2012" data-topics="assessment inequality">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2012</span></div>
       <span class="pub-title-text">Los resultados PISA-2009: una mirada sobre las desigualdades educativas en Europa</span>
@@ -980,7 +1038,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2012">
+  <li class="pub-item" data-type="article" data-year="2012" data-topics="inequality assessment">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2012</span></div>
       <span class="pub-title-text">Desigualdad social y resilencia académica</span>
@@ -989,7 +1047,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="chapter" data-year="2012">
+  <li class="pub-item" data-type="chapter" data-year="2012" data-topics="assessment">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-chapter">Chapter</span><span class="pub-year">2012</span></div>
       <span class="pub-title-text">El benestar als centres educatius a Catalunya: una anàlisi del projecte PISA-2009 des de la perspectiva dels estudiants i directors</span>
@@ -998,7 +1056,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="report" data-year="2012">
+  <li class="pub-item" data-type="report" data-year="2012" data-topics="assessment global">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2012</span></div>
       <span class="pub-title-text">The measure of educational progress: state of the art and a new index proposal</span>
@@ -1009,7 +1067,7 @@ ul.task-list li input[type="checkbox"] {
 
 
   <!-- 2011 -->
-  <li class="pub-item" data-type="article" data-year="2011">
+  <li class="pub-item" data-type="article" data-year="2011" data-topics="assessment inequality">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2011</span></div>
       <span class="pub-title-text">Educational inequalities and success in Asian countries in PISA 2009</span>
@@ -1018,7 +1076,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="article" data-year="2011">
+  <li class="pub-item" data-type="article" data-year="2011" data-topics="assessment">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2011</span></div>
       <span class="pub-title-text">Informe Pisa: los datos internacionales, ¿qué hay de nuevo?</span>
@@ -1027,7 +1085,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </li>
 
-  <li class="pub-item" data-type="book" data-year="2011">
+  <li class="pub-item" data-type="book" data-year="2011" data-topics="assessment inequality">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-book">Book</span><span class="pub-year">2011</span></div>
       <a class="pub-title-link" href="https://fundaciobofill.cat/uploads/docs/a/3/y/8/b/q/c/2/k/546.pdf" target="_blank" rel="noopener">PISA-2009: Avaluació de les desigualtats educatives a Catalunya</a>
@@ -1037,7 +1095,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
 
   <!-- 2010 -->
-  <li class="pub-item" data-type="article" data-year="2010">
+  <li class="pub-item" data-type="article" data-year="2010" data-topics="inequality assessment">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2010</span></div>
       <span class="pub-title-text">Descomposición del efecto inmigrante en el rendimiento académico en Cataluña según la zona origen</span>
@@ -1050,14 +1108,43 @@ ul.task-list li input[type="checkbox"] {
 
 <script>
 (function () {
-  /* Inject type icons into each item */
+  /* ---- Topic vocabulary: slug -> display label ---- */
+  var TOPIC_LABELS = {
+    segregation:   'School segregation',
+    markets:       'Education markets & choice',
+    privatization: 'Privatization & PPPs',
+    vet:           'Vocational education & skills',
+    dropout:       'Early school leaving',
+    inequality:    'Educational inequality',
+    governance:    'Policy & governance',
+    global:        'Global education policy',
+    assessment:    'Assessment & PISA',
+    covid:         'Covid-19'
+  };
+  /* Order topic buttons are displayed in */
+  var TOPIC_ORDER = ['segregation', 'markets', 'privatization', 'vet', 'dropout',
+                     'inequality', 'governance', 'global', 'assessment', 'covid'];
+
   var typeIcons = {
     article: 'bi-file-text',
     book:    'bi-book',
     chapter: 'bi-bookmark',
     report:  'bi-file-earmark-text'
   };
-  document.querySelectorAll('.pub-item').forEach(function (item) {
+
+  var items = Array.prototype.slice.call(document.querySelectorAll('.pub-item'));
+  var list = document.getElementById('pubList');
+  var topicBar = document.getElementById('topicFilters');
+  var searchInput = document.getElementById('pubSearch');
+  var countEl = document.getElementById('pubCount');
+
+  function topicsOf(item) {
+    return (item.dataset.topics || '').split(/\s+/).filter(Boolean);
+  }
+
+  /* ---- Per-item: type icon + topic chips ---- */
+  var topicCounts = {};
+  items.forEach(function (item) {
     var badge = item.querySelector('.pub-badge');
     if (badge && typeIcons[item.dataset.type]) {
       var icon = document.createElement('i');
@@ -1068,37 +1155,103 @@ ul.task-list li input[type="checkbox"] {
       sep.textContent = '·';
       badge.parentNode.insertBefore(sep, badge.nextSibling);
     }
+
+    var slugs = topicsOf(item);
+    if (!slugs.length) return;
+    var wrap = document.createElement('div');
+    wrap.className = 'pub-topics';
+    slugs.forEach(function (slug) {
+      topicCounts[slug] = (topicCounts[slug] || 0) + 1;
+      var chip = document.createElement('span');
+      chip.className = 'pub-topic';
+      chip.dataset.topic = slug;
+      chip.textContent = TOPIC_LABELS[slug] || slug;
+      chip.setAttribute('role', 'button');
+      chip.setAttribute('tabindex', '0');
+      chip.title = 'Filter by ' + (TOPIC_LABELS[slug] || slug);
+      wrap.appendChild(chip);
+    });
+    item.querySelector('div').appendChild(wrap);
   });
 
-  const buttons = document.querySelectorAll('.filter-btn');
-  const searchInput = document.getElementById('pubSearch');
-  const items = document.querySelectorAll('.pub-item');
-  const countEl = document.getElementById('pubCount');
-  let activeType = 'all';
+  /* ---- Topic filter buttons ---- */
+  TOPIC_ORDER.forEach(function (slug) {
+    if (!topicCounts[slug]) return;
+    var btn = document.createElement('button');
+    btn.className = 'topic-btn';
+    btn.dataset.topic = slug;
+    btn.innerHTML = (TOPIC_LABELS[slug] || slug) +
+                    '<span class="topic-n">' + topicCounts[slug] + '</span>';
+    topicBar.appendChild(btn);
+  });
+
+  /* ---- Empty state ---- */
+  var emptyEl = document.createElement('li');
+  emptyEl.className = 'pub-empty pub-hidden';
+  emptyEl.textContent = 'No publications match the current filters.';
+  list.appendChild(emptyEl);
+
+  /* ---- Filtering ---- */
+  var typeButtons = document.querySelectorAll('.filter-btn');
+  var topicButtons = topicBar.querySelectorAll('.topic-btn');
+  var activeType = 'all';
+  var activeTopic = null;
 
   function update() {
-    const q = searchInput.value.toLowerCase().trim();
-    let n = 0;
+    var q = searchInput.value.toLowerCase().trim();
+    var n = 0;
     items.forEach(function (item) {
-      const typeMatch = activeType === 'all' || item.dataset.type === activeType;
-      const textMatch = !q || item.textContent.toLowerCase().includes(q);
-      if (typeMatch && textMatch) {
+      var typeMatch = activeType === 'all' || item.dataset.type === activeType;
+      var topicMatch = !activeTopic || topicsOf(item).indexOf(activeTopic) !== -1;
+      var textMatch = !q || item.textContent.toLowerCase().indexOf(q) !== -1;
+      if (typeMatch && topicMatch && textMatch) {
         item.classList.remove('pub-hidden');
         n++;
       } else {
         item.classList.add('pub-hidden');
       }
     });
-    countEl.textContent = n + ' of ' + items.length + ' publications';
+
+    topicButtons.forEach(function (b) {
+      b.classList.toggle('active', b.dataset.topic === activeTopic);
+    });
+    document.querySelectorAll('.pub-topic').forEach(function (c) {
+      c.classList.toggle('active', c.dataset.topic === activeTopic);
+    });
+    emptyEl.classList.toggle('pub-hidden', n !== 0);
+
+    var parts = [n + ' of ' + items.length + ' publications'];
+    if (activeTopic) parts.push(TOPIC_LABELS[activeTopic] || activeTopic);
+    countEl.textContent = parts.join(' · ');
   }
 
-  buttons.forEach(function (btn) {
+  typeButtons.forEach(function (btn) {
     btn.addEventListener('click', function () {
-      buttons.forEach(function (b) { b.classList.remove('active'); });
+      typeButtons.forEach(function (b) { b.classList.remove('active'); });
       btn.classList.add('active');
       activeType = btn.dataset.value;
       update();
     });
+  });
+
+  function toggleTopic(slug) {
+    activeTopic = (activeTopic === slug) ? null : slug;
+    update();
+  }
+
+  topicButtons.forEach(function (btn) {
+    btn.addEventListener('click', function () { toggleTopic(btn.dataset.topic); });
+  });
+
+  /* Chips on items act as filters too */
+  list.addEventListener('click', function (e) {
+    var chip = e.target.closest('.pub-topic');
+    if (chip) toggleTopic(chip.dataset.topic);
+  });
+  list.addEventListener('keydown', function (e) {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    var chip = e.target.closest('.pub-topic');
+    if (chip) { e.preventDefault(); toggleTopic(chip.dataset.topic); }
   });
 
   searchInput.addEventListener('input', update);
