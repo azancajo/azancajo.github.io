@@ -206,7 +206,16 @@ toc: false
 <ul class="pub-list" id="pubList">
 
   <!-- 2026 -->
-  
+
+  <li class="pub-item" data-type="article" data-year="2026" data-topics="privatization markets governance">
+    <div>
+      <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2026</span></div>
+      <span class="pub-title-text">The micro-level design of public subsidies for private schools: A typological approach</span>
+      <div class="pub-authors">Zancajo, A., &amp; Fontdevila, C.</div>
+      <div class="pub-venue">European Policy Analysis, 12(4), e70059</div>
+    </div>
+  </li>
+
    <li class="pub-item" data-type="report" data-year="2026" data-topics="dropout inequality">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-report">Report</span><span class="pub-year">2026</span></div>
