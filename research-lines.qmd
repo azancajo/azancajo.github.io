@@ -1,5 +1,6 @@
 ---
-title: "Research"
+title: "Research areas"
+description: "Explore Adrián Zancajo's research on education markets, school choice, segregation, privatisation and educational inequalities."
 toc: false
 format:
   html:

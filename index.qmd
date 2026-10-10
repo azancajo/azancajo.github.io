@@ -1,5 +1,6 @@
 ---
 title: "Adrián Zancajo"
+description: "Adrián Zancajo researches education privatisation, school markets, school segregation and educational inequality at the Autonomous University of Barcelona."
 image: images/prof_pic2.jpg
 toc: false
 about:
@@ -9,6 +10,8 @@ about:
 format:
   html:
     title-block: false
+    pagetitle: "Education Policy Researcher"
+    include-in-header: _resources/person-jsonld.html
     css: styles.css
 ---
 

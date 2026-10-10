@@ -1,5 +1,6 @@
 ---
 title: "Publications"
+description: "Browse Adrián Zancajo's journal articles, books, book chapters and policy reports on education policy, school markets and inequality."
 toc: false
 ---
 
