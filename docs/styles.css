@@ -10,17 +10,13 @@ body,
   color: #111 !important;
 }
 
-/* Make text links recognizable without relying on hover. */
-main a:not(.icon-link):not(.pub-title-link):not(.out-title-link) {
-  color: #111;
-  text-decoration: underline;
-  text-underline-offset: 0.15em;
-}
-
-main a:hover,
-.navbar a:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.15em;
+/* Remove underlines from links, including hover and navigation states. */
+a,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none !important;
 }
 
 /* Keyboard users need a visible focus indicator on every control. */

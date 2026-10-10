@@ -108,7 +108,7 @@ toc: false
   color: #111;
   text-decoration: none;
 }
-.pub-title-link:hover { text-decoration: underline; color: #000; }
+.pub-title-link:hover { color: #000; }
 .pub-title-text {
   font-weight: 600;
   line-height: 1.45;
