@@ -1,9 +1,6 @@
 ---
 title: "Outreach"
 description: "Media articles, interviews and recorded seminars featuring Adrián Zancajo on education policy, school segregation and inequality."
-format:
-  html:
-    css: styles.css
 ---
 
 ```{=html}
