@@ -19,12 +19,18 @@ a:active {
   text-decoration: none !important;
 }
 
+/* Match the homepage profile links and social icons to the black text. */
+.quarto-about-solana .about-contents a,
+.quarto-about-solana .about-contents iconify-icon {
+  color: #111 !important;
+}
+
 /* Keyboard users need a visible focus indicator on every control. */
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
 [role="button"]:focus-visible {
-  outline: 2px solid #1b5fbf !important;
+  outline: 2px solid #111 !important;
   outline-offset: 3px;
 }
 
