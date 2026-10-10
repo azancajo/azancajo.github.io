@@ -117,13 +117,16 @@ local function create_topic_bibliography (div)
   if not bibfile then
     return nil
   end
-  local tmp_blocks = {pandoc.Para(all_cites), refs_div}
+  local tmp_blocks = {}
+  if #all_cites > 0 then
+    table.insert(tmp_blocks, pandoc.Para(all_cites))
+  end
+  table.insert(tmp_blocks, refs_div)
   local tmp_meta = meta_for_pandoc_citeproc(bibfile)
   local tmp_doc = pandoc.Pandoc(tmp_blocks, tmp_meta)
   local res = citeproc(tmp_doc)
-  -- First block of the result contains the dummy paragraph, second is
-  -- the refs Div filled by citeproc.
-  div.content = res.blocks[2].content
+  -- The final block is the refs Div filled by citeproc.
+  div.content = res.blocks[#res.blocks].content
   -- Set the classes and attributes as citeproc did it on refs_div
   div.classes = remove_duplicates(refs_div_with_properties.classes)
   div.attributes = refs_div_with_properties.attributes
@@ -133,7 +136,14 @@ end
 return {
   {
     -- Collect all citations and the doc's Meta value for other filters.
-    Cite = function (c) all_cites[#all_cites + 1] = c end,
+    Cite = function (c)
+      -- @* belongs to nocite metadata. Replaying it as a visible citation
+      -- makes citeproc warn once for each bibliography.
+      if #c.citations == 1 and c.citations[1].id == '*' then
+        return
+      end
+      all_cites[#all_cites + 1] = c
+    end,
     Meta = function (m) doc_meta = m end,
   },
   { Pandoc = resolve_doc_citations },

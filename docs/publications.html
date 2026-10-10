@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,13 +12,10 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -42,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8f53892ffe1685dd32b39220f8e62dc2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d11ecab9ed13fa79bde0a35b40315207.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -340,17 +337,18 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="pub-controls">
   <div class="filter-group">
-    <button class="filter-btn active" data-value="all">All</button>
-    <button class="filter-btn" data-value="article"><i class="bi bi-file-text"></i>Journal Articles</button>
-    <button class="filter-btn" data-value="book"><i class="bi bi-book"></i>Books</button>
-    <button class="filter-btn" data-value="chapter"><i class="bi bi-bookmark"></i>Book Chapters</button>
-    <button class="filter-btn" data-value="report"><i class="bi bi-file-earmark-text"></i>Reports &amp; Working Papers</button>
+    <button class="filter-btn active" data-value="all" aria-pressed="true">All</button>
+    <button class="filter-btn" data-value="article" aria-pressed="false"><i class="bi bi-file-text"></i>Journal Articles</button>
+    <button class="filter-btn" data-value="book" aria-pressed="false"><i class="bi bi-book"></i>Books</button>
+    <button class="filter-btn" data-value="chapter" aria-pressed="false"><i class="bi bi-bookmark"></i>Book Chapters</button>
+    <button class="filter-btn" data-value="report" aria-pressed="false"><i class="bi bi-file-earmark-text"></i>Reports &amp; Working Papers</button>
   </div>
   <div class="filter-group-topics" id="topicFilters">
     <span class="filter-label">Topics</span>
   </div>
-  <input class="pub-search" type="text" id="pubSearch" placeholder="Search by title, author, journal, or topic…" autocomplete="off">
-  <p class="pub-count" id="pubCount"></p>
+  <label for="pubSearch" class="visually-hidden">Search publications</label>
+  <input class="pub-search" type="search" id="pubSearch" placeholder="Search by title, author, journal, or topic…" autocomplete="off">
+  <p class="pub-count" id="pubCount" role="status" aria-live="polite"></p>
 </div>
 
 <ul class="pub-list" id="pubList">
@@ -1177,6 +1175,7 @@ ul.task-list li input[type="checkbox"] {
       chip.textContent = TOPIC_LABELS[slug] || slug;
       chip.setAttribute('role', 'button');
       chip.setAttribute('tabindex', '0');
+      chip.setAttribute('aria-pressed', 'false');
       chip.title = 'Filter by ' + (TOPIC_LABELS[slug] || slug);
       wrap.appendChild(chip);
     });
@@ -1189,6 +1188,7 @@ ul.task-list li input[type="checkbox"] {
     var btn = document.createElement('button');
     btn.className = 'topic-btn';
     btn.dataset.topic = slug;
+    btn.setAttribute('aria-pressed', 'false');
     btn.innerHTML = (TOPIC_LABELS[slug] || slug) +
                     '<span class="topic-n">' + topicCounts[slug] + '</span>';
     topicBar.appendChild(btn);
@@ -1223,9 +1223,11 @@ ul.task-list li input[type="checkbox"] {
 
     topicButtons.forEach(function (b) {
       b.classList.toggle('active', b.dataset.topic === activeTopic);
+      b.setAttribute('aria-pressed', String(b.dataset.topic === activeTopic));
     });
     document.querySelectorAll('.pub-topic').forEach(function (c) {
       c.classList.toggle('active', c.dataset.topic === activeTopic);
+      c.setAttribute('aria-pressed', String(c.dataset.topic === activeTopic));
     });
     emptyEl.classList.toggle('pub-hidden', n !== 0);
 
@@ -1236,8 +1238,12 @@ ul.task-list li input[type="checkbox"] {
 
   typeButtons.forEach(function (btn) {
     btn.addEventListener('click', function () {
-      typeButtons.forEach(function (b) { b.classList.remove('active'); });
+      typeButtons.forEach(function (b) {
+        b.classList.remove('active');
+        b.setAttribute('aria-pressed', 'false');
+      });
       btn.classList.add('active');
+      btn.setAttribute('aria-pressed', 'true');
       activeType = btn.dataset.value;
       update();
     });

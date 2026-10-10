@@ -1,52 +1,41 @@
-/* Make navbar and body share the same background color */
+/* Keep the navigation and page background consistent. */
 body,
 .navbar,
 .navbar-expand-lg {
-  background-color: #ffffff !important;
+  background-color: #fff !important;
 }
 
-/* Optional: adjust text color for contrast */
 .navbar a,
 .navbar-brand {
-  color: #000000 !important;
+  color: #111 !important;
 }
 
-/* Remove hover effects globally */
-a:hover,
-a:focus,
-a:active {
-  color: inherit !important;
-  text-decoration: none !important;
-  background: none !important;
-  box-shadow: none !important;
+/* Make text links recognizable without relying on hover. */
+main a:not(.icon-link):not(.pub-title-link):not(.out-title-link) {
+  color: #111;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
 }
 
-/* Remove hover effect in the navbar */
-.navbar a:hover,
-.navbar a:focus,
-.navbar a:active {
-  color: inherit !important;
-  text-decoration: none !important;
-  background: none !important;
+main a:hover,
+.navbar a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
 }
 
-/* Optional: remove hover highlight from dropdown menus */
-.navbar .dropdown-item:hover,
-.navbar .dropdown-item:focus {
-  color: inherit !important;
-  background-color: transparent !important;
+/* Keyboard users need a visible focus indicator on every control. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+[role="button"]:focus-visible {
+  outline: 2px solid #1b5fbf !important;
+  outline-offset: 3px;
 }
 
 .icon-link {
-  margin-right: 20px; /* Adjust spacing as needed */
+  margin-right: 20px;
 }
 
-a, a:visited, a:hover, a:active {
-  color: inherit;
-  text-decoration: none;  /* Optional: removes underline */
-}
-
-/* Center the profile image */
 img[alt="Adrián Zancajo"] {
   display: block;
   margin-left: auto;

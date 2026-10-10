@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  post-render: python3 scripts/restore_legacy_site.py
 
 website:
   title: "Adrián **Zancajo**"
