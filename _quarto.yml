@@ -21,12 +21,10 @@ website:
         text: About
       - href: CV.pdf
         text: CV
+        target: _blank
       - href: publications.qmd
         text: Publications
       - outreach.qmd
-
-  page-footer:
-    background: light # or `dark`
 
 format:
   html:

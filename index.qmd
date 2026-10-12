@@ -1,26 +1,34 @@
 ---
-title: "Adrián Zancajo"
 image: images/prof_pic2.jpg
 toc: false
-about:
-  template: solana
-  image-shape: round
-  image-width: 10em
 format:
   html:
-    title-block: false
     pagetitle: "About"
     description-meta: "About Adrián Zancajo, Ramón y Cajal researcher at the Autonomous University of Barcelona."
     include-in-header: _resources/person-jsonld.html
 ---
 
-[[{{< iconify simple-icons orcid size=lg >}}](https://orcid.org/0000-0002-4431-8155)]{.icon-link} [[{{< iconify simple-icons googlescholar size=lg >}}](https://scholar.google.nl/citations?hl=en&user=mJmENSwAAJ)]{.icon-link} [[{{< iconify academicons academia-square size=lg >}}](https://uab.academia.edu/AdrianZancajo)]{.icon-link} [[{{< iconify simple-icons researchgate size=lg >}}](https://www.researchgate.net/profile/Adrian-Zancajo-2)]{.icon-link} [[{{< iconify entypo-social linkedin size=lg >}}](https://www.linkedin.com/in/azancajo)]{.icon-link} [[{{< iconify mdi twitter size=lg >}}](https://x.com/AdrianZancajo)]{.icon-link} [[{{< iconify ri:bluesky-fill size=lg >}}](https://bsky.app/profile/adrianzancajo.bsky.social)]{.icon-link}
+::::: intro
+```{=html}
+<img src="images/prof_pic2.jpg" class="intro-photo" alt="Adrián Zancajo">
+```
 
-I am a ‘Ramón y Cajal’ Researcher at the [**Department of Sociology**](https://www.uab.cat/en/sociology) of the [**Autonomous University of Barcelona**](https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html) and a member of the research group [**Globalisation, Education and Social Policies (GEPS)**](https://geps-uab.cat/)
+:::: intro-text
+# Adrián Zancajo {.intro-name .unnumbered .unlisted}
 
-My research areas are education privatisation and markets, educational policies and inequalities. In these areas, I have developed different research lines, including the political economy of education reforms, the enactment of education policies and their impact on equity.
+::: role
+Ramón y Cajal Researcher, [Department of Sociology](https://www.uab.cat/en/sociology), [Autonomous University of Barcelona](https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html). Member of the research group [Globalisation, Education and Social Policies (GEPS)](https://geps-uab.cat/).
+:::
 
-**adrian.zancajo \[at\] uab \[dot\] cat**
+I study education privatisation and markets, education policy, and educational inequality. My work covers the political economy of education reforms, how policies are enacted in schools, and their effects on equity.
+
+::: contact-row
+[adrian.zancajo \[at\] uab \[dot\] cat]{.email}
+
+[[[{{< iconify simple-icons orcid size=lg >}}](https://orcid.org/0000-0002-4431-8155)]{.icon-link} [[{{< iconify simple-icons googlescholar size=lg >}}](https://scholar.google.nl/citations?hl=en&user=mJmENSwAAJ)]{.icon-link} [[{{< iconify academicons academia-square size=lg >}}](https://uab.academia.edu/AdrianZancajo)]{.icon-link} [[{{< iconify simple-icons researchgate size=lg >}}](https://www.researchgate.net/profile/Adrian-Zancajo-2)]{.icon-link} [[{{< iconify entypo-social linkedin size=lg >}}](https://www.linkedin.com/in/azancajo)]{.icon-link} [[{{< iconify mdi twitter size=lg >}}](https://x.com/AdrianZancajo)]{.icon-link} [[{{< iconify ri:bluesky-fill size=lg >}}](https://bsky.app/profile/adrianzancajo.bsky.social)]{.icon-link}]{.profiles}
+:::
+::::
+:::::
 
 ```{=html}
 <script defer src="https://cdn.overtracking.com/t/tjs6NPq4iftwhE1H9/"></script>

@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d11ecab9ed13fa79bde0a35b40315207.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,11 +75,9 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="site-styles-v2.css">
 <meta property="og:title" content="Outreach – Adrián Zancajo">
-<meta property="og:description" content="Media articles, interviews and recorded seminars featuring Adrián Zancajo on education policy, school segregation and inequality.">
 <meta property="og:image" content="https://azancajo.github.io/images/prof_pic2.jpg">
 <meta property="og:site_name" content="Adrián Zancajo">
 <meta name="twitter:title" content="Outreach – Adrián Zancajo">
-<meta name="twitter:description" content="Media articles, interviews and recorded seminars featuring Adrián Zancajo on education policy, school segregation and inequality.">
 <meta name="twitter:image" content="https://azancajo.github.io/images/prof_pic2.jpg">
 <meta name="twitter:creator" content="@AdrianZancajo">
 <meta name="twitter:card" content="summary_large_image">
@@ -108,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV.pdf"> 
+    <a class="nav-link" href="./CV.pdf" target="_blank"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
@@ -141,11 +139,6 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="title">Outreach</h1>
 </div>
 
-<div>
-  <div class="description">
-    Media articles, interviews and recorded seminars featuring Adrián Zancajo on education policy, school segregation and inequality.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -161,99 +154,75 @@ ul.task-list li input[type="checkbox"] {
 
 
 <style>
+/* ---- Section links ---- */
 .out-nav {
   display: flex;
-  gap: 0;
-  margin-bottom: 2rem;
-  border-bottom: 1px solid #e0e0e0;
   flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e4e4e4;
 }
 .out-nav a {
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  color: #888;
-  text-decoration: none;
-  padding: 0.5rem 1rem 0.5rem 0;
-  margin-right: 1.2rem;
+  font-size: 0.95rem;
+  color: #000;
+  padding-bottom: 0.5rem;
   margin-bottom: -1px;
-  transition: color 0.15s;
+  border-bottom: 2px solid transparent;
   white-space: nowrap;
 }
-.out-nav a:hover {
-  color: #111;
-}
-.out-section {
-  margin-bottom: 2.5rem;
-}
+.out-nav a:hover { border-bottom-color: #000; }
+.out-nav .n { margin-left: 0.3rem; font-size: 0.82rem; opacity: 0.6; font-variant-numeric: tabular-nums; }
+
+/* ---- Sections ---- */
+.out-section { margin-bottom: 3rem; scroll-margin-top: 5rem; }
 .out-section-header {
-  font-size: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  font-size: 1.6rem;
+  font-weight: 400;
   color: #000;
-  border-bottom: 1px solid #efefef;
-  padding-bottom: 0.5rem;
-  margin-bottom: 0;
-  display: flex;
-  align-items: center;
-  gap: 0.45rem;
-}
-.out-section-header i {
-  font-size: 0.9rem;
-}
-.out-list {
-  list-style: none;
-  padding: 0;
+  border-bottom: 1px solid #000;
+  padding-bottom: 0.4rem;
   margin: 0;
 }
+.out-section-header i, .out-nav i { display: none; }
+
+/* ---- Items: date in a left column, details on the right ---- */
+.out-list { list-style: none; padding: 0; margin: 0; }
 .out-item {
-  padding: 0.8rem 0.75rem 0.8rem 1rem;
-  border-left: 2px solid transparent;
-  border-bottom: 1px solid #efefef;
-  background: #fff;
-  transition: background 0.12s, border-left-color 0.12s;
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  column-gap: 1.5rem;
+  padding-block: 1.1rem;
+  border-bottom: 1px solid #e4e4e4;
 }
-.out-item:last-child {
-  border-bottom: none;
+.out-item > * { grid-column: 2; }
+.out-date {
+  grid-column: 1;
+  grid-row: 1 / span 3;
+  font-size: 0.82rem;
+  color: #000;
+  padding-top: 0.2rem;
+  font-variant-numeric: tabular-nums;
 }
-.out-item:hover {
-  background: #fafafa;
-  border-left-color: #111;
-}
-.out-title-link {
+.out-title-link, .out-title-text {
+  font-size: 1.15rem;
   font-weight: 600;
-  line-height: 1.45;
-  color: #111;
-  text-decoration: none;
-}
-.out-title-link:hover {
+  line-height: 1.3;
   color: #000;
 }
-.out-title-text {
-  font-weight: 600;
-  line-height: 1.45;
-  color: #333;
-}
-.out-meta {
-  font-size: 0.875rem;
-  color: #000;
-  margin-top: 0.2rem;
-  font-style: italic;
-}
-.out-with {
-  font-style: normal;
-  color: #000;
-  font-size: 0.875rem;
-  margin-top: 0.1rem;
+.out-title-link:hover { text-decoration: underline !important; }
+.out-meta { font-size: 0.92rem; color: #000; font-style: italic; margin-top: 0.25rem; }
+.out-with { font-size: 0.92rem; color: #000; }
+
+@media (max-width: 640px) {
+  .out-item { grid-template-columns: 1fr; }
+  .out-item > *, .out-date { grid-column: 1; grid-row: auto; }
 }
 </style>
 
 <nav class="out-nav">
-  <a href="#media-articles"><i class="bi bi-newspaper"></i> Media &amp; Blog</a>
-  <a href="#interviews"><i class="bi bi-mic-fill"></i> Interviews</a>
-  <a href="#seminars"><i class="bi bi-camera-video"></i> Seminars</a>
+  <a href="#media-articles">Media &amp; blog<span class="n" data-count="media-articles"></span></a>
+  <a href="#interviews">Interviews<span class="n" data-count="interviews"></span></a>
+  <a href="#seminars">Seminars<span class="n" data-count="seminars"></span></a>
 </nav>
 
 <!-- Media and blog articles -->
@@ -459,6 +428,32 @@ ul.task-list li input[type="checkbox"] {
 
   </ul>
 </div>
+
+<script>
+(function () {
+  /* Section counts in the top links */
+  document.querySelectorAll('.out-nav .n').forEach(function (el) {
+    el.textContent = document.querySelectorAll('#' + el.dataset.count + ' .out-item').length;
+  });
+  /* Move the date out of "Outlet · Month D, YYYY · Place" into the left column */
+  var MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  document.querySelectorAll('.out-item').forEach(function (item) {
+    var meta = item.querySelector('.out-meta');
+    if (!meta) return;
+    var parts = meta.textContent.split(' · ');
+    var idx = -1;
+    parts.forEach(function (p, i) { if (idx === -1 && /\b(19|20)\d{2}$/.test(p.trim())) idx = i; });
+    if (idx === -1) return;
+    var raw = parts.splice(idx, 1)[0].trim();
+    var m = raw.match(/^([A-Za-z]+)\s+\d{1,2},\s+(\d{4})$/);
+    var date = document.createElement('div');
+    date.className = 'out-date';
+    date.textContent = m && MONTHS.indexOf(m[1]) > -1 ? m[1].slice(0, 3) + ' ' + m[2] : raw;
+    item.insertBefore(date, item.firstChild);
+    meta.textContent = parts.join(' · ');
+  });
+})();
+</script>
 
 
 

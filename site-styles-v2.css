@@ -1,13 +1,14 @@
-/* Keep the navigation and page background consistent. */
+/* White background and black text everywhere. */
 body,
 .navbar,
 .navbar-expand-lg {
   background-color: #fff !important;
+  color: #000;
 }
 
 .navbar a,
 .navbar-brand {
-  color: #111 !important;
+  color: #000 !important;
 }
 
 /* Remove underlines from links, including hover and navigation states. */
@@ -19,27 +20,154 @@ a:active {
   text-decoration: none !important;
 }
 
-/* Match the homepage profile links and social icons to the black text. */
-.quarto-about-solana .about-contents a,
-.quarto-about-solana .about-contents iconify-icon {
-  color: #111 !important;
-}
-
 /* Keyboard users need a visible focus indicator on every control. */
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
 [role="button"]:focus-visible {
-  outline: 2px solid #111 !important;
+  outline: 2px solid #000 !important;
   outline-offset: 3px;
 }
 
-.icon-link {
-  margin-right: 20px;
+/* ---- Navbar ---- */
+.navbar {
+  border-bottom: 1px solid #e4e4e4;
 }
 
-img[alt="Adrián Zancajo"] {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.navbar-brand .navbar-title {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 0.25rem !important;
+}
+
+.navbar-nav .nav-link:hover {
+  border-bottom-color: #e4e4e4;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: 600;
+  border-bottom-color: #000;
+}
+
+/* ---- Page titles (Publications, Outreach) ---- */
+#title-block-header .title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: #000;
+}
+
+#title-block-header .description {
+  color: #000;
+}
+
+/* ---- About page: photo on the left, text beside it ---- */
+.intro {
+  display: grid;
+  grid-template-columns: 168px 1fr;
+  gap: 2.5rem;
+  align-items: start;
+  margin-top: 1.5rem;
+}
+
+.intro-photo {
+  width: 168px;
+  max-width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.intro-text h1.intro-name {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  margin: 0 0 0.4rem;
+  color: #000;
+}
+
+.intro-text .anchorjs-link {
+  display: none;
+}
+
+.intro .role {
+  font-size: 1.19rem;
+  line-height: 1.45;
+  margin-bottom: 1.4rem;
+  max-width: 34em;
+}
+
+.intro-text p {
+  max-width: 38em;
+  color: #000;
+}
+
+/* In-text links on the About page get a faint underline so they read as links. */
+.intro .role a,
+.intro-text > p a {
+  color: #000;
+  text-decoration: underline !important;
+  text-decoration-color: #e4e4e4 !important;
+  text-underline-offset: 3px;
+}
+
+.intro .role a:hover,
+.intro-text > p a:hover {
+  text-decoration-color: #000 !important;
+}
+
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.75rem;
+  align-items: center;
+  margin-top: 1.4rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid #e4e4e4;
+}
+
+.contact-row p {
+  margin: 0;
+}
+
+.contact-row .email {
+  font-weight: 600;
+}
+
+.contact-row .profiles {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.1rem;
+}
+
+.contact-row .profiles a,
+.contact-row .profiles iconify-icon {
+  color: #000 !important;
+  transition: opacity 0.15s;
+}
+
+.contact-row .profiles a:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 640px) {
+  .intro {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .intro-photo {
+    width: 120px;
+  }
+
+  .intro-text h1.intro-name {
+    font-size: 2rem;
+  }
 }
