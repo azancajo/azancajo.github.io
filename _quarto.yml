@@ -19,12 +19,12 @@ website:
     right:
       - href: index.qmd
         text: About
-      - href: CV.pdf
-        text: CV
-        target: _blank
       - href: publications.qmd
         text: Publications
       - outreach.qmd
+      - href: CV.pdf
+        text: CV
+        target: _blank
 
 format:
   html:

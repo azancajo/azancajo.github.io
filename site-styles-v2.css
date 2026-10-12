@@ -84,7 +84,7 @@ input:focus-visible,
 }
 
 .intro-text h1.intro-name {
-  font-size: 2.4rem;
+  font-size: 2.1rem;
   font-weight: 600;
   line-height: 1.1;
   letter-spacing: -0.015em;
@@ -97,7 +97,7 @@ input:focus-visible,
 }
 
 .intro .role {
-  font-size: 1.19rem;
+  font-size: 1.08rem;
   line-height: 1.45;
   margin-bottom: 1.4rem;
   max-width: 34em;
@@ -168,6 +168,6 @@ input:focus-visible,
   }
 
   .intro-text h1.intro-name {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
