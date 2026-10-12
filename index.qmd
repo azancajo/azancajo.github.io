@@ -10,7 +10,7 @@ format:
 
 ::::: intro
 ```{=html}
-<img src="images/prof_pic2.jpg" class="intro-photo" alt="Adrián Zancajo">
+<img src="images/prof_pic2.jpg" class="intro-photo" alt="Adrián Zancajo" width="200" height="200">
 ```
 
 :::: intro-text
