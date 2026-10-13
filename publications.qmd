@@ -172,6 +172,15 @@ format:
 
   <!-- 2026 -->
 
+  <li class="pub-item" data-type="article" data-year="2026" data-topics="segregation markets governance">
+    <div>
+      <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2026</span></div>
+      <a class="pub-title-link" href="https://doi.org/10.1080/02680939.2026.2743590" target="_blank" rel="noopener">Unpacking policy instruments through a mechanistic analysis: school desegregation policies in Barcelona</a>
+      <div class="pub-authors">Zancajo, A., Jover, A., Quilabert, E., &amp; Pagès, M.</div>
+      <div class="pub-venue">Journal of Education Policy</div>
+    </div>
+  </li>
+
   <li class="pub-item" data-type="article" data-year="2026" data-topics="privatization markets governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2026</span></div>

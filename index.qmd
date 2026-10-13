@@ -8,12 +8,10 @@ format:
     include-in-header: _resources/person-jsonld.html
 ---
 
-::::: intro
-```{=html}
-<img src="images/prof_pic2.jpg" class="intro-photo" alt="Adrián Zancajo" width="200" height="200">
-```
+:::::: intro
+<img src="images/prof_pic2.jpg" alt="Adrián Zancajo" class="intro-photo" width="200" height="200"/>
 
-:::: intro-text
+::::: intro-text
 # Adrián Zancajo {.intro-name .unnumbered .unlisted}
 
 ::: role
@@ -25,10 +23,10 @@ I study education privatisation and markets, education policy, and educational i
 ::: contact-row
 [adrian.zancajo \[at\] uab \[dot\] cat]{.email}
 
-[[[{{< iconify simple-icons orcid size=lg >}}](https://orcid.org/0000-0002-4431-8155)]{.icon-link} [[{{< iconify simple-icons googlescholar size=lg >}}](https://scholar.google.nl/citations?hl=en&user=mJmENSwAAJ)]{.icon-link} [[{{< iconify academicons academia-square size=lg >}}](https://uab.academia.edu/AdrianZancajo)]{.icon-link} [[{{< iconify simple-icons researchgate size=lg >}}](https://www.researchgate.net/profile/Adrian-Zancajo-2)]{.icon-link} [[{{< iconify entypo-social linkedin size=lg >}}](https://www.linkedin.com/in/azancajo)]{.icon-link} [[{{< iconify mdi twitter size=lg >}}](https://x.com/AdrianZancajo)]{.icon-link} [[{{< iconify ri:bluesky-fill size=lg >}}](https://bsky.app/profile/adrianzancajo.bsky.social)]{.icon-link}]{.profiles}
+[[{{< iconify simple-icons orcid size=lg >}}](https://orcid.org/0000-0002-4431-8155)]{.icon-link} [[{{< iconify simple-icons googlescholar size=lg >}}](https://scholar.google.nl/citations?hl=en&user=mJmENSwAAJ)]{.icon-link} [[{{< iconify academicons academia-square size=lg >}}](https://uab.academia.edu/AdrianZancajo)]{.icon-link} [[{{< iconify simple-icons researchgate size=lg >}}](https://www.researchgate.net/profile/Adrian-Zancajo-2)]{.icon-link} [[{{< iconify entypo-social linkedin size=lg >}}](https://www.linkedin.com/in/azancajo)]{.icon-link} [[{{< iconify mdi twitter size=lg >}}](https://x.com/AdrianZancajo)]{.icon-link} [[{{< iconify ri:bluesky-fill size=lg >}}](https://bsky.app/profile/adrianzancajo.bsky.social)]{.icon-link}
 :::
-::::
 :::::
+::::::
 
 ```{=html}
 <script defer src="https://cdn.overtracking.com/t/tjs6NPq4iftwhE1H9/"></script>
