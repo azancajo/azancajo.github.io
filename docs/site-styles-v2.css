@@ -152,6 +152,15 @@ input:focus-visible,
   transition: opacity 0.15s;
 }
 
+.contact-row .icon-link {
+  display: inline-block;
+  margin-right: 0.9rem;
+}
+
+.contact-row .icon-link:last-child {
+  margin-right: 0;
+}
+
 .contact-row .profiles a:hover,
 .contact-row .icon-link a:hover {
   opacity: 0.6;
