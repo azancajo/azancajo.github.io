@@ -145,12 +145,15 @@ input:focus-visible,
 }
 
 .contact-row .profiles a,
-.contact-row .profiles iconify-icon {
+.contact-row .profiles iconify-icon,
+.contact-row .icon-link a,
+.contact-row .icon-link iconify-icon {
   color: #000 !important;
   transition: opacity 0.15s;
 }
 
-.contact-row .profiles a:hover {
+.contact-row .profiles a:hover,
+.contact-row .icon-link a:hover {
   opacity: 0.6;
 }
 
