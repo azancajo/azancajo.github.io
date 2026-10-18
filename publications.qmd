@@ -175,7 +175,7 @@ format:
   <li class="pub-item" data-type="article" data-year="2026" data-topics="segregation markets governance">
     <div>
       <div class="pub-meta-top"><span class="pub-badge badge-article">Article</span><span class="pub-year">2026</span></div>
-      <a class="pub-title-link" href="https://doi.org/10.1080/02680939.2026.2743590" target="_blank" rel="noopener">Unpacking policy instruments through a mechanistic analysis: school desegregation policies in Barcelona</a>
+      <a class="pub-title-link" href="https://www.researchgate.net/publication/415707135_Unpacking_policy_instruments_through_a_mechanistic_analysis_School_desegregation_policies_in_Barcelona" target="_blank" rel="noopener">Unpacking policy instruments through a mechanistic analysis: school desegregation policies in Barcelona</a>
       <div class="pub-authors">Zancajo, A., Jover, A., Quilabert, E., &amp; Pagès, M.</div>
       <div class="pub-venue">Journal of Education Policy</div>
     </div>
